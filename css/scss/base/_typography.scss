@@ -1,0 +1,20 @@
+/*
+Typography Rules
+
+The Sans
+-------------
+The Sans se aplica en titulares de sección y de contenidos, aportando al
+portal la personalidad propia requerida.
+
+Source Sans Pro
+-----------------
+En el portal alcobendas.org y sus sitios web relacionados se utiliza como
+texto de párrafo por defecto
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+
+$family:('Open Sans', 'Source Sans Pro');
+
+$TheSans:(light:300,regular:400,semi-bold:600,bold:700);
+$SourceSans:(light:300,regular:400,semi-bold:600);

@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+
+<div class="ps-title-h3">
+<h3>Escoja un tipo de plantación para su cultivo</h3>
+</div>
+
+{% for row in rows %}
+  {%
+    set row_classes = [
+      default_row_class ? 'views-row',
+    ]
+  %}
+  
+  {% set name = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ name }}']|striptags|trim %}
+  {% set tid = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ tid }}']|striptags|trim %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_svg_plantula }}'] %}
+  
+  <div{{ row.attributes.addClass(row_classes) }}>
+		<div class="ps-icono">
+			<a href="/node/add/cultivo?edit[field_referencia_invernadero][widget][0][target_id]={{ invernadero }}&edit[field_tipo_de_plantula][widget][0][target_id]={{ tid }}">{{ svg }}</a>
+		</div>
+		<div class="ps-icono">
+			{{ name }}
+		</div>
+  </div>
+{% endfor %}

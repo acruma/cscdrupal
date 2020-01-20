@@ -1,0 +1,166 @@
+<?php
+
+/* Cambiar la cadena de texto csc por el nombre del TEMA */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Component\Utility\Crypt;
+use Drupal\user\Entity\User;
+use Drupal\group\Entity\Group;
+
+/**
+ * @param $suggestions
+ * @param array $variables
+ * Sugestiones para el TEMA creación de Twigs
+ */
+ 
+function csc_preprocess_region(&$variables) {  
+  $variables['ps_route_name'] = \Drupal::routeMatch()->getRouteName();
+}
+
+function csc_theme_suggestions_container_alter(array &$suggestions, array $variables){
+  $element = $variables['element'];
+  
+  if (isset($element['#array_parents'])) {
+    $suggestions[] = 'container__has_parent';
+  }
+  else {
+    $suggestions[] = 'container__no_parent';
+  }
+
+  /*
+  if (isset($element['#type']) && $element['#type'] != 'container') {
+    $suggestions[] = 'container__' . $element['#type']. '__' . $element['#name'];
+  }
+  */
+
+  if (isset($element['#type']) && $element['#type'] == 'container' && isset($element['children']['#type'])) {
+    $suggestions[] = 'container__' . $element['children']['#type']. '__' . $element['#name'];
+  }
+}
+
+function csc_theme_suggestions_select_alter(array &$suggestions, array $variables, $hook) {
+  $suggestions[] = $variables['element']['#type']. '__' .$variables['element']['#name'];
+}
+
+function csc_theme_suggestions_input_alter(array &$suggestions, array $variables, $hook) {
+  $suggestions[] = 'input'. '__' .$variables['element']['#type']. '__' . $variables['element']['#name'];
+}
+
+function csc_theme_suggestions_textarea_alter(&$suggestions, array $variables) {
+  $element = $variables['element'];
+  $suggestions[] = $variables['element']['#type']. '__' . $variables['element']['#name'];
+}
+
+function csc_preprocess_media(&$variables) {
+  $variables['media'] = $variables['elements']['#media'];
+}
+
+
+// Custom \/
+
+function csc_preprocess_block(&$vars) {
+	$node = \Drupal::routeMatch()->getParameter('node');
+	if ($node instanceof \Drupal\node\NodeInterface) {
+	  $vars['invernadero'] = $node->id();
+	  $vars['cultivo'] = $node->id();
+	}
+}
+
+function csc_preprocess_views_view(&$vars) {
+  $node = \Drupal::routeMatch()->getParameter('node');
+	if ($node instanceof \Drupal\node\NodeInterface) {
+	  $vars['invernadero2'] = $node->id();
+	  $vars['cultivo2'] = $node->id();
+	}
+}
+
+function csc_preprocess_views_view_unformatted(&$vars) {
+  
+  $vars['invernadero'] = \Drupal::request()->query->get('invernadero');
+  $vars['cultivo'] = \Drupal::request()->query->get('cultivo');
+  $vars['tipo'] = \Drupal::request()->query->get('tipo');
+  $vars['accion'] = \Drupal::request()->query->get('accion');
+  $vars['usuario'] = \Drupal::currentUser()->id();
+
+  $node = \Drupal::routeMatch()->getParameter('node');
+	if ($node instanceof \Drupal\node\NodeInterface) {
+	  $vars['invernadero2'] = $node->id();
+    $vars['cultivo2'] = $node->id();
+    $vars['siabox'] = $node->id();
+	}
+
+}
+
+/* Intento redireccion a la creacion de contenido
+function csc_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'node_invernaderos_form') {
+     $form['#submit'][] = 'csc_my_submit_handler';
+  }
+}
+
+function csc_my_submit_handler(&$form, &$form_state) {
+  $form_state['redirect'] = 'home';
+}
+*/
+
+
+function csc_form_node_form_alter(&$form, FormStateInterface $form_state) {
+
+  /** @var \Drupal\node\NodeInterface $node */
+  $node = $form_state
+    ->getFormObject()
+    ->getEntity();
+  $form['#theme'] = array(
+    'node_edit_form',
+  );
+  $form['#attached']['library'][] = 'seven/node-form';
+  $form['advanced']['#type'] = 'container';
+  $is_new = !$node
+    ->isNew() ? format_date($node
+    ->getChangedTime(), 'short') : t('Not saved yet');
+  $form['meta'] = array(
+    '#attributes' => array(
+      'class' => array(
+        'entity-meta__header',
+      ),
+    ),
+    '#type' => 'container',
+    '#group' => 'advanced',
+    '#weight' => -100,
+    'published' => array(
+      '#type' => 'html_tag',
+      '#tag' => 'h3',
+      '#value' => $node
+        ->isPublished() ? t('Published') : t('Not published'),
+      '#access' => !$node
+        ->isNew(),
+      '#attributes' => array(
+        'class' => 'entity-meta__title',
+      ),
+    ),
+    'changed' => array(
+      '#type' => 'item',
+      '#wrapper_attributes' => array(
+        'class' => array(
+          'entity-meta__last-saved',
+          'container-inline',
+        ),
+      ),
+      '#markup' => '<h4 class="label inline">' . t('Last saved') . '</h4> ' . $is_new,
+    ),
+    'author' => array(
+      '#type' => 'item',
+      '#wrapper_attributes' => array(
+        'class' => array(
+          'author',
+          'container-inline',
+        ),
+      ),
+      '#markup' => '<h4 class="label inline">' . t('Author') . '</h4> ' . $node
+        ->getOwner()
+        ->getUsername(),
+    ),
+  );
+  $form['revision_information']['#type'] = 'container';
+  $form['revision_information']['#group'] = 'meta';
+}

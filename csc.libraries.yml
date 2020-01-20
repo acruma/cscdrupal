@@ -1,0 +1,47 @@
+global-components:
+  Version: 1.x
+  css:
+    theme:
+      css/pulsia-csc-app.css: {}
+      css/css/customPulsia.css: {}
+  js:
+    js/pulsiaCustom.js: {}
+  dependencies:
+    - core/jquery
+bootstrap-cdn:
+  remote: getbootstrap.com
+  version: 4.0
+  license:
+    name: MIT
+    url: https://github.com/twbs/bootstrap/blob/master/LICENSE
+  css:
+    theme:
+      'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css':
+        type: external
+        minified: true
+        attributes:
+          crossorigin: anonymous
+          integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  js:
+    'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js':
+      type: external
+      minified: true
+      attributes:
+        crossorigin: anonymous
+        integrity: "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js':
+      type: external
+      minified: true
+      attributes:
+        crossorigin: anonymous
+        integrity: "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+external-libraries:
+  Version: 1.x
+  css:
+    theme:
+      libs/owl-carousel/owl.carousel.css: {}
+      libs/owl-carousel/owl.theme.default.css: {}
+  js:
+    libs/owl-carousel/owl.carousel.js: {}
+  dependencies:
+    - core/jquery

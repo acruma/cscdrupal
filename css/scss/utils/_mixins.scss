@@ -1,0 +1,8 @@
+/*
+Sass Mixins
+*/
+@mixin tipografia($font,$index,$weight)
+{
+	font-family: nth($family,$index);
+	font-weight: #{map-get($font,$weight)};
+}

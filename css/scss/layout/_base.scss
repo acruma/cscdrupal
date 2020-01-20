@@ -1,0 +1,64 @@
+html,
+body {
+  color: #333;
+  position: relative;
+  margin-bottom: 90px; /* permite salvar el contenido oculto detras de la botonera principal*/
+  @include tipografia($SourceSans, 2, regular);
+}
+
+h1 {
+  @include tipografia($TheSans, 1, bold);
+  font-size: 32px;
+  color: $h1Color;
+}
+
+h2 {
+  @include tipografia($TheSans, 1, bold);
+  font-size: 24px;
+  color: $h2Color;
+}
+
+h3 {
+  @include tipografia($TheSans, 1, semi-bold);
+  font-size: 18px;
+  color: $h3Color;
+}
+
+h4 {
+  @include tipografia($SourceSans, 2, semi-bold);
+  font-size: 16px;
+  color: $h4Color;
+}
+
+.ps_pp {
+  @include tipografia($SourceSans, 2, regular);
+  font-size: 22px;
+  color: $ppColor;
+}
+
+p {
+  @include tipografia($SourceSans, 2, light);
+  font-size: 17px;
+  color: $pColor;
+}
+
+ul {
+  list-style-type: none;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
+
+.charts-google{
+  svg {
+    width: auto;
+    height: auto;
+  }
+}
+
+.container-fluid{
+  max-width: 992px;
+  margin: 0 auto;
+}

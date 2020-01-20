@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/*
+Sass Variables
+*/
+/*
+$ps-content-margins:1366px;
+$ps-content-margins2:683px; //$ps-content-margins / 2
+*/
+/*
+Sass Functions
+*/
+/*
+Sass Mixins
+*/
+/*
+Reset/Normalize
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600");
+body, ul {
+  padding: 0;
+  margin: 0; }
+
+/*
+Typography Rules
+
+The Sans
+-------------
+The Sans se aplica en titulares de sección y de contenidos, aportando al
+portal la personalidad propia requerida.
+
+Source Sans Pro
+-----------------
+En el portal alcobendas.org y sus sitios web relacionados se utiliza como
+texto de párrafo por defecto
+*/
+html,
+body {
+  color: #333;
+  position: relative;
+  margin-bottom: 90px;
+  /* permite salvar el contenido oculto detras de la botonera principal*/
+  font-family: "Source Sans Pro";
+  font-weight: 400; }
+
+h1 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 32px;
+  color: #206db5; }
+
+h2 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  color: #206db5; }
+
+h3 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  color: #206db5; }
+
+h4 {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 16px;
+  color: #206db5; }
+
+.ps_pp {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 22px;
+  color: #333333; }
+
+p {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-size: 17px;
+  color: #333333; }
+
+ul {
+  list-style-type: none; }
+
+svg {
+  width: 24px;
+  height: 24px; }
+
+.charts-google svg {
+  width: auto;
+  height: auto; }
+
+.container-fluid {
+  max-width: 992px;
+  margin: 0 auto; }
+
+/*
+Sass Header
+*/
+/*
+Sass Footer
+*/
+div#block-views-block-botonera-navegacion-principal-block-1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #ddd; }
+  div#block-views-block-botonera-navegacion-principal-block-1 .view-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    max-width: 500px;
+    padding: 0.5em 0; }
+    div#block-views-block-botonera-navegacion-principal-block-1 .view-content .views-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 25%; }
+      div#block-views-block-botonera-navegacion-principal-block-1 .view-content .views-row svg {
+        width: 32px;
+        height: 32px; }
+      div#block-views-block-botonera-navegacion-principal-block-1 .view-content .views-row a {
+        text-decoration: none;
+        color: #444;
+        font-size: 1.2em;
+        font-weight: 700; }
+
+div#block-botoniratrasapp svg path {
+  fill: red; }
+
+.ps_grid_view .ps_header_title {
+  background: #eee;
+  padding: 1em;
+  font-weight: 800;
+  font-size: 1.2em;
+  color: #666;
+  margin: 1em 0; }
+
+.ps_grid_view .view-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  margin: 1em; }
+  .ps_grid_view .view-content .views-row {
+    outline: 1px solid; }
+    .ps_grid_view .view-content .views-row a {
+      text-decoration: none;
+      color: #333; }
+      .ps_grid_view .view-content .views-row a .ps_row_items_container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 1em;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .ps_grid_view .view-content .views-row a .ps_row_items_container .ps-title {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          font-weight: 700;
+          font-size: 1.2em;
+          width: 100%;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+        .ps_grid_view .view-content .views-row a .ps_row_items_container .ps-svg svg {
+          width: 64px;
+          height: 64px; }
+
+@media (min-width: 576px) {
+  .ps_grid_view .view-content {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; } }
+
+@media (min-width: 768px) {
+  .ps_grid_view .view-content {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; } }
+
+.ps-path-user form#user-login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 992px;
+  min-width: 300px;
+  height: 13em;
+  margin: 1em;
+  background: #d5e7ff;
+  border-radius: 1em;
+  /* Interior Form */ }
+  .ps-path-user form#user-login-form div#edit-name--description {
+    display: none; }
+  .ps-path-user form#user-login-form div#edit-pass--description {
+    display: none; }
+  .ps-path-user form#user-login-form .form-item, .ps-path-user form#user-login-form .form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .ps-path-user form#user-login-form input#edit-name {
+    width: 50%;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #a5a5a5; }
+  .ps-path-user form#user-login-form input#edit-pass {
+    width: 50%;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #a5a5a5; }
+  .ps-path-user form#user-login-form label.js-form-required.form-required {
+    width: 120px; }
+  .ps-path-user form#user-login-form input:focus {
+    outline: none; }
+  .ps-path-user form#user-login-form textarea:focus {
+    outline: none; }
+
+.ps-path-user div#block-views-block-header-login-logo-block-1 img {
+  width: 100%;
+  height: auto; }
+
+.ps-path-user div#block-views-block-logos-footer-login-block-1 img {
+  width: 100%;
+  height: auto; }
+
+div#block-views-block-listado-invernaderos-block-1 {
+  margin: 1em;
+  border: solid 1px; }
+  div#block-views-block-listado-invernaderos-block-1 .view-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  div#block-views-block-listado-invernaderos-block-1 .views-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0.5em;
+    width: 50%;
+    border: 1px solid;
+    padding: 0.5em; }
+  div#block-views-block-listado-invernaderos-block-1 .views-field-field-svg-generico {
+    padding-right: 0.5em; }
+  div#block-views-block-listado-invernaderos-block-1 .ps-row-listado {
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px solid;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.js-form-item.form-item.js-form-type-vertical-tabs.form-type-vertical-tabs.js-form-item-.form-item-.form-no-label {
+  display: none; }
+
+.field--name-field-cultivos {
+  display: none; }
+
+.field--name-field-tipo-accion-cuaderno-de-ca {
+  display: none; }
+
+div#edit-field-usuarios-invernadero-wrapper {
+  display: none; }
+
+div#edit-field-icono-invernadero-wrapper {
+  display: none; }
+
+div#edit-field-referencia-invernadero-wrapper {
+  display: none; }
+
+div#edit-field-tipo-de-plantula-wrapper {
+  display: none; }
+
+div#edit-body-wrapper div#edit-body-0-format {
+  display: none; }
+
+div#edit-body-wrapper span.field-edit-link {
+  display: none; }
+
+div#block-pagetitle {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+@media screen and (min-width: 992px) {
+  .ps_content_margins {
+    /*background-color: green;*/
+    max-width: 1366px;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 992px) {
+  .ps_content_margins {
+    /*background-color: green;*/
+    max-width: 1366px;
+    margin: 0 auto; } }
