@@ -96,3 +96,23 @@ Sass Header
 /*
 Sass Footer
 */
+.region.region-footer {
+  background: #4e4e4e; }
+  .region.region-footer .block-views {
+    width: 100%; }
+    .region.region-footer .block-views .view-content {
+      max-width: 1366px;
+      margin: 0 auto; }
+      .region.region-footer .block-views .view-content .views-field {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .region.region-footer .block-views .view-content .views-field span.ps-csc-spcolor {
+          color: #e75d23;
+          font-weight: 800; }

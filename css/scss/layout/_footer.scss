@@ -1,3 +1,30 @@
 /*
 Sass Footer
 */
+
+.region.region-footer {
+    background: #4e4e4e;
+	
+	.block-views{
+		width: 100%;
+		
+		.view-content {
+			max-width: 1366px;
+			margin: 0 auto;
+			
+			.views-field {
+				justify-content: center;
+				display: flex;
+				align-items: center;
+				
+				span.ps-csc-spcolor{
+					color: #e75d23;
+					font-weight: 800;
+				}
+			}
+			
+		}
+	}
+	
+}
+
