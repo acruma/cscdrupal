@@ -13,16 +13,11 @@
  'layout/footer';
  
 @import
- 'components/botonera-navegacion-principal',
- 'components/boton-ir-atras';
+ 'components/archivoUno',
+ 'components/archivoDos';
 
 @import
- 'pages/cuaderno-de-campo',
- 'pages/user-login',
- 'pages/user-page',
- 'pages/node-add-registros',
- 'pages/node-add-formularioscomunes',
- 'pages/invernadero';
+ 'pages/archivoUno';
 
 @import
 'themes/archivoUno',
