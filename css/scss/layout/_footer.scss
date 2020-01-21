@@ -17,6 +17,18 @@ Sass Footer
 				display: flex;
 				align-items: center;
 				
+				span.field-content {
+					width: 300px;
+					margin: 0 auto;
+					text-align: center;
+					color: #b8bbbb;
+					font-family: "Waiting for the Sunrise", cursive;
+					font-size: 1.4em;
+					letter-spacing: 0.1em;
+					text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.4);
+					line-height: 1.4em;
+				}
+				
 				span.ps-csc-spcolor{
 					color: #e75d23;
 					font-weight: 800;
