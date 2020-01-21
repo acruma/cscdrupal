@@ -6,11 +6,13 @@ Sass Footer
     background: #4e4e4e;
 	
 	.block-views{
-		width: 100%;
+		margin: 0 1em;
 		
 		.view-content {
 			max-width: 1366px;
 			margin: 0 auto;
+			border-bottom: 0.7px solid #3a3a3a;
+			padding: 3em 0;
 			
 			.views-field {
 				justify-content: center;

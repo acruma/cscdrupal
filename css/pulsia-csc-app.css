@@ -97,10 +97,12 @@ Sass Footer
 .region.region-footer {
   background: #4e4e4e; }
   .region.region-footer .block-views {
-    width: 100%; }
+    margin: 0 1em; }
     .region.region-footer .block-views .view-content {
       max-width: 1366px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      border-bottom: 0.7px solid #3a3a3a;
+      padding: 3em 0; }
       .region.region-footer .block-views .view-content .views-field {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
