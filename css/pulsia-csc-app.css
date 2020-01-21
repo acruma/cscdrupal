@@ -112,7 +112,8 @@ Sass Footer
         display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+        margin-top: 2em; }
         .region.region-footer .block-views .view-content .views-field span.field-content {
           width: 300px;
           margin: 0 auto;
