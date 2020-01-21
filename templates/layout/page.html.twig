@@ -48,12 +48,26 @@
 	<div class="row">
 		<div class="col-12 ps_mainContent ps_content_margins">
 			<div class="row">
-				<div class="col-12">					
-					<div class="row ps-sianet-content-container">
-						<div class="col-12 ps-sianet-content">
+				<div class="col-12">
+
+					<div class="row ps-csc-header-container">
+						<div class="col-12">
+							{{ page.content }}
+						</div>
+					</div>	
+					
+					<div class="row ps-csc-content-container">
+						<div class="col-12">
 							{{ page.content }}
 						</div>
 					</div>
+					
+					<div class="row ps-csc-footer-container">
+						<div class="col-12">
+							{{ page.footer }}
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>
