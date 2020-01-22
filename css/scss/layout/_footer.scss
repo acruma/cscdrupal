@@ -37,7 +37,24 @@ Sass Footer
 			}
 			
 		}
-	}
 	
+		&.ps-telefono{
+			.view-content {
+					border-bottom: 0;
+				
+				.field-content{
+					margin: 0 auto;
+					padding: 2em 0 0 0;
+					text-align: center;
+					color: #b8bbbb;
+					font-family: "Waiting for the Sunrise", cursive;
+					font-size: 1.4em;
+					letter-spacing: 0.1em;
+					text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.4);
+					line-height: 1.4em;
+				}
+			
+			}
+		}
+	}
 }
-
