@@ -82,10 +82,15 @@ Sass Footer
 		&.ps-nav-footer{
 			.view-content {
 				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 4em 0;
 				
 				.views-row {
+					display: flex;
+					height: 30px;
 					text-align: center;
-					padding: 0 0.5em;
+					padding: 0 1em;
 					border-right: 0.05em solid #3a3a3a;
 				}
 				
@@ -93,6 +98,7 @@ Sass Footer
 					a{
 						color: #b8bbbb;
 						font-size: 0.9em;
+						text-decoration: none;
 					}&:hover{
 						color: #ea6e3a !important;
 					}
