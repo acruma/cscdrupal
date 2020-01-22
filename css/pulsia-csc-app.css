@@ -97,7 +97,19 @@ Sass Footer
 .region.region-footer {
   background: #4e4e4e; }
   .region.region-footer .block-views {
-    margin: 0 1em; }
+    margin: 0 2em; }
+    .region.region-footer .block-views .view-header {
+      margin: 0 auto;
+      text-align: center;
+      color: #b8bbbb;
+      font-family: "Waiting for the Sunrise", cursive;
+      font-size: 1.4em;
+      letter-spacing: 0.1em;
+      text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.4);
+      line-height: 1.4em; }
+      .region.region-footer .block-views .view-header span.ps-csc-spcolor {
+        color: #e75d23;
+        font-weight: 800; }
     .region.region-footer .block-views .view-content {
       max-width: 1366px;
       margin: 0 auto;
@@ -114,16 +126,3 @@ Sass Footer
         -ms-flex-align: center;
         align-items: center;
         margin-top: 2em; }
-        .region.region-footer .block-views .view-content .views-field span.field-content {
-          width: 300px;
-          margin: 0 auto;
-          text-align: center;
-          color: #b8bbbb;
-          font-family: "Waiting for the Sunrise", cursive;
-          font-size: 1.4em;
-          letter-spacing: 0.1em;
-          text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.4);
-          line-height: 1.4em; }
-        .region.region-footer .block-views .view-content .views-field span.ps-csc-spcolor {
-          color: #e75d23;
-          font-weight: 800; }
