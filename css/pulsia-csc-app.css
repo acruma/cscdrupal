@@ -146,5 +146,8 @@ Sass Footer
       justify-content: center; }
       .region.region-footer .block-views.ps-rrss .view-content .views-row {
         padding: 1em; }
-      .region.region-footer .block-views.ps-rrss .view-content svg path {
-        fill: #b8bbbb; }
+      .region.region-footer .block-views.ps-rrss .view-content svg {
+        width: 30px;
+        height: 30px; }
+        .region.region-footer .block-views.ps-rrss .view-content svg path {
+          fill: #b8bbbb; }
