@@ -172,9 +172,11 @@ Sass Footer
         text-align: center;
         padding: 0 1em;
         border-right: 0.05em solid #3a3a3a; }
+      .region.region-footer .block-views.ps-nav-footer .view-content .views-row:last-child {
+        border-right: none; }
       .region.region-footer .block-views.ps-nav-footer .view-content .field-content a {
         color: #b8bbbb;
         font-size: 0.9em;
         text-decoration: none; }
-      .region.region-footer .block-views.ps-nav-footer .view-content .field-content:hover {
-        color: #ea6e3a !important; }
+        .region.region-footer .block-views.ps-nav-footer .view-content .field-content a:hover {
+          color: #ea6e3a !important; }

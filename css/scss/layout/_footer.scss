@@ -94,13 +94,18 @@ Sass Footer
 					border-right: 0.05em solid #3a3a3a;
 				}
 				
+				.views-row:last-child {
+				  border-right: none;
+				}
+				
 				.field-content{
 					a{
 						color: #b8bbbb;
 						font-size: 0.9em;
 						text-decoration: none;
-					}&:hover{
-						color: #ea6e3a !important;
+						&:hover{
+							color: #ea6e3a !important;
+						}
 					}
 				}
 			}
