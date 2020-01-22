@@ -150,4 +150,4 @@ Sass Footer
         width: 30px;
         height: 30px; }
         .region.region-footer .block-views.ps-rrss .view-content svg path {
-          fill: #b8bbbb; }
+          fill: #b8bbbb !important; }
