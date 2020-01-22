@@ -151,3 +151,5 @@ Sass Footer
         height: 30px; }
         .region.region-footer .block-views.ps-rrss .view-content svg path {
           fill: #b8bbbb !important; }
+        .region.region-footer .block-views.ps-rrss .view-content svg:hover path {
+          fill: #ea6e3a !important; }
