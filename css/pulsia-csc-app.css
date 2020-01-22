@@ -100,6 +100,7 @@ Sass Footer
     margin: 0 2em; }
     .region.region-footer .block-views .view-header {
       margin: 0 auto;
+      padding: 2em 0 0 0;
       text-align: center;
       color: #b8bbbb;
       font-family: "Waiting for the Sunrise", cursive;
@@ -113,8 +114,7 @@ Sass Footer
     .region.region-footer .block-views .view-content {
       max-width: 1366px;
       margin: 0 auto;
-      border-bottom: 0.7px solid #3a3a3a;
-      padding: 3em 0; }
+      border-bottom: 0.7px solid #3a3a3a; }
       .region.region-footer .block-views .view-content .views-field {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -124,5 +124,4 @@ Sass Footer
         display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center;
-        margin-top: 2em; }
+        align-items: center; }
