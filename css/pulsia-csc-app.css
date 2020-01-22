@@ -92,7 +92,7 @@ svg {
 Sass Header
 */
 /*
-Sass Footer
+Sass Footer 
 */
 .region.region-footer {
   background: #4e4e4e; }
@@ -126,7 +126,7 @@ Sass Footer
         -ms-flex-align: center;
         align-items: center; }
     .region.region-footer .block-views.ps-telefono .view-content {
-      border-bottom: 0; }
+      border-bottom: none; }
       .region.region-footer .block-views.ps-telefono .view-content .field-content {
         margin: 0 auto;
         padding: 1em 0 0 0;
@@ -153,3 +153,16 @@ Sass Footer
           fill: #b8bbbb !important; }
         .region.region-footer .block-views.ps-rrss .view-content svg:hover path {
           fill: #ea6e3a !important; }
+    .region.region-footer .block-views.ps-nav-footer .view-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .region.region-footer .block-views.ps-nav-footer .view-content .views-row {
+        text-align: center;
+        padding: 0 0.5em;
+        border-right: 0.05em solid #3a3a3a; }
+      .region.region-footer .block-views.ps-nav-footer .view-content .field-content a {
+        color: #b8bbbb;
+        font-size: 0.9em; }
+      .region.region-footer .block-views.ps-nav-footer .view-content .field-content:hover {
+        color: #ea6e3a !important; }

@@ -1,5 +1,5 @@
 /*
-Sass Footer
+Sass Footer 
 */
 
 .region.region-footer {
@@ -40,7 +40,7 @@ Sass Footer
 	
 		&.ps-telefono{
 			.view-content {
-					border-bottom: 0;
+					border-bottom: none;
 				
 				.field-content{
 					margin: 0 auto;
@@ -75,6 +75,26 @@ Sass Footer
 						path{
 							fill: #ea6e3a !important;
 						}
+					}
+				}
+			}
+		}
+		&.ps-nav-footer{
+			.view-content {
+				display: flex;
+				
+				.views-row {
+					text-align: center;
+					padding: 0 0.5em;
+					border-right: 0.05em solid #3a3a3a;
+				}
+				
+				.field-content{
+					a{
+						color: #b8bbbb;
+						font-size: 0.9em;
+					}&:hover{
+						color: #ea6e3a !important;
 					}
 				}
 			}
