@@ -7,6 +7,7 @@ Sass Footer
 	
 	.block-views{
 		margin: 0 2em;
+		border-bottom: 0.7px solid #3a3a3a;
 		
 		.view-header{
 		
@@ -28,7 +29,7 @@ Sass Footer
 		.view-content {
 			max-width: 1366px;
 			margin: 0 auto;
-			border-bottom: 0.7px solid #3a3a3a;
+			padding: 1em 0 3em 0;
 			
 			.views-field {
 				justify-content: center;
@@ -39,9 +40,10 @@ Sass Footer
 		}
 	
 		&.ps-telefono{
+			border-bottom: none;
+			
 			.view-content {
-					border-bottom: none;
-				
+					
 				.field-content{
 					margin: 0 auto;
 					padding: 1em 0 0 0;
@@ -58,6 +60,7 @@ Sass Footer
 		}
 		
 		&.ps-rrss{
+			
 			.view-content {
 				display: flex;
 				justify-content: center;

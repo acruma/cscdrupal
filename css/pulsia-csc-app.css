@@ -97,7 +97,8 @@ Sass Footer
 .region.region-footer {
   background: #4e4e4e; }
   .region.region-footer .block-views {
-    margin: 0 2em; }
+    margin: 0 2em;
+    border-bottom: 0.7px solid #3a3a3a; }
     .region.region-footer .block-views .view-header {
       margin: 0 auto;
       padding: 2em 0 0 0;
@@ -114,7 +115,7 @@ Sass Footer
     .region.region-footer .block-views .view-content {
       max-width: 1366px;
       margin: 0 auto;
-      border-bottom: 0.7px solid #3a3a3a; }
+      padding: 1em 0 3em 0; }
       .region.region-footer .block-views .view-content .views-field {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -125,7 +126,7 @@ Sass Footer
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center; }
-    .region.region-footer .block-views.ps-telefono .view-content {
+    .region.region-footer .block-views.ps-telefono {
       border-bottom: none; }
       .region.region-footer .block-views.ps-telefono .view-content .field-content {
         margin: 0 auto;
