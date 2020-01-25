@@ -43,33 +43,17 @@
  */
 #}
 
+<div class="ps-grid">
+	<div class="ps-col-12">
+		{{ page.header }}
+	</div>
+	
+	<div class="ps-col-12">
+		{{ page.content }}
+	</div>
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-12 ps_mainContent ps_content_margins">
-			<div class="row">
-				<div class="col-12">
-
-					<div class="row ps-csc-header-container">
-						<div class="col-12">
-							{{ page.header }}
-						</div>
-					</div>	
-					
-					<div class="row ps-csc-content-container">
-						<div class="col-12">
-							{{ page.content }}
-						</div>
-					</div>
-					
-					<div class="row ps-csc-footer-container">
-						<div class="col-12">
-							{{ page.footer }}
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>	
+	<div class="ps-col-12">
+		{{ page.footer }}
+	</div>
 </div>
+
