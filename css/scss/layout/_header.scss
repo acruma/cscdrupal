@@ -1,3 +1,20 @@
 /*
 Sass Header
 */
+
+.region.region-header {
+    height: 100px;
+	background: #4e4e4e;
+}
+
+div#block-views-block-logotipo-csc-block-header-block-1 {
+    width: 35%;
+    background: #eceded;
+	min-height: 100px;
+	 
+	.field-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
