@@ -92,7 +92,6 @@ svg {
 Sass Header
 */
 .region.region-header {
-  height: 125px;
   background: #4e4e4e; }
 
 div#block-views-block-logotipo-csc-block-header-block-1 {
@@ -110,6 +109,18 @@ div#block-views-block-logotipo-csc-block-header-block-1 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+
+div#block-views-block-internet-para-todos-block-header-block-1 {
+  height: 65px; }
+  div#block-views-block-internet-para-todos-block-header-block-1 .field-content {
+    text-align: center;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    text-shadow: 0 -0.03em 0.02em rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+    font-family: "Waiting for the Sunrise", cursive;
+    padding-bottom: 0.5em;
+    color: #b8bbbb; }
 
 /*
 Sass Footer 
