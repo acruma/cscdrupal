@@ -113,5 +113,20 @@ Sass Footer
 				}
 			}
 		}
+		&.ps-copyright-footer{
+			.views-row {
+				width: 100%;
+				.field-content {
+					color: #ea6e3a;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.ps-copyright-footer{
+			.view-content {
+				display: flex;
+			}
 	}
 }

@@ -240,3 +240,13 @@ Sass Footer
         text-decoration: none; }
         .region.region-footer .block-views.ps-nav-footer .view-content .field-content a:hover {
           color: #ea6e3a !important; }
+    .region.region-footer .block-views.ps-copyright-footer .views-row {
+      width: 100%; }
+      .region.region-footer .block-views.ps-copyright-footer .views-row .field-content {
+        color: #ea6e3a; }
+
+@media (min-width: 768px) {
+  .ps-copyright-footer .view-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
