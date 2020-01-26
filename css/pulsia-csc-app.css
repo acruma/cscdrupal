@@ -132,10 +132,17 @@ div#block-views-block-internet-para-todos-block-header-block-1 {
     height: 80px; }
 
 @media (min-width: 768px) {
+  .region.region-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   div#block-views-block-logotipo-csc-block-header-block-1 {
     width: 25%; }
   div#block-views-block-internet-para-todos-block-header-block-1 {
-    height: 125px; } }
+    height: 125px; }
+    div#block-views-block-internet-para-todos-block-header-block-1 .field-content {
+      position: absolute;
+      right: 0; } }
 
 /*
 Sass Footer 
