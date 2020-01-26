@@ -20,7 +20,8 @@ div#block-views-block-logotipo-csc-block-header-block-1 {
 }
 
 div#block-views-block-internet-para-todos-block-header-block-1 {
-    height: 65px;
+    height: 80px;
+	
 	.field-content {
 		text-align: center;
 		font-size: 1.8em;
@@ -28,7 +29,21 @@ div#block-views-block-internet-para-todos-block-header-block-1 {
 		text-shadow: 0 -0.03em 0.02em rgba(0, 0, 0, 0.5);
 		font-weight: 800;
 		font-family: "Waiting for the Sunrise", cursive;
-		padding-bottom: 0.5em;
 		color: #b8bbbb;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		height: 80px;
 	}
+}
+
+@media (min-width: 768px) {
+    div#block-views-block-logotipo-csc-block-header-block-1 {
+		width: 25%;
+	}
+	
+	div#block-views-block-internet-para-todos-block-header-block-1 {
+		height: 125px;
+	}
+	
 }
