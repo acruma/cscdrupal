@@ -3,18 +3,20 @@ Sass Header
 */
 
 .region.region-header {
-    height: 100px;
+    height: 125px;
 	background: #4e4e4e;
 }
 
 div#block-views-block-logotipo-csc-block-header-block-1 {
     width: 100%;
     background: #eceded;
-	min-height: 100px;
+	height: 125px;
 	 
 	.field-content {
+		height: 125px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 }
+
