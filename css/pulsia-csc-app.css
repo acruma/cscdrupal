@@ -141,6 +141,8 @@ div#block-views-block-internet-para-todos-block-header-block-1 {
   div#block-views-block-internet-para-todos-block-header-block-1 {
     height: 125px; }
     div#block-views-block-internet-para-todos-block-header-block-1 .field-content {
+      height: 125px;
+      padding-right: 25px;
       position: absolute;
       right: 0; } }
 
