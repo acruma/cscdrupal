@@ -259,15 +259,13 @@ Sass Footer
   div#block-views-block-llama-gratis-block-footer-block-1 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-    grid-column: 1 / 2; }
-    div#block-views-block-llama-gratis-block-footer-block-1 .block-views {
-      margin: 0 0 0 2em; }
+    grid-column: 1 / 2;
+    margin: 0 0 0 2em; }
   div#block-views-block-siguenos-en-las-redes-block-footer-block-1 {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
-    grid-column: 2 / 3; }
-    div#block-views-block-siguenos-en-las-redes-block-footer-block-1 .block-views {
-      margin: 0 2em 0 0; }
+    grid-column: 2 / 3;
+    margin: 0 2em 0 0; }
   div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 .view-content {
     -ms-grid-columns: 1fr 1fr 1fr !important;
     grid-template-columns: 1fr 1fr 1fr !important; } }
