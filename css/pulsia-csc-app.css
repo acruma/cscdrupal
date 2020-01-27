@@ -245,9 +245,17 @@ Sass Footer
       width: 100%; }
       .region.region-footer .block-views.ps-copyright-footer .views-row .field-content {
         color: #ea6e3a; }
+  .region.region-footer div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 .view-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; }
 
 @media (min-width: 768px) {
   .ps-copyright-footer .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex; }
+  div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 .view-content {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; } }

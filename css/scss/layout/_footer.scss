@@ -122,11 +122,28 @@ Sass Footer
 			}
 		}
 	}
+	
+	div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 {
+		.view-content {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+	
 }
+
 @media (min-width: 768px) {
 	.ps-copyright-footer{
 			.view-content {
 				display: flex;
 			}
 	}
+	
+	div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1{
+		.view-content {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+	
+	
 }
