@@ -197,16 +197,18 @@ Sass Footer
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center; }
-      .ps-footer-grid .region.region-footer .block-views.ps-telefono .view-content .field-content {
-        margin: 0 auto;
-        padding: 1em 0 0 0;
-        text-align: center;
-        color: #b8bbbb;
-        font-family: "Waiting for the Sunrise", cursive;
-        font-size: 1.4em;
-        letter-spacing: 0.1em;
-        text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.4);
-        line-height: 1.4em; }
+      .ps-footer-grid .region.region-footer .block-views.ps-telefono {
+        border-bottom: none; }
+        .ps-footer-grid .region.region-footer .block-views.ps-telefono .view-content .field-content {
+          margin: 0 auto;
+          padding: 1em 0 0 0;
+          text-align: center;
+          color: #b8bbbb;
+          font-family: "Waiting for the Sunrise", cursive;
+          font-size: 1.4em;
+          letter-spacing: 0.1em;
+          text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.4);
+          line-height: 1.4em; }
       .ps-footer-grid .region.region-footer .block-views.ps-rrss .view-content {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -254,8 +256,15 @@ Sass Footer
         width: 100%; }
         .ps-footer-grid .region.region-footer .block-views.ps-copyright-footer .views-row .field-content {
           color: #ea6e3a; }
+  .ps-footer-grid div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 .view-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; }
 
 @media (min-width: 768px) {
+  .block-views.ps-telefono {
+    border-bottom: 0.7px solid #3a3a3a !important; }
   .ps-copyright-footer .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
