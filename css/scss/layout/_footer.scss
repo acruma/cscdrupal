@@ -134,6 +134,20 @@ Sass Footer
 			}
 	}
 	
+	div#block-views-block-llama-gratis-block-footer-block-1 {
+		grid-column: 1 / 2;
+		.block-views{
+			margin: 0 0 0 2em;
+		}
+	}
+	
+	div#block-views-block-siguenos-en-las-redes-block-footer-block-1 {
+		grid-column: 2 / 3;
+		.block-views{
+			margin: 0 2em 0 0;
+		}
+	}
+	
 	div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1{
 		.view-content {
 			grid-template-columns: 1fr 1fr 1fr !important;
