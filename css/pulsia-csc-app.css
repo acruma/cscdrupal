@@ -161,7 +161,9 @@ Sass Footer
     display: grid;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    background: #4e4e4e; }
+    background: #4e4e4e;
+    max-width: 992px;
+    margin: 0 auto; }
     .ps-footer-grid .region.region-footer .block-views {
       -ms-grid-column: 1;
       -ms-grid-column-span: 2;

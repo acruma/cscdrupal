@@ -7,6 +7,8 @@ Sass Footer
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		background: #4e4e4e;
+		max-width: 992px;
+		margin: 0 auto;
 		
 		.block-views{
 			grid-column: 1 / 3;
