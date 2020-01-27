@@ -257,5 +257,5 @@ Sass Footer
     display: -ms-flexbox;
     display: flex; }
   div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 .view-content {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr; } }
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr 1fr !important; } }
