@@ -3,9 +3,12 @@ Sass Footer
 */
 
 .region.region-footer {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
     background: #4e4e4e;
 	
 	.block-views{
+		grid-column: 1 / 3;
 		margin: 0 2em;
 		border-bottom: 0.7px solid #3a3a3a;
 		
@@ -122,14 +125,6 @@ Sass Footer
 			}
 		}
 	}
-	
-	div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 {
-		.view-content {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-		}
-	}
-	
 }
 
 @media (min-width: 768px) {
