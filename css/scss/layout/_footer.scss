@@ -46,6 +46,7 @@ Sass Footer
 			}
 		
 			&.ps-telefono{
+				border-bottom: none;
 				.view-content {
 					.field-content{
 						margin: 0 auto;
@@ -126,9 +127,22 @@ Sass Footer
 			}
 		}
 	}
+	
+	div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1{
+		.view-content {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+	}
 }
 
 @media (min-width: 768px) {
+	.block-views{
+	
+		&.ps-telefono{
+				border-bottom: 0.7px solid #3a3a3a !important;
+		}
+	}
 	.ps-copyright-footer{
 			.view-content {
 				display: flex;
