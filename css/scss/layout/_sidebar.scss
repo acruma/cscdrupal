@@ -11,14 +11,18 @@ Sass sidebar
 	z-index: 10;
 	visibility: hidden; 
 	opacity: 0;
-	-webkit-transition: opacity 3s;
-    -moz-transition: opacity 3s;
-    -o-transition: opacity 3s;
-    transition: opacity 3s;
+	-webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 	
 	&.ps-showsidebar{
 		visibility: visible;
 		opacity: 1;
+		-webkit-transition: opacity 1s;
+		-moz-transition: opacity 1s;
+		-o-transition: opacity 1s;
+		transition: opacity 1s;
 	}
 
 	div#block-views-block-boton-cerrar-o-cancel-svg-block-1{
