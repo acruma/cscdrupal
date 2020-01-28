@@ -12,6 +12,7 @@ libraries:
 #  - csc/external-libraries
 #Regions
 regions:
+  sidebar: 'Sidebar'
   header: 'Cabecera'
   content: 'Contenido Principal'
   footer: 'Footer'
