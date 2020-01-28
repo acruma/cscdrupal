@@ -172,17 +172,13 @@ Sass sidebar
   z-index: 10;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s; }
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
   .ps-sidebar-grid.ps-showsidebar {
     visibility: visible;
-    opacity: 1;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s; }
+    opacity: 1; }
   .ps-sidebar-grid div#block-views-block-boton-cerrar-o-cancel-svg-block-1 {
     position: absolute;
     top: 1.5em;
