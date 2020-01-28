@@ -8,9 +8,17 @@ Sass sidebar
     background: #4e4e4e;
     width: 100vw;
     height: 100vh;
-	display: none;
+	/*display: none;*/
+	display: block; /*BORRAR*/
 	
 	&.ps-showsidebar{
 		display: block !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.ps-sidebar-grid {
+		width: 50vw;
+		height: 50vh;
 	}
 }

@@ -37,6 +37,14 @@ div#block-views-block-internet-para-todos-block-header-block-1 {
 	}
 }
 
+div#block-views-block-boton-burguer-svg-block-1 {
+	position: absolute;
+	top: 1.5em;
+	left: 1.5em;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
 @media (min-width: 768px) {
 	.region.region-header {
 		display: flex;
@@ -56,6 +64,10 @@ div#block-views-block-internet-para-todos-block-header-block-1 {
 			position: absolute;
 			right: 0;
 		}
+	}
+	
+	div#block-views-block-boton-burguer-svg-block-1 {
+		top: 9.5em;	
 	}
 }
 
