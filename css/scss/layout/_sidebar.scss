@@ -1,0 +1,16 @@
+/*
+Sass sidebar
+*/
+
+.ps-sidebar-grid {
+    position: absolute;
+    top: 0;
+    background: #4e4e4e;
+    width: 100vw;
+    height: 100vh;
+	display: none;
+	
+	&.ps-showsidebar{
+		display: block !important;
+	}
+}

@@ -152,6 +152,19 @@ div#block-views-block-internet-para-todos-block-header-block-1 {
     font-size: 4.5em; } }
 
 /*
+Sass sidebar
+*/
+.ps-sidebar-grid {
+  position: absolute;
+  top: 0;
+  background: #4e4e4e;
+  width: 100vw;
+  height: 100vh;
+  display: none; }
+  .ps-sidebar-grid.ps-showsidebar {
+    display: block !important; }
+
+/*
 Sass Footer 
 */
 .ps-footer-grid {
