@@ -170,9 +170,17 @@ Sass sidebar
   width: 100vw;
   height: 100vh;
   z-index: 10;
-  display: none; }
+  display: none;
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out; }
   .ps-sidebar-grid.ps-showsidebar {
-    display: block !important; }
+    display: block !important;
+    opacity: 1;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out; }
   .ps-sidebar-grid div#block-views-block-boton-cerrar-o-cancel-svg-block-1 {
     position: absolute;
     top: 1.5em;
