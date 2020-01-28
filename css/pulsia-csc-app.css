@@ -171,10 +171,7 @@ Sass sidebar
   height: 100vh;
   z-index: 10;
   display: none;
-  opacity: 0;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
-  transition: all 2s; }
+  opacity: 0; }
   .ps-sidebar-grid.ps-showsidebar {
     display: block !important;
     opacity: 1;
