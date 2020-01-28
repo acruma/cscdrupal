@@ -170,9 +170,7 @@ Sass sidebar
   width: 100vw;
   height: 100vh;
   z-index: 10;
-  /*display: none;*/
-  display: block;
-  /*BORRAR*/ }
+  display: none; }
   .ps-sidebar-grid.ps-showsidebar {
     display: block !important; }
   .ps-sidebar-grid div#block-views-block-boton-cerrar-o-cancel-svg-block-1 {

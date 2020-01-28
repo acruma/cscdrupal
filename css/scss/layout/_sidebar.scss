@@ -9,9 +9,7 @@ Sass sidebar
     width: 100vw;
     height: 100vh;
 	z-index: 10;
-	
-	/*display: none;*/
-	display: block; /*BORRAR*/
+	display: none;
 	
 	&.ps-showsidebar{
 		display: block !important;
