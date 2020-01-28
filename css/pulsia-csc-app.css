@@ -170,14 +170,15 @@ Sass sidebar
   width: 100vw;
   height: 100vh;
   z-index: 10;
-  display: none;
-  opacity: 0; }
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 3s;
+  -moz-transition: opacity 3s;
+  -o-transition: opacity 3s;
+  transition: opacity 3s; }
   .ps-sidebar-grid.ps-showsidebar {
-    display: block !important;
-    opacity: 1;
-    -webkit-transition: all 2s;
-    -o-transition: all 2s;
-    transition: all 2s; }
+    visibility: visible;
+    opacity: 1; }
   .ps-sidebar-grid div#block-views-block-boton-cerrar-o-cancel-svg-block-1 {
     position: absolute;
     top: 1.5em;
