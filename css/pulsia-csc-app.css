@@ -187,6 +187,17 @@ Sass sidebar
     cursor: pointer; }
     .ps-sidebar-grid div#block-views-block-boton-cerrar-o-cancel-svg-block-1 svg path {
       fill: #b8bbbb; }
+  .ps-sidebar-grid div#block-views-block-solo-logo-csc-svg-block-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 2em; }
+    .ps-sidebar-grid div#block-views-block-solo-logo-csc-svg-block-1 svg {
+      width: 3.5em;
+      height: 3.5em; }
 
 @media (min-width: 768px) {
   .ps-sidebar-grid {

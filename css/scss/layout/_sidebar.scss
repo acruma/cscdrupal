@@ -33,6 +33,17 @@ Sass sidebar
 			}
 		}
 	}
+	
+	div#block-views-block-solo-logo-csc-svg-block-1 {
+		display: flex;
+		justify-content: center;
+		margin-top: 2em;
+		
+		svg {
+			width: 3.5em;
+			height: 3.5em;
+		}
+	}
 }
 
 @media (min-width: 768px) {
