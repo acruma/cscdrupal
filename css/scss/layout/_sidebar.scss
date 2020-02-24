@@ -44,6 +44,18 @@ Sass sidebar
 			height: 3.5em;
 		}
 	}
+	
+	div#block-views-block-copyrigth-block-footer-block-1-2 {
+		position: absolute;
+		bottom: 2em;
+		
+		.view-content {
+			display: flex;
+			.views-row {
+				margin: 1em;
+			}
+		}
+	}
 }
 
 @media (min-width: 768px) {

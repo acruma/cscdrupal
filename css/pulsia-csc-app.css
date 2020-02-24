@@ -198,6 +198,15 @@ Sass sidebar
     .ps-sidebar-grid div#block-views-block-solo-logo-csc-svg-block-1 svg {
       width: 3.5em;
       height: 3.5em; }
+  .ps-sidebar-grid div#block-views-block-copyrigth-block-footer-block-1-2 {
+    position: absolute;
+    bottom: 2em; }
+    .ps-sidebar-grid div#block-views-block-copyrigth-block-footer-block-1-2 .view-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .ps-sidebar-grid div#block-views-block-copyrigth-block-footer-block-1-2 .view-content .views-row {
+        margin: 1em; }
 
 @media (min-width: 768px) {
   .ps-sidebar-grid {
