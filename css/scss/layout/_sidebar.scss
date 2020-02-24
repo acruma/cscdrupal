@@ -53,6 +53,10 @@ Sass sidebar
 			display: flex;
 			.views-row {
 				margin: 1em;
+				.field-content {
+					color: #eceded;
+					font-size: 0.8em;
+				}
 			}
 		}
 	}

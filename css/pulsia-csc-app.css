@@ -207,6 +207,9 @@ Sass sidebar
       display: flex; }
       .ps-sidebar-grid div#block-views-block-copyrigth-block-footer-block-1-2 .view-content .views-row {
         margin: 1em; }
+        .ps-sidebar-grid div#block-views-block-copyrigth-block-footer-block-1-2 .view-content .views-row .field-content {
+          color: #eceded;
+          font-size: 0.8em; }
 
 @media (min-width: 768px) {
   .ps-sidebar-grid {
