@@ -75,8 +75,10 @@ Sass sidebar
 			font-size: 1.6em;
 		}
 		
-		&:hover{
-			color: #e75d23;
+		.field-content{
+			&:hover{
+				color: #e75d23;
+			}
 		}
 	}
 }

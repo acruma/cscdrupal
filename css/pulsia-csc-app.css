@@ -221,7 +221,7 @@ Sass sidebar
       text-transform: uppercase;
       font-weight: 300;
       font-size: 1.6em; }
-    .ps-sidebar-grid div#block-views-block-menu-nav-block-slider-block-1:hover {
+    .ps-sidebar-grid div#block-views-block-menu-nav-block-slider-block-1 .field-content:hover {
       color: #e75d23; }
 
 @media (min-width: 768px) {
