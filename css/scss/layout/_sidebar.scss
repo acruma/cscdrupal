@@ -62,9 +62,8 @@ Sass sidebar
 	}
 	
 	div#block-views-block-menu-nav-block-slider-block-1{
-		margin-top: 25%;
 		margin-left: 2em;
-		width: 75%;
+		width: 85%;
 		
 		.views-row {
 			border-bottom: 0.7px dotted #eceded;
@@ -80,6 +79,14 @@ Sass sidebar
 				color: #e75d23;
 			}
 		}
+	}
+}
+
+@media (min-height: 635px) {
+	div#block-views-block-menu-nav-block-slider-block-1{
+		margin-top: 25%;
+		margin-left: 2em;
+		width: 75%;
 	}
 }
 

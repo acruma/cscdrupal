@@ -211,9 +211,8 @@ Sass sidebar
           color: #eceded;
           font-size: 0.8em; }
   .ps-sidebar-grid div#block-views-block-menu-nav-block-slider-block-1 {
-    margin-top: 25%;
     margin-left: 2em;
-    width: 75%; }
+    width: 85%; }
     .ps-sidebar-grid div#block-views-block-menu-nav-block-slider-block-1 .views-row {
       border-bottom: 0.7px dotted #eceded;
       padding: 1em 0;
@@ -223,6 +222,12 @@ Sass sidebar
       font-size: 1.6em; }
     .ps-sidebar-grid div#block-views-block-menu-nav-block-slider-block-1 .field-content:hover {
       color: #e75d23; }
+
+@media (min-height: 635px) {
+  div#block-views-block-menu-nav-block-slider-block-1 {
+    margin-top: 25%;
+    margin-left: 2em;
+    width: 75%; } }
 
 @media (min-width: 768px) {
   .ps-sidebar-grid {
