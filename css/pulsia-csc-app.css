@@ -223,7 +223,7 @@ Sass sidebar
     .ps-sidebar-grid div#block-views-block-menu-nav-block-slider-block-1 .field-content:hover {
       color: #e75d23; }
 
-@media (min-height: 635px) {
+@media (min-height: 680px) {
   div#block-views-block-menu-nav-block-slider-block-1 {
     margin-top: 25%;
     margin-left: 2em;
