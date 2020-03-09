@@ -312,6 +312,10 @@ Sass Footer
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -325,8 +329,8 @@ Sass Footer
           display: flex;
           height: 30px;
           text-align: center;
-          padding: 0 1em;
-          border-right: 0.05em solid #3a3a3a; }
+          padding: 1em 1em;
+          /*border-right: 0.05em solid #3a3a3a;*/ }
         .ps-footer-grid .region.region-footer .block-views.ps-nav-footer .view-content .views-row:last-child {
           border-right: none; }
         .ps-footer-grid .region.region-footer .block-views.ps-nav-footer .view-content .field-content a {
@@ -364,4 +368,12 @@ Sass Footer
     margin: 0 2em 0 0; }
   div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1 .view-content {
     -ms-grid-columns: 1fr 1fr 1fr !important;
-    grid-template-columns: 1fr 1fr 1fr !important; } }
+    grid-template-columns: 1fr 1fr 1fr !important; }
+  div#block-views-block-menu-nav-block-footer-block-1 .view-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  div#block-views-block-menu-nav-block-footer-block-1 .views-row {
+    padding: 0em 1em;
+    border-right: 0.05em solid #3a3a3a; } }

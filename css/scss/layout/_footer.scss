@@ -89,6 +89,7 @@ Sass Footer
 			&.ps-nav-footer{
 				.view-content {
 					display: flex;
+					flex-direction: column;
 					justify-content: center;
 					align-items: center;
 					padding: 4em 0;
@@ -97,8 +98,8 @@ Sass Footer
 						display: flex;
 						height: 30px;
 						text-align: center;
-						padding: 0 1em;
-						border-right: 0.05em solid #3a3a3a;
+						padding: 1em 1em;
+						/*border-right: 0.05em solid #3a3a3a;*/
 					}
 					
 					.views-row:last-child {
@@ -162,6 +163,16 @@ Sass Footer
 	div#block-views-block-nuestros-socios-tecnologicos-block-footer-block-1{
 		.view-content {
 			grid-template-columns: 1fr 1fr 1fr !important;
+		}
+	}
+	
+	div#block-views-block-menu-nav-block-footer-block-1{
+		.view-content {
+			flex-direction: row;
+		}
+		.views-row {
+			padding: 0em 1em;
+			border-right: 0.05em solid #3a3a3a;
 		}
 	}
 }
