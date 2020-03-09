@@ -60,6 +60,17 @@ Sass sidebar
 			}
 		}
 	}
+	
+	div#block-views-block-menu-nav-block-slider-block-1{
+		.views-row {
+			border-bottom: 0.7px dotted #eceded;
+			padding: 1em 0;
+			color: #eceded;
+			text-transform: uppercase;
+			font-weight: 300;
+			font-size: 1.6em;
+		}
+	}
 }
 
 @media (min-width: 768px) {
