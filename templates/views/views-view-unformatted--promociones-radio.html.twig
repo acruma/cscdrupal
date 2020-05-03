@@ -1,0 +1,60 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+
+<div class="ps-title-h3">
+<h3>Escoja un icono para su cultivo</h3>
+</div>
+
+{% for row in rows %}
+  {%
+    set row_classes = [
+      default_row_class ? 'views-row',
+    ]
+  %}
+  
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_instalacion_gratis }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_nuts }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio_euros_mes }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_tecnologia }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_texto_descriptivo_1 }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_texto_descriptivo_2 }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_validez }}'] %}
+  {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
+  
+  <div{{ row.attributes.addClass(row_classes) }}>
+    <div class="csc-velocidad">
+        {{ velocidad }} MB
+    </div>
+    <div class="csc-precio">
+      
+    </div>
+    <div class="csc-tecnologia">
+      
+    </div>
+    <div class="csc-info">
+      
+    </div>
+    <div class="csc-extras">
+      
+    </div>
+    <div class="csc-contratar">
+      
+    </div>
+  </div>
+{% endfor %}
