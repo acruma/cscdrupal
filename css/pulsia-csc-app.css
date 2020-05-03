@@ -377,3 +377,9 @@ Sass Footer
   div#block-views-block-menu-nav-block-footer-block-1 .views-row {
     padding: 0em 1em;
     border-right: 0.05em solid #3a3a3a; } }
+
+div#block-views-block-promociones-radio-block-1 .view-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
