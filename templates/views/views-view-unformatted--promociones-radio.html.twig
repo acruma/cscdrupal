@@ -23,7 +23,8 @@
     ]
   %}
   
-  {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
+  {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ name }}'] %}
+  {% set precio_extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio }}'] %}
   {% set instalacion = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_instalacion_gratis }}'] %}
   {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_nuts }}'] %}
   {% set precio = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio_euros_mes }}'] %}
@@ -65,7 +66,7 @@
     </div>
     <form>
       <div class="csc-extras">
-        <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> {{extras}}
+        <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> {{extras}} {{ precio_extras }}
       </div>
       <div class="csc-contratar">
         
