@@ -428,3 +428,16 @@ div#block-views-block-promociones-radio-block-1 {
       border-radius: 5px;
       -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
       box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
+  div#block-views-block-promociones-radio-block-1 .csc-precio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    background: #eceded;
+    padding: 1.5em; }
