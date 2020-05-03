@@ -16,10 +16,6 @@
  */
 #}
 
-<div class="ps-title-h3">
-<h3>Escoja un icono para su cultivo</h3>
-</div>
-
 {% for row in rows %}
   {%
     set row_classes = [
@@ -39,7 +35,7 @@
   
   <div{{ row.attributes.addClass(row_classes) }}>
     <div class="csc-velocidad">
-        <span>{{ velocidad }}</span> <span> MB</span>
+        <span>{{ velocidad }} MB</span>
     </div>
     <div class="csc-precio">
       
