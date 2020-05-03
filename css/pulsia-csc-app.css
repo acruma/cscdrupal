@@ -378,41 +378,43 @@ Sass Footer
     padding: 0em 1em;
     border-right: 0.05em solid #3a3a3a; } }
 
-div#block-views-block-promociones-radio-block-1 .view-content {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr; }
-
-div#block-views-block-promociones-radio-block-1 .csc-velocidad {
-  /*CONTENEDOR*/
-  position: relative;
-  background: #4e4e4e;
-  color: #c5c8c8;
-  padding: 1.3em 0 0.7em;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
-  /*CONTENIDO*/
-  font-size: 1.5em;
-  font-family: "Waiting for the Sunrise", cursive;
-  text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3); }
-  div#block-views-block-promociones-radio-block-1 .csc-velocidad::before {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 60px;
+div#block-views-block-promociones-radio-block-1 {
+  margin: 1em; }
+  div#block-views-block-promociones-radio-block-1 .view-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5em; }
+  div#block-views-block-promociones-radio-block-1 .csc-velocidad {
+    /*CONTENEDOR*/
+    position: relative;
     background: #4e4e4e;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    z-index: -1;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    border-radius: 5px;
+    color: #c5c8c8;
+    padding: 1.3em 0 0.7em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    /*CONTENIDO*/
+    font-size: 1.5em;
+    font-family: "Waiting for the Sunrise", cursive;
+    text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3); }
+    div#block-views-block-promociones-radio-block-1 .csc-velocidad::before {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #4e4e4e;
+      position: absolute;
+      left: 50%;
+      margin-left: -30px;
+      z-index: -1;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      border-radius: 5px;
+      -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
