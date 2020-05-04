@@ -489,6 +489,11 @@ article.node.node--type-pagina-basica.node--view-mode-full {
     font-size: 1.2em;
     position: absolute;
     top: 0; }
+  article.node.node--type-pagina-basica.node--view-mode-full span {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-weight: 600; }
 
 p.csc-black {
   text-transform: uppercase;
