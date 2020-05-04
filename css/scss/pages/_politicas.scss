@@ -18,15 +18,17 @@ h1.page-title {
 article.node.node--type-pagina-basica.node--view-mode-full {
     padding: 1em 3em 3em 3em;
 
-    li {
-        p:before{
+    li{
+        position: relative;
+    }
+
+    li:before { 
             content: ">";
             font-family: "Waiting for the Sunrise", cursive;
             font-size: 1.2em;
+            left: -1em;
             position: absolute;
             top: 0;
-            left: -1em;
-        }
     }
 }
 
