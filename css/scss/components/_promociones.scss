@@ -136,6 +136,16 @@ div#block-views-block-promociones-radio-block-1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input.fifth-col {
+            margin: 0 0.5em 0 0.5em;
+        }
     }
 
 }
