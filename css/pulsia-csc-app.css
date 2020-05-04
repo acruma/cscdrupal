@@ -455,3 +455,9 @@ div#block-views-block-promociones-radio-block-1 {
       text-transform: uppercase;
       color: #4e4e4e;
       font-size: 0.9em; }
+
+dl dt {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 1em 0;
+  font-size: 1.1em; }
