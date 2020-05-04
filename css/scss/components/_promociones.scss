@@ -103,4 +103,23 @@ div#block-views-block-promociones-radio-block-1{
         }
     }
 
+    .csc-info {
+        background: #4e4e4e;
+        padding: 1em 0 1em 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            padding-bottom: 1em;
+        }
+
+        span.csc-text1 {
+            color: #e75d23;
+            font-size: 1.2em;
+            letter-spacing: 0.1em;
+        }
+    }
+
 }
