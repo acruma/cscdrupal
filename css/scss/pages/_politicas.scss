@@ -20,13 +20,16 @@ article.node.node--type-pagina-basica.node--view-mode-full {
 
     li{
         position: relative;
+
+        p{
+            margin-left: 1em;
+        }
     }
 
     li:before { 
             content: ">";
             font-family: "Waiting for the Sunrise", cursive;
             font-size: 1.2em;
-            left: -1em;
             position: absolute;
             top: 0;
     }

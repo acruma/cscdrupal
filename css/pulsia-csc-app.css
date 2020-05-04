@@ -481,11 +481,12 @@ article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 1em 3em 3em 3em; }
   article.node.node--type-pagina-basica.node--view-mode-full li {
     position: relative; }
+    article.node.node--type-pagina-basica.node--view-mode-full li p {
+      margin-left: 1em; }
   article.node.node--type-pagina-basica.node--view-mode-full li:before {
     content: ">";
     font-family: "Waiting for the Sunrise", cursive;
     font-size: 1.2em;
-    left: -1em;
     position: absolute;
     top: 0; }
 
