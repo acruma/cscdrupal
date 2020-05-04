@@ -505,10 +505,14 @@ div#block-views-block-promociones-radio-block-1 {
     align-items: center; }
     div#block-views-block-promociones-radio-block-1 .csc-info div {
       padding-bottom: 1em; }
-    div#block-views-block-promociones-radio-block-1 .csc-info span.csc-text1 {
+    div#block-views-block-promociones-radio-block-1 .csc-info .csc-text1 {
       color: #e75d23;
       font-size: 1.2em;
       letter-spacing: 0.1em; }
+    div#block-views-block-promociones-radio-block-1 .csc-info .csc-text2 {
+      color: #c5c8c8;
+      font-size: 0.8em;
+      letter-spacing: 0.05em; }
 
 div#block-pagetitle {
   display: -webkit-box;
