@@ -88,6 +88,10 @@ svg {
   width: auto;
   height: auto; }
 
+.ps-content-grid {
+  margin: 0 auto;
+  max-width: 992px; }
+
 /*
 Sass Header
 */
