@@ -125,7 +125,7 @@ div#block-pagetitle-2 {
     font-family: "Waiting for the Sunrise", cursive;
     font-weight: 800;
     text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3);
-    font-size: 1.3em;
+    font-size: 2.5em;
     text-align: center;
     line-height: 1.2em;
     color: #e75d23; }
@@ -615,7 +615,9 @@ div#block-views-block-promociones-radio-block-1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1em;
+  margin-bottom: 4em; }
 
 .ps-path-tarifas div#block-pagetitle-2 {
   -ms-grid-column: 1;
