@@ -4,5 +4,15 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    div#block-pagetitle-2 {
+        grid-column: 1/4;
+    }
 
+    div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1{
+        .view-content{
+            .views-row:nth-child(0){
+                background-color: red;
+            }
+        }
+    }
 }
