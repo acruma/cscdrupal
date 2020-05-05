@@ -647,6 +647,14 @@ div#block-views-block-promociones-radio-block-1 {
       font-weight: 900; }
   .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) {
     background: #eceded; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) .field-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(1) {
       color: #4e4e4e; }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(2) {

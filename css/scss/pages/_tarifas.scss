@@ -33,6 +33,11 @@
             .views-row:nth-child(2){
                 background: #eceded;
 
+                .field-content {
+                    display: flex;
+                    flex-direction: column;
+                }
+
                 span:nth-child(1){
                     color: #4e4e4e;
                 }
