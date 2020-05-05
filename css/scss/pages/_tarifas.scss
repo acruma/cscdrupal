@@ -32,6 +32,7 @@
             }
             .views-row:nth-child(2){
                 background: #eceded;
+                padding: 0.5em 1.5em 0.5em 1.5em;
 
                 .field-content {
                     display: flex;
@@ -39,25 +40,33 @@
                 }
 
                 span:nth-child(1){
+                    font-size: 2.5em;
                     color: #4e4e4e;
                 }
                 span:nth-child(2){
+                    font-size: 1.6em;
                     color: #e75d23;
                 }
                 span:nth-child(3){
+                    font-size: 1em;
                     color: #4e4e4e;
                 }
                 span:nth-child(4){
+                    font-size: 5em;
                     color: #e75d23;
                     text-shadow: 0 -0.03em 0.02em rgba(0, 0, 0, 0.3);
                     text-align: center;
                 }
                 span:nth-child(5){
+                    font-size: 1em;
                     color: #4e4e4e;
                     font-weight: 600;
+                    text-align: center;
                 }
                 span:nth-child(6){
+                    font-size: 1em;
                     color: #4e4e4e;
+                    text-align: center;
                 }
             }
         }
