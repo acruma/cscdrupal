@@ -67,27 +67,24 @@ function csc_preprocess_block(&$vars) {
 }
 
 function csc_preprocess_views_view(&$vars) {
-  $node = \Drupal::routeMatch()->getParameter('node');
-	if ($node instanceof \Drupal\node\NodeInterface) {
-	  $vars['invernadero2'] = $node->id();
-	  $vars['cultivo2'] = $node->id();
-	}
+  // $node = \Drupal::routeMatch()->getParameter('node');
+	// if ($node instanceof \Drupal\node\NodeInterface) {
+	//   $vars['invernadero2'] = $node->id();
+	//   $vars['cultivo2'] = $node->id();
+	// }
 }
 
 function csc_preprocess_views_view_unformatted(&$vars) {
   
-  $vars['invernadero'] = \Drupal::request()->query->get('invernadero');
-  $vars['cultivo'] = \Drupal::request()->query->get('cultivo');
-  $vars['tipo'] = \Drupal::request()->query->get('tipo');
-  $vars['accion'] = \Drupal::request()->query->get('accion');
-  $vars['usuario'] = \Drupal::currentUser()->id();
+  // $vars['invernadero'] = \Drupal::request()->query->get('invernadero');
+ 
 
-  $node = \Drupal::routeMatch()->getParameter('node');
-	if ($node instanceof \Drupal\node\NodeInterface) {
-	  $vars['invernadero2'] = $node->id();
-    $vars['cultivo2'] = $node->id();
-    $vars['siabox'] = $node->id();
-	}
+  // $node = \Drupal::routeMatch()->getParameter('node');
+	// if ($node instanceof \Drupal\node\NodeInterface) {
+	//   $vars['invernadero2'] = $node->id();
+  //   $vars['cultivo2'] = $node->id();
+  //   $vars['siabox'] = $node->id();
+	// }
 
 }
 

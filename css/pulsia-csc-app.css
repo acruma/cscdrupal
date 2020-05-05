@@ -90,9 +90,49 @@ svg {
   width: auto;
   height: auto; }
 
+/*Título en negrita*/
+div#block-pagetitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  div#block-pagetitle h1.page-title {
+    font-family: "Waiting for the Sunrise", cursive;
+    font-weight: 800;
+    text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3);
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.2em;
+    color: black; }
+
+/*Título color CSC*/
+div#block-pagetitle-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  div#block-pagetitle-2 h1.page-title {
+    font-family: "Waiting for the Sunrise", cursive;
+    font-weight: 800;
+    text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3);
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.2em;
+    color: #e75d23; }
+
 .ps-content-grid {
   margin: 0 auto;
-  max-width: 992px; }
+  max-width: 1080px; }
 
 /*
 Sass Header
@@ -567,26 +607,6 @@ div#block-views-block-promociones-radio-block-1 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-
-div#block-pagetitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-h1.page-title {
-  font-family: "Waiting for the Sunrise", cursive;
-  font-weight: 800;
-  text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3);
-  font-size: 1.3em;
-  text-align: center;
-  line-height: 1.2em;
-  color: black; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
