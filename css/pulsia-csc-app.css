@@ -623,7 +623,7 @@ div#block-views-block-promociones-radio-block-1 {
   -ms-grid-column-span: 3;
   grid-column: 1/4; }
 
-.ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(0) {
+.ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(1) {
   background-color: red; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
