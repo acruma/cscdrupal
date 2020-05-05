@@ -627,58 +627,60 @@ div#block-views-block-promociones-radio-block-1 {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px; }
-  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(1) {
-    background: #e75d23;
-    font-size: 1.75em;
-    text-align: center;
-    color: #eceded;
-    padding: 0.6em;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(1) .field-content {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(1) span {
-      font-weight: 900; }
-  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) {
-    background: #eceded;
-    padding: 0.5em 1.5em 0.5em 1.5em; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) .field-content {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(1) {
-      font-size: 2.5em;
-      color: #4e4e4e; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(2) {
-      font-size: 1.6em;
-      color: #e75d23; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(3) {
-      font-size: 1em;
-      color: #4e4e4e; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(4) {
-      font-size: 5em;
-      color: #e75d23;
-      text-shadow: 0 -0.03em 0.02em rgba(0, 0, 0, 0.3);
-      text-align: center; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(5) {
-      font-size: 1em;
-      color: #4e4e4e;
-      font-weight: 600;
-      text-align: center; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(6) {
-      font-size: 1em;
-      color: #4e4e4e;
-      text-align: center; }
+  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content {
+    font-family: Raleway; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(1) {
+      background: #e75d23;
+      font-size: 1.75em;
+      text-align: center;
+      color: #eceded;
+      padding: 0.6em;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(1) .field-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(1) span {
+        font-weight: 900; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) {
+      background: #eceded;
+      padding: 0.5em 1.5em 0.5em 1.5em; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) .field-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(1) {
+        font-size: 2.5em;
+        color: #4e4e4e; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(2) {
+        font-size: 1.6em;
+        color: #e75d23; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(3) {
+        font-size: 1em;
+        color: #4e4e4e; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(4) {
+        font-size: 5em;
+        color: #e75d23;
+        text-shadow: 0 -0.03em 0.02em rgba(0, 0, 0, 0.3);
+        text-align: center; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(5) {
+        font-size: 1em;
+        color: #4e4e4e;
+        font-weight: 600;
+        text-align: center; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 .view-content .views-row:nth-child(2) span:nth-child(6) {
+        font-size: 1em;
+        color: #4e4e4e;
+        text-align: center; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
