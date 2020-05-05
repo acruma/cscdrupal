@@ -612,6 +612,12 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-flex-align: center;
     align-items: center; }
 
+.ps-path-tarifas .region.region-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
   article.node.node--type-pagina-basica.node--view-mode-full li {
