@@ -824,7 +824,10 @@ div#block-views-block-promociones-radio-block-1 {
       grid-row: 2/3;
       background: #e75d23;
       color: #eceded;
-      padding: 1em; }
+      padding: 1em;
+      font-size: 1.5em; }
+      .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) span {
+        font-size: 2em; }
       .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) img {
         display: none; }
     .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
