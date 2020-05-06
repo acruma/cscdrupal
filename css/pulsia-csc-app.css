@@ -719,7 +719,7 @@ div#block-views-block-promociones-radio-block-1 {
       text-align: center;
       color: #e75d23;
       padding: 2em;
-      margin: 0em 1em 0em 1em;
+      margin: 3em 1em 0em 1em;
       -webkit-box-shadow: -5px -2px 18px 1px rgba(0, 0, 0, 0.5);
       box-shadow: -5px -2px 18px 1px rgba(0, 0, 0, 0.5); }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(4) {
@@ -728,7 +728,7 @@ div#block-views-block-promociones-radio-block-1 {
       cursor: pointer;
       color: #eceded;
       padding: 1em;
-      margin: 3em 1em 0em 1em; }
+      margin: 0em 1em 0em 1em; }
       .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(4):hover {
         -webkit-box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5);
         box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5); }
