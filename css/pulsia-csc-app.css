@@ -772,6 +772,9 @@ div#block-views-block-promociones-radio-block-1 {
       text-align: center; }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(2) span {
       font-size: 2em; }
+  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(3) img {
+    width: 10em;
+    height: 12em; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
