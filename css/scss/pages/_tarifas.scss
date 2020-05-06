@@ -120,6 +120,14 @@
                 margin: 1em;
                 box-shadow: -5px -2px 18px 1px rgba(0, 0, 0, 0.5);
             }
+            .views-row:nth-child(4){
+                text-align: center;
+                background: #e75d23;
+                cursor: pointer;
+                color: #eceded;
+                padding: 2em;
+                margin: 1em;
+            }
         }
     }
 }
