@@ -787,8 +787,9 @@ div#block-views-block-promociones-radio-block-1 {
         -o-transition: all 0.5s linear;
         transition: all 0.5s linear; }
   .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(4) {
-    margin: 1em;
-    color: #4e4e4e; }
+    margin: 2em;
+    color: #4e4e4e;
+    text-align: center; }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(4) span {
       color: #e75d23; }
 
