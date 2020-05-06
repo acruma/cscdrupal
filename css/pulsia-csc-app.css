@@ -699,12 +699,14 @@ div#block-views-block-promociones-radio-block-1 {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px; }
-  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(1) {
-    color: #eceded;
-    font-size: 1.90em;
-    padding: 0.5em; }
-    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(1) span {
-      color: #e75d23; }
+  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content {
+    font-family: Raleway; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(1) {
+      color: #eceded;
+      font-size: 1.90em;
+      padding: 0.5em; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(1) span {
+        color: #e75d23; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
