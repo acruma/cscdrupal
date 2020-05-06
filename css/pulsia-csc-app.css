@@ -875,6 +875,8 @@ div#block-views-block-promociones-radio-block-1 {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
+    div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) img {
+      display: block; }
     div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) span {
       font-size: 2em; } }
 
