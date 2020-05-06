@@ -127,6 +127,10 @@
                 color: #eceded;
                 padding: 2em;
                 margin: 1em;
+
+                &:hover{
+                    box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5);
+                }
             }
         }
     }
