@@ -142,6 +142,13 @@
         border-radius: 5px;
         .view-content{
             .views-row:nth-child(1){
+                a{
+                    font-size: 0.9em;
+                    text-decoration: none;
+                    cursor: none;
+                    color: #4e4e4e;
+                    
+                }
 
             }
             .views-row:nth-child(2){
