@@ -708,6 +708,10 @@ div#block-views-block-promociones-radio-block-1 {
       padding: 0.5em; }
       .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(1) span {
         color: #e75d23; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(2) {
+      color: #eceded;
+      padding: 0 1.3em;
+      font-size: 0.9em; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
