@@ -749,7 +749,8 @@ div#block-views-block-promociones-radio-block-1 {
         color: #e75d23;
         -webkit-transition: all 0.5s linear;
         -o-transition: all 0.5s linear;
-        transition: all 0.5s linear; }
+        transition: all 0.5s linear;
+        cursor: pointer; }
         .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(1) a span:hover {
           font-weight: 900;
           -webkit-transition: all 0.5s linear;
