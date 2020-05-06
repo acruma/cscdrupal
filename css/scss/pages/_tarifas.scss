@@ -177,9 +177,15 @@
                 }
             }
             .views-row:nth-child(3){
+                text-align: center;
                 img{
                     width: 10em;
                     height: 12em;
+                    transition: all 0.5s linear;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: all 0.5s linear;
+                    }
                 }
             }
             .views-row:nth-child(4){
