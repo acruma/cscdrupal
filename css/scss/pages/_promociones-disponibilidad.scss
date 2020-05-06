@@ -1,12 +1,16 @@
 .ps-csc-disponibilidad-promociones-header{
+    font-family: Raleway;
     .view-content{
         display: grid;
         grid-template-rows: 1fr 1fr;
         position: relative;
 
         .views-row:nth-child(1){   
+            margin-top: -1em;
             grid-row: 2/3;
             background: #e75d23;
+            color: #eceded;
+            padding: 1em;
 
             img{
                 display: none;

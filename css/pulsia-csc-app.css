@@ -810,23 +810,28 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-column-span: 3;
     grid-column: 1/4; } }
 
-.ps-csc-disponibilidad-promociones-header .view-content {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  position: relative; }
-  .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2/3;
-    background: #e75d23; }
-    .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) img {
-      display: none; }
-  .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
-    position: absolute;
-    right: 2em;
-    top: 2em; }
+.ps-csc-disponibilidad-promociones-header {
+  font-family: Raleway; }
+  .ps-csc-disponibilidad-promociones-header .view-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative; }
+    .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) {
+      margin-top: -1em;
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 1;
+      grid-row: 2/3;
+      background: #e75d23;
+      color: #eceded;
+      padding: 1em; }
+      .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) img {
+        display: none; }
+    .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
+      position: absolute;
+      right: 2em;
+      top: 2em; }
 
 div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) {
   display: -webkit-box;
