@@ -24,26 +24,7 @@
     }
 }
 
-div#block-views-block-disponibilidad-block-1-block-1{
-    .view-content{
-        .views-row:nth-child(1){
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #4e4e4e;
-            letter-spacing: 0.1em;
 
-            .field-content {
-                display: flex;
-                flex-direction: column;
-            }
-
-            span{
-                font-size: 2em;
-            }
-        }
-    }
-}
 
 @media (min-width: 768px) {
     .ps-csc-disponibilidad-promociones-header{
@@ -57,6 +38,27 @@ div#block-views-block-disponibilidad-block-1-block-1{
                 position: absolute;
                 right: 0;
                 top: 2em;
+            }
+        }
+    }
+
+    div#block-views-block-disponibilidad-block-1-block-1{
+        .view-content{
+            .views-row:nth-child(1){
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #4e4e4e;
+                letter-spacing: 0.1em;
+    
+                .field-content {
+                    display: flex;
+                    flex-direction: column;
+                }
+    
+                span{
+                    font-size: 2em;
+                }
             }
         }
     }
