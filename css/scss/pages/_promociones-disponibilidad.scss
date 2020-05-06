@@ -11,6 +11,7 @@
             color: #eceded;
             padding: 1em;
             font-size: 1.5em;
+            margin-top: -1.3em;
 
             .field-content{
                 display: flex;
@@ -61,7 +62,8 @@
                 color: #4e4e4e;
                 letter-spacing: 0.1em;
                 background: none;
-    
+                margin-top: 0;
+                
                 .field-content {
                     display: flex;
                     flex-direction: column;
