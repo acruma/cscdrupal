@@ -757,6 +757,21 @@ div#block-views-block-promociones-radio-block-1 {
           -o-transition: all 0.5s linear;
           transition: all 0.5s linear;
           font-size: 1.5em; }
+  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(2) {
+    color: #4e4e4e;
+    font-weight: 100;
+    font-size: 1.5em; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(2) .field-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(2) span {
+      font-size: 2em; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
