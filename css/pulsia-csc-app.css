@@ -854,7 +854,7 @@ div#block-views-block-promociones-radio-block-1 {
     .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
       position: absolute;
       right: 0;
-      top: 2em; }
+      top: 1em; }
   div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) {
     grid-row: none;
     display: -webkit-box;
@@ -878,6 +878,8 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-flex-direction: column;
       flex-direction: column; }
     div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) img {
+      width: 8em;
+      height: 8em;
       display: block; }
     div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) span {
       font-size: 2em; } }
