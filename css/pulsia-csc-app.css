@@ -703,6 +703,7 @@ div#block-views-block-promociones-radio-block-1 {
   .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content {
     font-family: Raleway; }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(1) {
+      text-align: center;
       color: #eceded;
       font-size: 1.90em;
       padding: 0.5em; }
@@ -712,6 +713,13 @@ div#block-views-block-promociones-radio-block-1 {
       color: #eceded;
       padding: 0 1.3em;
       font-size: 0.9em; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(3) {
+      text-align: center;
+      color: #e75d23;
+      padding: 2em;
+      margin: 1em;
+      -webkit-box-shadow: -5px -2px 18px 1px rgba(0, 0, 0, 0.5);
+      box-shadow: -5px -2px 18px 1px rgba(0, 0, 0, 0.5); }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
