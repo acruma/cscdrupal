@@ -617,8 +617,7 @@ div#block-views-block-promociones-radio-block-1 {
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 2em;
-  margin-top: 1em;
-  margin-bottom: 4em; }
+  margin: 1em 1em 4em 1em; }
 
 .ps-path-tarifas div#block-pagetitle-2 {
   -ms-grid-column: 1;
