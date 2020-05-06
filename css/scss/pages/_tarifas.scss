@@ -89,4 +89,22 @@
             }
         }
     }
+
+    div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 {
+        background: #4e4e4e;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        .view-content{
+            .views-row:nth-child(1){
+                color: #eceded;
+                font-size: 1.90em;
+                padding: 0.5em;
+                span{
+                    color: #e75d23;
+                }
+
+
+            }
+        }
+    }
 }
