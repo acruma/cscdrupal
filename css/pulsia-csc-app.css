@@ -866,7 +866,8 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-flex-align: center;
     align-items: center;
     color: #4e4e4e;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.1em;
+    background: none; }
     div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) .field-content {
       display: -webkit-box;
       display: -ms-flexbox;
