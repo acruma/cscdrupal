@@ -112,6 +112,7 @@
                 color: #eceded;
                 padding: 0 1.3em;
                 font-size: 0.9em;
+                margin: 1em 0;
             }
             .views-row:nth-child(3){
                 text-align: center;
@@ -126,7 +127,7 @@
                 cursor: pointer;
                 color: #eceded;
                 padding: 2em;
-                margin: 0em 1em 0em 1em;
+                margin: 2em 1em 0em 1em;
 
                 &:hover{
                     box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5);
