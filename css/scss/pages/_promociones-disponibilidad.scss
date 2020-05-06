@@ -54,6 +54,7 @@
     div#block-views-block-disponibilidad-block-1-block-1{
         .view-content{
             .views-row:nth-child(1){
+                grid-row: none;
                 display: flex;
                 justify-content: center;
                 align-items: center;

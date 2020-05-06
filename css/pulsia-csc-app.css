@@ -856,6 +856,7 @@ div#block-views-block-promociones-radio-block-1 {
       right: 0;
       top: 2em; }
   div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) {
+    grid-row: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
