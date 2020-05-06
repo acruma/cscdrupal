@@ -898,6 +898,35 @@ div#block-views-block-promociones-radio-block-1 {
       height: 8em;
       display: block; }
     div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) span {
+      font-size: 2em; }
+  div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) {
+    grid-row: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #4e4e4e;
+    letter-spacing: 0.1em;
+    background: none;
+    margin-top: 0; }
+    div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) .field-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) img {
+      width: 8em;
+      height: 8em;
+      display: block; }
+    div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) span {
       font-size: 2em; } }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
