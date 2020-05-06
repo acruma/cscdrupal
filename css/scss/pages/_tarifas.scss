@@ -95,6 +95,7 @@
         background: #4e4e4e;
         box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
+        position: relative;
         .view-content{
             font-family: Raleway;
             .views-row:nth-child(1){
@@ -126,8 +127,8 @@
                 background: #e75d23;
                 cursor: pointer;
                 color: #eceded;
-                padding: 2em;
-                margin: 2em 1em 0em 1em;
+                padding: 1em;
+                margin: 3em 1em 0em 1em;
 
                 &:hover{
                     box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5);
