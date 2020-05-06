@@ -614,15 +614,10 @@ div#block-views-block-promociones-radio-block-1 {
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 2em;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 3em;
   margin: 1em 1em 4em 1em; }
-
-.ps-path-tarifas div#block-pagetitle-2 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1/4; }
 
 .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -721,13 +716,22 @@ div#block-views-block-promociones-radio-block-1 {
       margin: 3em 1em 0em 1em;
       -webkit-box-shadow: -5px -2px 18px 1px rgba(0, 0, 0, 0.5);
       box-shadow: -5px -2px 18px 1px rgba(0, 0, 0, 0.5); }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(3) .field-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(4) {
       text-align: center;
       background: #e75d23;
       cursor: pointer;
       color: #eceded;
       padding: 1em;
-      margin: 0em 1em 0em 1em; }
+      margin: 0em 1em 0em 1em;
+      font-weight: 700; }
       .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1 .view-content .views-row:nth-child(4):hover {
         -webkit-box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5);
         box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5); }
@@ -792,6 +796,19 @@ div#block-views-block-promociones-radio-block-1 {
     text-align: center; }
     .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(4) span {
       color: #e75d23; }
+
+@media (min-width: 768px) {
+  .ps-path-tarifas .region.region-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    margin: 1em 1em 4em 1em; }
+  .ps-path-tarifas div#block-pagetitle-2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4; } }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }

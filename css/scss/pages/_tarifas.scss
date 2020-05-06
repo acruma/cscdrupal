@@ -1,13 +1,14 @@
 .ps-path-tarifas{
     .region.region-content {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 2em;
+        grid-template-columns: 1fr;
+        // grid-column-gap: 2em;
+        grid-row-gap: 3em;
         margin: 1em 1em 4em 1em;
     }
 
     div#block-pagetitle-2 {
-        grid-column: 1/4;
+        // grid-column: 1/4;
     }
 
     div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1{
@@ -115,6 +116,11 @@
                 margin: 1em 0;
             }
             .views-row:nth-child(3){
+                .field-content {
+                    display: flex;
+                    flex-direction: column;
+                } 
+
                 text-align: center;
                 color: #e75d23;
                 padding: 2em;
@@ -128,7 +134,7 @@
                 color: #eceded;
                 padding: 1em;
                 margin: 0em 1em 0em 1em;
-
+                font-weight: 700;
                 &:hover{
                     box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5);
                 }
@@ -195,6 +201,21 @@
                     color: #e75d23;
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .ps-path-tarifas{
+        .region.region-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 2em;
+            margin: 1em 1em 4em 1em;
+        }
+    
+        div#block-pagetitle-2 {
+            grid-column: 1/4;
         }
     }
 }
