@@ -1,0 +1,63 @@
+.ps-csc-disponibilidad-promociones-header{
+    .view-content{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+
+        .views-row:nth-child(1){   
+            grid-row: 2/3;
+            background: #e75d23;
+
+            img{
+                display: none;
+            }
+        }
+        .views-row:nth-child(2){
+            position: absolute;
+            right: 2em;
+            top: 2em;
+        }
+    }
+}
+
+div#block-views-block-disponibilidad-block-1-block-1{
+    .view-content{
+        .views-row:nth-child(1){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #4e4e4e;
+            letter-spacing: 0.1em;
+
+            .field-content {
+                display: flex;
+                flex-direction: column;
+            }
+
+            span{
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .ps-csc-disponibilidad-promociones-header{
+        .view-content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+            padding-left: 7em;
+    
+            .views-row:nth-child(2){
+                position: absolute;
+                right: 0;
+                top: 2em;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}

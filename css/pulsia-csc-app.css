@@ -617,7 +617,7 @@ div#block-views-block-promociones-radio-block-1 {
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   grid-row-gap: 3em;
-  margin: 1em 1em 4em 1em; }
+  padding: 1em 5em 0em 5em; }
 
 .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-block-1 {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -809,6 +809,60 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1/4; } }
+
+.ps-csc-disponibilidad-promociones-header .view-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: relative; }
+  .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    background: #e75d23; }
+    .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) img {
+      display: none; }
+  .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
+    position: absolute;
+    right: 2em;
+    top: 2em; }
+
+div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #4e4e4e;
+  letter-spacing: 0.1em; }
+  div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) .field-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) span {
+    font-size: 2em; }
+
+@media (min-width: 768px) {
+  .ps-csc-disponibilidad-promociones-header .view-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    padding-left: 7em; }
+    .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
+      position: absolute;
+      right: 0;
+      top: 2em; } }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
