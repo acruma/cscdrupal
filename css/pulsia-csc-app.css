@@ -819,7 +819,6 @@ div#block-views-block-promociones-radio-block-1 {
     grid-template-rows: 1fr 1fr;
     position: relative; }
     .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(1) {
-      margin-top: -1em;
       -ms-grid-row: 2;
       -ms-grid-row-span: 1;
       grid-row: 2/3;
@@ -831,7 +830,7 @@ div#block-views-block-promociones-radio-block-1 {
     .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
       position: absolute;
       right: 2em;
-      top: 2em; }
+      padding: 1em; }
 
 @media (min-width: 768px) {
   .ps-csc-disponibilidad-promociones-header .view-content {
