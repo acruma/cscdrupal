@@ -77,8 +77,15 @@
                 padding: 1.5em;
                 border-bottom-left-radius: 5px;
                 border-bottom-right-radius: 5px;
-                color: #eceded;
                 text-align: center;
+                a{
+                    color: #eceded;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: #e75d23; 
+                    }
+                }
             }
         }
     }
