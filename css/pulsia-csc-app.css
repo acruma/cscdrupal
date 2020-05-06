@@ -616,6 +616,7 @@ div#block-views-block-promociones-radio-block-1 {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2em;
   margin-top: 1em;
   margin-bottom: 4em; }
 
