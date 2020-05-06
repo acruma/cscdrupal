@@ -207,7 +207,8 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 2em;
-            margin: 1em 1em 4em 1em;
+            padding: 1em 1em 4em 1em;
+            grid-row-gap: none;
         }
     
         div#block-pagetitle-2 {
