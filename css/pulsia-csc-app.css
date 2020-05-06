@@ -849,6 +849,14 @@ div#block-views-block-promociones-radio-block-1 {
         text-decoration: none; }
         .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) a:hover {
           color: #e75d23; }
+        .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) a a::before {
+          content: ">>";
+          font-family: "Waiting for the Sunrise", cursive;
+          color: #e75d23;
+          font-size: 1.7em;
+          font-weight: 900;
+          letter-spacing: -0.15em;
+          padding-right: 0.3em; }
 
 @media (min-width: 768px) {
   .ps-csc-disponibilidad-promociones-header .view-content {
