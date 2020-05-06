@@ -142,12 +142,23 @@
         border-radius: 5px;
         .view-content{
             .views-row:nth-child(1){
+                text-align: center;
                 a{
                     font-size: 0.9em;
                     text-decoration: none;
-                    cursor: none;
+                    cursor: default;
                     color: #4e4e4e;
-                    
+
+                    span{
+                        color: #e75d23;
+                        transition: all 0.5s linear;
+                        
+                        &:hover{
+                            font-weight: 900;
+                            transition: all 0.5s linear;
+                            font-size: 1.5em;
+                        }
+                    }
                 }
 
             }

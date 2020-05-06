@@ -738,11 +738,24 @@ div#block-views-block-promociones-radio-block-1 {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px; }
-  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(1) a {
-    font-size: 0.9em;
-    text-decoration: none;
-    cursor: none;
-    color: #4e4e4e; }
+  .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(1) {
+    text-align: center; }
+    .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(1) a {
+      font-size: 0.9em;
+      text-decoration: none;
+      cursor: default;
+      color: #4e4e4e; }
+      .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(1) a span {
+        color: #e75d23;
+        -webkit-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition: all 0.5s linear; }
+        .ps-path-tarifas div#block-views-block-tarifas-y-promociones-a-tu-medida-block-3-block-1 .view-content .views-row:nth-child(1) a span:hover {
+          font-weight: 900;
+          -webkit-transition: all 0.5s linear;
+          -o-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+          font-size: 1.5em; }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
