@@ -51,11 +51,35 @@
                     padding-bottom: 2em;
                 }
             }
+            .views-row:nth-child(3){
+                font-family: Raleway;
+                .field-content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
 
+                .csc-black {
+                    background: #4e4e4e;
+                    padding: 1em;
+                    display: flex;
 
-
-
-            
+                    span:nth-child(1){
+                        font-size: 2.3em;
+                        color: #e75d23;
+                    }
+                    span:nth-child(2){
+                        color: #eceded;
+                        font-size: 1.4em;
+                    }
+                    span:nth-child(3){
+                        color: #eceded;
+                        font-size: 1em;
+                        font-weight: 800;
+                    }
+                }
+            }
         }
     }
 
