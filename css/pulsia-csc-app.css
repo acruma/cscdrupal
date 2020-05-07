@@ -859,6 +859,17 @@ div#block-views-block-promociones-radio-block-1 {
         letter-spacing: -0.15em;
         padding-right: 0.3em; }
 
+div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content {
+  text-align: center; }
+  div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) {
+    padding: 1em;
+    color: #4e4e4e;
+    margin: 2em 3em 0em; }
+  div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(2) {
+    background: BLACK;
+    padding: 1em;
+    margin: 0em 3em 2em; }
+
 @media (min-width: 768px) {
   .ps-csc-disponibilidad-promociones-header .view-content {
     display: -ms-grid;
