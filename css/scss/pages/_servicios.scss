@@ -58,9 +58,14 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    padding: 0 1em;
+                    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+                    border-radius: 5px;
                 }
 
                 .csc-black {
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
                     background: #4e4e4e;
                     width: 100%;
                     padding: 1em;
@@ -88,6 +93,8 @@
                 }
 
                 .csc-white {
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
                     width: 100%;
                     background: #fff;
                     padding: 1em;
@@ -132,6 +139,7 @@
                     flex-direction: column;
 
                     span:nth-child(1){
+                        color: #4e4e4e;
                         font-size: 1.4em;
                         font-weight: 800;
                         line-height: 1em;
