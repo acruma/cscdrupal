@@ -908,6 +908,7 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 {
         -ms-flex-align: center;
         align-items: center; }
     div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(2) {
+      font-family: "Waiting for the Sunrise", cursive;
       border-bottom-right-radius: 5px;
       border-bottom-left-radius: 5px;
       border-top-left-radius: 1px;
