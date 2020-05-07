@@ -103,6 +103,11 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3{
             padding: 0.3em;
             font-size: 2em;
             font-weight: 900;
+            cursor: pointer;
+            
+            &:hover{
+                box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.5);
+            }
         }
     }
 }
