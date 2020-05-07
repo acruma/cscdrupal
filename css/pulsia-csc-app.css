@@ -819,49 +819,48 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-column-span: 3;
     grid-column: 1/4; } }
 
-.ps-path-servicios {
+.ps-path-servicios .ps-content-grid {
   max-width: 100%; }
-  .ps-path-servicios span.ps-csc-title-1 {
-    color: #4e4e4e;
-    letter-spacing: 0.15em;
-    font-size: 2em;
-    font-family: "Waiting for the Sunrise", cursive;
-    line-height: 1.5em;
-    position: relative;
-    font-weight: 800; }
-  .ps-path-servicios div#block-views-block-s-block-1-block-1 {
-    background: #eceded; }
-    .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {
-      padding: 2em;
-      display: -ms-grid;
-      display: grid;
-      -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr; }
-      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column; }
-      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(1) {
-        text-align: center; }
-      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) img {
-        width: 17em;
-        height: auto; }
 
-@media (min-width: 768px) {
-  div#block-views-block-s-block-1-block-1 .view-content {
+.ps-path-servicios span.ps-csc-title-1 {
+  color: #4e4e4e;
+  letter-spacing: 0.15em;
+  font-size: 2em;
+  font-family: "Waiting for the Sunrise", cursive;
+  line-height: 1.5em;
+  position: relative;
+  font-weight: 800; }
+
+.ps-path-servicios div#block-views-block-s-block-1-block-1 {
+  background: #eceded; }
+  .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {
     padding: 2em;
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+    .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(1) {
+      text-align: center; }
+    .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) img {
+      width: 17em;
+      height: auto; }
+
+@media (min-width: 768px) {
+  div#block-views-block-s-block-1-block-1 .view-content {
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr; } }
 
