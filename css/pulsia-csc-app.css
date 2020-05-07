@@ -211,6 +211,7 @@ Sass sidebar
 */
 .ps-sidebar-grid {
   position: absolute;
+  left: 0;
   top: 0;
   background: #4e4e4e;
   width: 100vw;
@@ -857,14 +858,13 @@ div#block-views-block-promociones-radio-block-1 {
     .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(1) {
       text-align: center; }
     .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) img {
-      width: 17em;
-      height: auto; }
+      width: 100%; }
 
 @media (min-width: 768px) {
   div#block-views-block-s-block-1-block-1 .view-content {
     -ms-grid-columns: 1fr 1fr 1fr !important;
     grid-template-columns: 1fr 1fr 1fr !important;
-    grid-gap: 1em; } }
+    grid-gap: 1em !important; } }
 
 .ps-csc-disponibilidad-promociones-header {
   font-family: Raleway; }
