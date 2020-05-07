@@ -59,9 +59,13 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3{
     justify-content: center;
     align-items: center;
     max-width: 35em;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+
     .view-content{
         text-align: center;
         .views-row:nth-child(1){
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
             padding: 1em;
             background: #4e4e4e;
             color: #eceded;
@@ -85,6 +89,10 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3{
             }
         }
         .views-row:nth-child(2){
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 1px;
+            border-top-right-radius: 1px;
             background: #e75d23;
             color: #eceded;
             padding: 1em;
