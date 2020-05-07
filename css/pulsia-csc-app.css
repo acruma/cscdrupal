@@ -869,7 +869,8 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin: 3em 0em; }
   div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content {
     text-align: center;
     -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -881,7 +882,7 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 {
     div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
-      padding: 1em;
+      padding: 2em;
       background: #4e4e4e;
       color: #eceded; }
       div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) input {
