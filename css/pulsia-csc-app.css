@@ -838,7 +838,8 @@ div#block-views-block-promociones-radio-block-1 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    grid-gap: 4em; }
     .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -861,8 +862,9 @@ div#block-views-block-promociones-radio-block-1 {
 
 @media (min-width: 768px) {
   div#block-views-block-s-block-1-block-1 .view-content {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr; } }
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    grid-gap: 1em; } }
 
 .ps-csc-disponibilidad-promociones-header {
   font-family: Raleway; }
