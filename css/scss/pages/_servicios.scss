@@ -64,7 +64,9 @@
                     background: #4e4e4e;
                     padding: 1em;
                     display: flex;
-
+                    flex-direction: column;
+                    text-align: center;
+                    
                     .csc-black1{
                         span:nth-child(1){
                             font-size: 2.3em;
@@ -82,6 +84,27 @@
                             font-weight: 800;
                         }
                     }
+                }
+
+                .csc-white {
+                    background: #eceded;
+                    background: #fff;
+                    padding: 1em;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+
+
+                }
+
+                .csc-extra-imagen:before {
+                    content: "";
+                    width: 35px;
+                    height: 75px;
+                    display: block;
+                    margin: 0 auto;
+                    background: url(/sites/default/files/2020-05/flecha.svg) no-repeat;
+                    transform: rotate(20deg);
                 }
             }
         }

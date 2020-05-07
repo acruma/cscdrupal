@@ -890,7 +890,12 @@ div#block-views-block-promociones-radio-block-1 {
         padding: 1em;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center; }
         .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black .csc-black1 span:nth-child(1) {
           font-size: 2.3em;
           color: #e75d23; }
@@ -901,6 +906,28 @@ div#block-views-block-promociones-radio-block-1 {
           color: #eceded;
           font-size: 1em;
           font-weight: 800; }
+      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-white {
+        background: #eceded;
+        background: #fff;
+        padding: 1em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center; }
+      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-extra-imagen:before {
+        content: "";
+        width: 35px;
+        height: 75px;
+        display: block;
+        margin: 0 auto;
+        background: url(/sites/default/files/2020-05/flecha.svg) no-repeat;
+        -webkit-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+        transform: rotate(20deg); }
 
 @media (min-width: 768px) {
   div#block-views-block-s-block-1-block-1 .view-content {
