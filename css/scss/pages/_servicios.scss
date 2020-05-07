@@ -1,0 +1,63 @@
+.ps-path-servicios{
+    max-width: 100%;
+
+    span.ps-csc-title-1 {
+        color: #4e4e4e;
+        letter-spacing: 0.15em;
+        font-size: 2em;
+        font-family: "Waiting for the Sunrise", cursive;
+        line-height: 1.5em;
+        position: relative;
+        font-weight: 800;
+    }
+
+    div#block-views-block-s-block-1-block-1 {
+        background: #eceded;
+
+        .view-content {
+            padding: 2em;
+            display: grid;
+            grid-template-columns: 1fr;
+
+            .views-row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .views-row:nth-child(1){
+                text-align: center;
+            }
+
+            .views-row:nth-child(2){
+
+
+                img {
+                    width: 17em;
+                    height: auto;
+                }
+            }
+
+
+
+
+            
+        }
+    }
+
+
+}
+
+
+
+@media (min-width: 768px) {
+    div#block-views-block-s-block-1-block-1 {
+        .view-content {
+            padding: 2em;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+}
