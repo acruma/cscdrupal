@@ -859,18 +859,51 @@ div#block-views-block-promociones-radio-block-1 {
         letter-spacing: -0.15em;
         padding-right: 0.3em; }
 
-div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content {
-  text-align: center; }
-  div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) {
-    padding: 1em;
-    background: #4e4e4e;
-    color: #eceded;
-    margin: 2em 3em 0em; }
-  div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(2) {
-    background: #e75d23;
-    color: #eceded;
-    padding: 1em;
-    margin: 0em 3em 2em; }
+div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 35em; }
+  div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content {
+    text-align: center; }
+    div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) {
+      padding: 1em;
+      background: #4e4e4e;
+      color: #eceded;
+      margin: 2em 3em 0em; }
+      div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) input {
+        margin-top: 2em;
+        width: 85%;
+        text-align: center;
+        border-radius: 3px;
+        border: none;
+        padding: 0.5em; }
+      div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) .field-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+    div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(2) {
+      background: #e75d23;
+      color: #eceded;
+      padding: 1em;
+      margin: 0em 3em 2em; }
 
 @media (min-width: 768px) {
   .ps-csc-disponibilidad-promociones-header .view-content {

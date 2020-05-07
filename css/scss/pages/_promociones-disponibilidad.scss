@@ -55,6 +55,10 @@
 }
 
 div#block-views-block-disponibilidad-y-ofertas-formulario-block-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35em;
     .view-content{
         text-align: center;
         .views-row:nth-child(1){
@@ -62,6 +66,23 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3{
             background: #4e4e4e;
             color: #eceded;
             margin: 2em 3em 0em;
+
+            input {
+                margin-top: 2em;
+                width: 85%;
+                text-align: center;
+                border-radius: 3px;
+                border: none;
+                padding: 0.5em;
+            }
+
+            .field-content{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
         }
         .views-row:nth-child(2){
             background: #e75d23;
