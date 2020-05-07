@@ -65,18 +65,22 @@
                     padding: 1em;
                     display: flex;
 
-                    span:nth-child(1){
-                        font-size: 2.3em;
-                        color: #e75d23;
+                    div:nth-child(1){
+                        span:nth-child(1){
+                            font-size: 2.3em;
+                            color: #e75d23;
+                        }
+                        span:nth-child(2){
+                            color: #eceded;
+                            font-size: 1.4em;
+                        }
                     }
-                    span:nth-child(2){
-                        color: #eceded;
-                        font-size: 1.4em;
-                    }
-                    span:nth-child(3){
-                        color: #eceded;
-                        font-size: 1em;
-                        font-weight: 800;
+                    div:nth-child(2){
+                        span:nth-child(3){
+                            color: #eceded;
+                            font-size: 1em;
+                            font-weight: 800;
+                        }
                     }
                 }
             }
