@@ -891,13 +891,13 @@ div#block-views-block-promociones-radio-block-1 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
-        .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black span:nth-child(1) {
+        .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black .csc-black1 span:nth-child(1) {
           font-size: 2.3em;
           color: #e75d23; }
-        .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black span:nth-child(2) {
+        .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black .csc-black1 span:nth-child(2) {
           color: #eceded;
           font-size: 1.4em; }
-        .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black span:nth-child(3) {
+        .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black .csc-black2 span {
           color: #eceded;
           font-size: 1em;
           font-weight: 800; }
