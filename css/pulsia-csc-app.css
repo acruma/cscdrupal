@@ -1002,11 +1002,11 @@ div#block-views-block-promociones-radio-block-1 {
       flex-direction: column; }
 
 @media (min-width: 768px) {
-  div#block-views-block-s-block-1-block-1 .view-content {
+  .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {
     -ms-grid-columns: 1fr 1fr 1fr !important;
     grid-template-columns: 1fr 1fr 1fr !important;
     grid-gap: 1em !important; }
-  div#block-views-block-servicios-block-2-block-1 .view-content {
+  .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content {
     -ms-grid-columns: 1fr 1fr 1fr !important;
     grid-template-columns: 1fr 1fr 1fr !important;
     grid-gap: 1em !important; } }

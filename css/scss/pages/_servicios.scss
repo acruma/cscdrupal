@@ -192,18 +192,19 @@
 
 
 @media (min-width: 768px) {
-    div#block-views-block-s-block-1-block-1 {
-        .view-content {
-            grid-template-columns: 1fr 1fr 1fr !important;
-            grid-gap: 1em !important;
+    .ps-path-servicios{
+        div#block-views-block-s-block-1-block-1 {
+            .view-content {
+                grid-template-columns: 1fr 1fr 1fr !important;
+                grid-gap: 1em !important;
+            }
+        }
+
+        div#block-views-block-servicios-block-2-block-1{
+            .view-content {
+                grid-template-columns: 1fr 1fr 1fr !important;
+                grid-gap: 1em !important;
+            }
         }
     }
-
-    div#block-views-block-servicios-block-2-block-1{
-        .view-content {
-            grid-template-columns: 1fr 1fr 1fr !important;
-            grid-gap: 1em !important;
-        }
-    }
-
 }
