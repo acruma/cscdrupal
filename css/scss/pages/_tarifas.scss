@@ -117,6 +117,15 @@
                     flex-direction: column;
                 } 
 
+                input{
+                    line-height: normal;
+                    border-radius: 3px;
+                    box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3);
+                    border: none;
+                    padding: 0.5em;
+                    margin: 1em 0 0 0;
+                }
+
                 text-align: center;
                 color: #e75d23;
                 padding: 2em;
