@@ -857,8 +857,15 @@ div#block-views-block-promociones-radio-block-1 {
       flex-direction: column; }
     .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(1) {
       text-align: center; }
-    .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) img {
-      width: 100%; }
+    .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) {
+      color: #4e4e4e; }
+      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) .csc-1 {
+        font-size: 1.1em; }
+      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) .csc-2 {
+        color: #e75d23;
+        font-size: 1.1em; }
+      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) img {
+        width: 100%; }
 
 @media (min-width: 768px) {
   div#block-views-block-s-block-1-block-1 .view-content {
