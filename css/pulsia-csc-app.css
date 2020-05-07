@@ -872,7 +872,11 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 {
   div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content {
     text-align: center;
     -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
     div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 .view-content .views-row:nth-child(1) {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
