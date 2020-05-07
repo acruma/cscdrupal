@@ -887,6 +887,7 @@ div#block-views-block-promociones-radio-block-1 {
         align-items: center; }
       .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-black {
         background: #4e4e4e;
+        width: 100%;
         padding: 1em;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -907,7 +908,7 @@ div#block-views-block-promociones-radio-block-1 {
           font-size: 1em;
           font-weight: 800; }
       .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(3) .csc-white {
-        background: #eceded;
+        width: 100%;
         background: #fff;
         padding: 1em;
         display: -webkit-box;
