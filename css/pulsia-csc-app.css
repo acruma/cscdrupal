@@ -867,6 +867,8 @@ div#block-views-block-promociones-radio-block-1 {
         font-size: 1.1em; }
       .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) img {
         width: 100%; }
+      .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content .views-row:nth-child(2) .views-field.views-field-field-texto-contenido-generico {
+        padding-bottom: 2em; }
 
 @media (min-width: 768px) {
   div#block-views-block-s-block-1-block-1 .view-content {
