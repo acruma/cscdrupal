@@ -126,6 +126,28 @@
                     background: url(/sites/default/files/2020-05/flecha.svg) no-repeat;
                     transform: rotate(20deg);
                 }
+
+                .csc-extra-imagen {
+                    display: flex;
+                    flex-direction: column;
+
+                    span:nth-child(1){
+                        font-size: 1.4em;
+                        font-weight: 800;
+                        line-height: 1em;
+                    }
+                    span:nth-child(2){
+                        font-size: 2.5em;
+                        color: #e75d23;
+                        line-height: 1em;
+                        padding-bottom: 0.3em;
+                    }
+                    span:nth-child(3){
+                        line-height: 1em;
+                        font-size: 1.2em;
+                        color: #4e4e4e;
+                    }
+                }
             }
         }
     }
