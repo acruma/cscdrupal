@@ -988,9 +988,10 @@ div#block-views-block-disponibilidad-y-ofertas-formulario-block-3 {
       -ms-flex-direction: column;
       flex-direction: column; }
     div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) img {
-      width: 5em;
-      height: 6em;
-      display: block; }
+      width: 3.5em;
+      height: 5em;
+      display: block;
+      margin-left: 0.5em; }
     div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) span {
       font-size: 2em; } }
 
