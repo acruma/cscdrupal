@@ -943,7 +943,7 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  padding: 2.5em 6em;
+  padding: 2.5em 2em;
   font-family: Raleway;
   color: #4e4e4e;
   font-size: 1.1em;
@@ -966,6 +966,8 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
       position: absolute;
       right: 0;
       top: 1em; }
+  div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibilidad-block-2-block-1 {
+    padding: 2.5em 6em; }
   div#block-views-block-disponibilidad-block-1-block-1 .view-content .views-row:nth-child(1) {
     grid-row: none;
     display: -webkit-box;
