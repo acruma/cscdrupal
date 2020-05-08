@@ -218,7 +218,7 @@
                         align-items: baseline;
 
                         span:nth-child(1){
-                            font-size: 7em;
+                            font-size: 10em;
                             font-family: "Waiting for the Sunrise", cursive;
                         }
                         span:nth-child(2){
@@ -247,6 +247,14 @@
 
                 .views-row:nth-child(3){
                     grid-template-columns: 1fr 1fr;
+
+                    .views-field.views-field-field-texto-contenido-generico{
+                        .field-content {
+                            span:nth-child(1){
+                                font-size: 7em;
+                            }
+                        }
+                    }
 
                     img{
                         transform: scale(1.5) rotate(-90deg);
