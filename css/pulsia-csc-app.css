@@ -1115,7 +1115,10 @@ div#block-views-block-promociones-radio-block-1 {
           font-weight: 800;
           font-size: 1.2em; }
   .ps-path-servicios div#block-views-block-servicios-block-4-block-1 {
+    margin-top: 2em;
     font-family: Raleway; }
+    .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .ps-path-servicios span.ps-csc-title-2 {
+      padding: 1em; }
     .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content {
       padding: 0.2em;
       display: -ms-grid;
