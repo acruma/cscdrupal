@@ -1023,8 +1023,8 @@ div#block-views-block-promociones-radio-block-1 {
       .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) {
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr; }
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr; }
         .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) img {
           -webkit-transform: scale(1.5) rotate(-90deg);
           -ms-transform: scale(1.5) rotate(-90deg);
@@ -1055,8 +1055,8 @@ div#block-views-block-promociones-radio-block-1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em; }
     .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) {
-      -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr; }
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr; }
       .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) img {
         -webkit-transform: scale(2) rotate(0deg);
         -ms-transform: scale(2) rotate(0deg);
