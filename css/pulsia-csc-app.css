@@ -1086,9 +1086,22 @@ div#block-views-block-promociones-radio-block-1 {
           min-width: 2em;
           color: #eceded;
           border-top-left-radius: 5px;
-          border-bottom-left-radius: 5px; }
+          border-bottom-left-radius: 5px;
+          font-size: 1.2em; }
         .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget .ps-num.csc-color {
           background: #e75d23; }
+        .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget span.csc-text1 {
+          color: #4e4e4e;
+          font-weight: normal;
+          font-size: 1.4em; }
+        .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget span.csc-text2 {
+          color: #e75d23;
+          font-weight: 800;
+          font-size: 1.4em; }
+        .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget span.csc-text3 {
+          color: #4e4e4e;
+          font-weight: 800;
+          font-size: 1.2em; }
 
 @media (min-width: 768px) {
   .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {
