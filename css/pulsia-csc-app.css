@@ -979,27 +979,36 @@ div#block-views-block-promociones-radio-block-1 {
             line-height: 1em;
             font-size: 1.2em;
             color: #4e4e4e; }
-  .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content {
-    padding: 2em;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    grid-gap: 4em; }
-    .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; }
+  .ps-path-servicios div#block-views-block-servicios-block-2-block-1 {
+    font-family: Raleway; }
+    .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content {
+      padding: 2em;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      grid-gap: 4em; }
+      .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(2) .field-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(2) .field-content span:nth-child(1) {
+          font-size: 2.5em;
+          color: #4e4e4e;
+          font-weight: 300; }
+        .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(2) .field-content span:nth-child(2) {
+          font-size: 4em;
+          color: #4e4e4e; }
 
 @media (min-width: 768px) {
   .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {
