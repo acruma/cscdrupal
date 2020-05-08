@@ -295,6 +295,22 @@
             }
         }
     }
+
+    div#block-views-block-servicios-block-4-block-1{
+        .view-content {
+            padding: 0.2em;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 4em;
+        }
+
+        .csc-servicios-precios{
+            padding: 0.2em;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 4em;
+        }
+    }
 }
 
 @media (min-width: 768px) {
@@ -340,6 +356,17 @@
                         min-height: 2em;
                     }
                 }
+            }
+        }
+
+        div#block-views-block-servicios-block-4-block-1{
+            .view-content {
+                grid-template-columns: 1fr 2fr;
+                grid-gap: 1em;
+            }
+            .csc-servicios-precios{
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 4em;
             }
         }
     }
