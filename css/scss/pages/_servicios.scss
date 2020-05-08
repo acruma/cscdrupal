@@ -254,8 +254,11 @@
                 align-items: center;
 
                 .ps-num {
-                    padding: 4em;
                     background: #4e4e4e;
+                    font-family: "Waiting for the Sunrise", cursive;
+                    font-size: 5em;
+                    min-width: 2em;
+                    color: #eceded;
                 }
                 .ps-num.csc-color {
                     background: #e75d23;
