@@ -258,15 +258,23 @@
                 .ps-num {
                     background: #4e4e4e;
                     font-family: "Waiting for the Sunrise", cursive;
-                    font-size: 3em;
+                    font-size: 3em !important;
                     min-width: 2em;
+                    min-height: 4em;
                     color: #eceded;
                     border-top-left-radius: 5px;
                     border-bottom-left-radius: 5px;
                     font-size: 1.2em;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
                 }
                 .ps-num.csc-color {
                     background: #e75d23;
+                }
+
+                .ps-csc-largetext {
+                    padding: 0 1em;
                 }
 
                 span.csc-text1{
@@ -328,7 +336,8 @@
 
                 .ps-csc-widget {
                     .ps-num {
-                        font-size: 5em;
+                        font-size: 5em !important;
+                        min-height: 1em;
                     }
                 }
             }
