@@ -997,7 +997,8 @@ div#block-views-block-promociones-radio-block-1 {
         justify-content: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+        text-align: center; }
       .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(2) .field-content {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1019,6 +1020,30 @@ div#block-views-block-promociones-radio-block-1 {
         .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(2) .field-content span:nth-child(2) {
           font-size: 4em;
           color: #4e4e4e; }
+      .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr; }
+        .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) img {
+          -webkit-transform: scale(1.5) rotate(-90deg);
+          -ms-transform: scale(1.5) rotate(-90deg);
+          transform: scale(1.5) rotate(-90deg); }
+        .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico .field-content {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico .field-content span:nth-child(1) {
+            font-size: 7em;
+            font-family: "Waiting for the Sunrise", cursive; }
+          .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico .field-content span:nth-child(2) {
+            font-size: 3em; }
 
 @media (min-width: 768px) {
   .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {
