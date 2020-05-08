@@ -321,14 +321,16 @@
                     .csc-content1 {
                         background: #4e4e4e;
                         padding: 0.5em 0;
-                        font-size: 2em;
+                        font-size: 1.2em;
                         color: #eceded;
-                        min-height: 3.5em;
+                        min-height: 4.7em;
                         border-top-left-radius: 5px;
                         border-top-right-radius: 5px;
-
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         span{
-                            font-size: 1.5em;
+                            font-size: 2em;
                         }
                     }
                 }
