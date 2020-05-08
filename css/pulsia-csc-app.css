@@ -1066,6 +1066,21 @@ div#block-views-block-promociones-radio-block-1 {
         -ms-flex-align: center;
         align-items: center;
         text-align: center; }
+      .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget {
+        background: white;
+        margin: 1em 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget .ps-num {
+          padding: 4em;
+          background: #4e4e4e; }
+        .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget .ps-num.csc-color {
+          background: #e75d23; }
 
 @media (min-width: 768px) {
   .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {

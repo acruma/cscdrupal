@@ -245,6 +245,22 @@
                 align-items: center;
                 text-align: center;
             }
+
+            .ps-csc-widget {
+                background: white;
+                margin: 1em 0;
+                display: flex;
+                width: 100%;
+                align-items: center;
+
+                .ps-num {
+                    padding: 4em;
+                    background: #4e4e4e;
+                }
+                .ps-num.csc-color {
+                    background: #e75d23;
+                }
+            }
         }
     }
 }
