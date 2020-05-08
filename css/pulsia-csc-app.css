@@ -1130,6 +1130,14 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-flex-align: center;
       align-items: center;
       text-align: center; }
+      .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-title {
+        margin: 2.5em 0; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-title span:nth-child(1) {
+          font-size: 1.9em;
+          color: #e75d23; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-title span:nth-child(2) {
+          font-size: 1.7em;
+          font-weight: 800; }
       .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios {
         padding: 0.2em;
         display: -ms-grid;
@@ -1143,7 +1151,7 @@ div#block-views-block-promociones-radio-block-1 {
           border-radius: 5px; }
         .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content1 {
           background: #4e4e4e;
-          padding: 0.5em 0;
+          padding: 0.5em;
           font-size: 1.2em;
           color: #eceded;
           min-height: 4.7em;

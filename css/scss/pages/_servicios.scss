@@ -306,6 +306,18 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+
+            .csc-servicios-title{
+                margin: 2.5em 0;
+                span:nth-child(1){
+                    font-size: 1.9em;
+                    color: #e75d23;
+                }
+                span:nth-child(2){
+                    font-size: 1.7em;
+                    font-weight: 800;
+                }
+            }
         
                 .csc-servicios-precios{
                     padding: 0.2em;
@@ -320,7 +332,7 @@
 
                     .csc-content1 {
                         background: #4e4e4e;
-                        padding: 0.5em 0;
+                        padding: 0.5em;
                         font-size: 1.2em;
                         color: #eceded;
                         min-height: 4.7em;
