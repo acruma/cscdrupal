@@ -1140,7 +1140,7 @@ div#block-views-block-promociones-radio-block-1 {
     padding: 2em; }
     .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .ps-csc-widget .ps-num {
       font-size: 5em !important;
-      min-height: 1em; } }
+      min-height: 2em; } }
 
 @media (min-width: 900px) {
   .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico .field-content span:nth-child(1) {
