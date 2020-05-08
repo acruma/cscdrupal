@@ -1160,6 +1160,50 @@ div#block-views-block-promociones-radio-block-1 {
           align-items: center; }
           .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content1 span {
             font-size: 2em; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content2 {
+          background: #e75d23;
+          color: #eceded;
+          letter-spacing: 0.1em;
+          padding: 0.5em; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content3 {
+          display: -ms-grid;
+          display: grid;
+          -ms-grid-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1em;
+          background: #4e4e4e;
+          padding: 1em;
+          color: #eceded;
+          min-height: 6em;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content4 {
+          background: #e75d23;
+          color: #eceded;
+          letter-spacing: 0.1em;
+          padding: 0.5em; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content5 {
+          display: -ms-grid;
+          display: grid;
+          -ms-grid-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1em;
+          background: #4e4e4e;
+          padding: 1em;
+          color: #eceded;
+          min-height: 6em;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px; }
       .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .views-row:nth-child(2) .field-content {
         display: -webkit-box;
         display: -ms-flexbox;
