@@ -252,6 +252,8 @@
                 display: flex;
                 width: 100%;
                 align-items: center;
+                border-radius: 5px;
+                box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
 
                 .ps-num {
                     background: #4e4e4e;
@@ -259,6 +261,8 @@
                     font-size: 5em;
                     min-width: 2em;
                     color: #eceded;
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
                 }
                 .ps-num.csc-color {
                     background: #e75d23;
