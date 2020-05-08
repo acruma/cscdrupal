@@ -263,8 +263,10 @@
             .view-content {
                 .views-row:nth-child(3){
                     .views-field.views-field-field-texto-contenido-generico{
-                        span:nth-child(1){
-                            font-size: 15em;
+                        .field-content {
+                            span:nth-child(1){
+                                font-size: 15em;
+                            }
                         }
                     }
                 }
