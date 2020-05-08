@@ -1130,19 +1130,26 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-flex-align: center;
       align-items: center;
       text-align: center; }
-      .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-precio-content .csc-servicios-precios {
+      .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios {
         padding: 0.2em;
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         grid-gap: 4em; }
-        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-precio-content .csc-servicios-precios .csc-content1 {
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-precio-content {
+          -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+          border-radius: 5px; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content1 {
           background: #4e4e4e;
           padding: 0.5em 0;
           font-size: 2em;
-          color: #eceded; }
-          .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-precio-content .csc-servicios-precios .csc-content1 span {
+          color: #eceded;
+          min-height: 3.5em;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px; }
+          .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios .csc-content1 span {
             font-size: 1.5em; }
       .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .views-row:nth-child(2) .field-content {
         display: -webkit-box;
@@ -1191,6 +1198,8 @@ div#block-views-block-promociones-radio-block-1 {
     grid-template-columns: 1fr 2fr;
     grid-gap: 1em; }
     .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios {
+      display: -ms-grid;
+      display: grid;
       -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 0.5em; } }
