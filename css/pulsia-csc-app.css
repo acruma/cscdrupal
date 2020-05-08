@@ -988,6 +988,16 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
       grid-gap: 4em; }
+      .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
       .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(2) .field-content {
         display: -webkit-box;
         display: -ms-flexbox;
