@@ -1111,21 +1111,7 @@ div#block-views-block-promociones-radio-block-1 {
   .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content {
     -ms-grid-columns: 1fr 2fr;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 1em; }
-    .ps-path-servicios div#block-views-block-servicios-block-3-block-1 .view-content .views-row:nth-child(2) .field-content {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; } }
+    grid-gap: 1em; } }
 
 @media (min-width: 900px) {
   .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico .field-content span:nth-child(1) {
