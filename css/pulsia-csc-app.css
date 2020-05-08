@@ -1114,35 +1114,51 @@ div#block-views-block-promociones-radio-block-1 {
           color: #4e4e4e;
           font-weight: 800;
           font-size: 1.2em; }
-  .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content {
-    padding: 0.2em;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    grid-gap: 4em; }
-  .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .csc-servicios-precios {
-    padding: 0.2em;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    grid-gap: 4em; }
-  .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .views-row:nth-child(2) .field-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center; }
+  .ps-path-servicios div#block-views-block-servicios-block-4-block-1 {
+    font-family: Raleway; }
+    .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content {
+      padding: 0.2em;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      grid-gap: 4em;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center; }
+      .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-precio-content .csc-servicios-precios {
+        padding: 0.2em;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 4em; }
+        .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-precio-content .csc-servicios-precios .csc-content1 {
+          background: #4e4e4e;
+          padding: 0.5em 0;
+          font-size: 2em;
+          color: #eceded; }
+          .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-precio-content .csc-servicios-precios .csc-content1 span {
+            font-size: 1.5em; }
+      .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .views-row:nth-child(2) .field-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center; }
 
 @media (min-width: 768px) {
   .ps-path-servicios div#block-views-block-s-block-1-block-1 .view-content {
@@ -1174,10 +1190,10 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-columns: 1fr 2fr;
     grid-template-columns: 1fr 2fr;
     grid-gap: 1em; }
-  .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .csc-servicios-precios {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4em; } }
+    .ps-path-servicios div#block-views-block-servicios-block-4-block-1 .view-content .csc-servicios-precios {
+      -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0.5em; } }
 
 @media (min-width: 900px) {
   .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico .field-content span:nth-child(1) {
