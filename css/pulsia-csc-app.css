@@ -1026,9 +1026,9 @@ div#block-views-block-promociones-radio-block-1 {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr; }
         .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) img {
-          -webkit-transform: scale(1.5) rotate(-90deg);
-          -ms-transform: scale(1.5) rotate(-90deg);
-          transform: scale(1.5) rotate(-90deg); }
+          -webkit-transform: scale(1.5) rotate(0deg);
+          -ms-transform: scale(1.5) rotate(0deg);
+          transform: scale(1.5) rotate(0deg); }
         .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico .field-content {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1058,9 +1058,9 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr; }
       .ps-path-servicios div#block-views-block-servicios-block-2-block-1 .view-content .views-row:nth-child(3) img {
-        -webkit-transform: scale(2) rotate(0deg);
-        -ms-transform: scale(2) rotate(0deg);
-        transform: scale(2) rotate(0deg); } }
+        -webkit-transform: scale(1.5) rotate(-90deg);
+        -ms-transform: scale(1.5) rotate(-90deg);
+        transform: scale(1.5) rotate(-90deg); } }
 
 .ps-csc-disponibilidad-promociones-header {
   font-family: Raleway; }
