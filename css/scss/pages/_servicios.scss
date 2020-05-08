@@ -320,7 +320,17 @@
             }
 
             .csc-servicios-footer{
-                
+                a{
+                    font-family: "Waiting for the Sunrise",cursive;
+                    font-size: 1.5em;
+                    text-transform: uppercase;
+                    color: #4e4e4e;
+                    text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3);
+
+                    &:hover{
+                        color: #e75d23;
+                    }
+                }
             }
         
                 .csc-servicios-precios{
