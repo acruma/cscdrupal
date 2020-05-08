@@ -310,7 +310,7 @@
                 .csc-servicios-precios{
                     padding: 0.2em;
                     display: grid;
-                    grid-template-columns: 1fr;
+                    grid-template-columns: 1fr; 
                     grid-gap: 4em;
 
                     .csc-precio-content{
@@ -326,7 +326,7 @@
                         min-height: 3.5em;
                         border-top-left-radius: 5px;
                         border-top-right-radius: 5px;
-                        
+
                         span{
                             font-size: 1.5em;
                         }
@@ -399,6 +399,7 @@
                 grid-gap: 1em;
             
                 .csc-servicios-precios{
+                    display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
                     grid-gap: 0.5em;
                 }
