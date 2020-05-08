@@ -231,6 +231,7 @@
     }
 
     div#block-views-block-servicios-block-3-block-1{
+        background: #eceded;
         font-family: Raleway;
         .view-content {
             padding: 2em;
@@ -283,6 +284,15 @@
             .view-content {
                 grid-template-columns: 1fr 2fr;
                 grid-gap: 1em;
+
+                .views-row:nth-child(2){
+                    .field-content {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                }
             }
         }
     }
