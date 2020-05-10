@@ -1281,6 +1281,7 @@ div#block-views-block-promociones-radio-block-1 {
     font-size: 15em; } }
 
 .ps-csc-empresas-content {
+  padding: 1em;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
