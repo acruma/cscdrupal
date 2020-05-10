@@ -1290,6 +1290,20 @@ div#block-views-block-promociones-radio-block-1 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  .ps-csc-empresas-content .views-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
 
 .ps-csc-disponibilidad-promociones-header {
   font-family: Raleway; }
