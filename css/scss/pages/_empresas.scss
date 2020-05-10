@@ -64,3 +64,17 @@ div#block-views-block-empresa-block-5-block-1{
         }
     }
 }
+
+@media (min-width: 768px) {
+    div#block-views-block-empresa-block-5-block-1{
+        .views-field.views-field-field-media-image{
+            img{
+                width: 300px;
+                height: auto;
+                position: absolute;
+                bottom: 0;
+                right: 5em;
+            }
+        }
+    }
+}
