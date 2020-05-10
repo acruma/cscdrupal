@@ -1281,6 +1281,7 @@ div#block-views-block-promociones-radio-block-1 {
     font-size: 15em; } }
 
 .ps-csc-empresas-content {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1304,6 +1305,12 @@ div#block-views-block-promociones-radio-block-1 {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
+  .ps-csc-empresas-content:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    border-bottom: 1px solid #000; }
 
 .ps-csc-disponibilidad-promociones-header {
   font-family: Raleway; }

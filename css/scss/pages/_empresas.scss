@@ -12,13 +12,13 @@
     }
 
 
-    &:after{
-        content: '';
-        position: absolute;
-        bottom: 0px;
-        width: 80%;
-        border-bottom: 1px solid #000;
-    }
-    }
+        &:after{
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            width: 80%;
+            border-bottom: 1px solid #000;
+        }
+
 }
 
