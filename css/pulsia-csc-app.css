@@ -1315,24 +1315,26 @@ div#block-views-block-promociones-radio-block-1 {
     width: 80%;
     -webkit-box-shadow: 0px 0em 1em 3px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 0em 1em 3px rgba(0, 0, 0, 0.3); }
-  .ps-csc-empresas-content div#block-views-block-empresa-block-2-block-1 .views-field-field-texto-contenido-generico, .ps-csc-empresas-content div#block-views-block-empresa-block-4-block-1 .views-field-field-texto-contenido-generico, .ps-csc-empresas-content div#block-views-block-empresa-block-6-block-1 .views-field-field-texto-contenido-generico {
-    font-family: "Waiting for the Sunrise", cursive;
-    color: #e75d23;
-    text-align: left;
-    font-size: 1.4em;
-    letter-spacing: 0.5em;
-    font-weight: 800;
-    display: inline;
-    padding-bottom: 0.5em; }
-  .ps-csc-empresas-content div#block-views-block-empresa-block-3-block-1 .views-field-field-texto-contenido-generico, .ps-csc-empresas-content div#block-views-block-empresa-block-5-block-1 .views-field-field-texto-contenido-generico {
-    font-family: "Waiting for the Sunrise", cursive;
-    color: #4e4e4e;
-    text-align: left;
-    font-size: 1.4em;
-    letter-spacing: 0.5em;
-    font-weight: 800;
-    display: inline;
-    padding-bottom: 0.5em; }
+
+div#block-views-block-empresa-block-2-block-1 .views-field-field-texto-contenido-generico, div#block-views-block-empresa-block-4-block-1 .views-field-field-texto-contenido-generico, div#block-views-block-empresa-block-6-block-1 .views-field-field-texto-contenido-generico {
+  font-family: "Waiting for the Sunrise", cursive;
+  color: #e75d23;
+  text-align: left;
+  font-size: 1.4em;
+  letter-spacing: 0.5em;
+  font-weight: 800;
+  display: inline;
+  padding-bottom: 0.5em; }
+
+div#block-views-block-empresa-block-3-block-1 .views-field-field-texto-contenido-generico, div#block-views-block-empresa-block-5-block-1 .views-field-field-texto-contenido-generico {
+  font-family: "Waiting for the Sunrise", cursive;
+  color: #4e4e4e;
+  text-align: left;
+  font-size: 1.4em;
+  letter-spacing: 0.5em;
+  font-weight: 800;
+  display: inline;
+  padding-bottom: 0.5em; }
 
 div#block-views-block-empresa-block-5-block-1 div {
   width: 100%; }
