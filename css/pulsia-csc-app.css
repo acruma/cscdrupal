@@ -1365,7 +1365,13 @@ div#block-views-block-empresa-block-6-block-1 ul {
     height: auto;
     position: absolute;
     bottom: 0;
-    right: 5em; } }
+    right: 5em; }
+  div#block-views-block-empresa-block-6-block-1 .views-field.views-field-field-media-image img {
+    height: auto;
+    position: absolute;
+    width: 300px;
+    right: 2em;
+    bottom: 1em; } }
 
 .ps-csc-disponibilidad-promociones-header {
   font-family: Raleway; }
