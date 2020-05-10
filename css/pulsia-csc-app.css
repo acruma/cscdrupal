@@ -1293,6 +1293,8 @@ div#block-views-block-promociones-radio-block-1 {
   align-items: center;
   margin-bottom: 3em;
   padding-bottom: 3em; }
+  .ps-csc-empresas-content div {
+    width: 100%; }
   .ps-csc-empresas-content .views-field.views-field-field-media-image {
     display: -webkit-box;
     display: -ms-flexbox;
