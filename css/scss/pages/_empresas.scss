@@ -68,6 +68,27 @@ div#block-views-block-empresa-block-5-block-1{
     }
 }
 
+div#block-views-block-empresa-block-6-block-1{
+    ul {
+        list-style-type: none;
+        padding-left: 2.5em;
+        margin-top: 3em;
+        li{
+            margin-bottom: 0.5em;
+            line-height: 1.5em;
+            position: relative;
+            &:before{
+                content: ">";
+                font-family: "Waiting for the Sunrise", cursive;
+                font-size: 1.2em;
+                position: absolute;
+                top: 0;
+                left: -1em;
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     div#block-views-block-empresa-block-5-block-1{
         .views-field.views-field-field-media-image{
