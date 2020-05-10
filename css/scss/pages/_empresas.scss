@@ -20,5 +20,18 @@
             width: 80%;
             box-shadow: 0px 0em 1em 3px rgba(0,0,0,0.3);
         }
+    
+    .views-field-field-texto-contenido-generico:nth-child(odd){
+        color: #e75d23;
+        text-align: left;
+        font-size: 1.4em;
+        letter-spacing: 0.5em;
+        font-weight: 800;
+        display: inline;
+        padding-bottom: 0.5em;
+    }
+    .views-field-field-texto-contenido-generico:nth-child(even){
+        
+    }
 }
 
