@@ -823,6 +823,54 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-column-span: 3;
     grid-column: 1/4; } }
 
+div#block-views-block-ayuda-block-1-block-1 {
+  margin-top: 4em;
+  padding: 3em;
+  font-family: Raleway; }
+  div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(1) {
+    margin-bottom: 2em; }
+    div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(1) .views-field.views-field-field-texto-contenido-generico {
+      font-family: "Waiting for the Sunrise", cursive;
+      padding: 0 0 0.5em 0;
+      font-size: 2em;
+      text-align: center;
+      font-weight: 800;
+      color: #e75d23;
+      font-size: 2em; }
+    div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(1) .views-field.views-field-field-texto-visible-largo .field-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(1) .views-field.views-field-field-texto-visible-largo a {
+      color: #e75d23;
+      text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.2);
+      text-decoration: none; }
+  div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(2) .views-field.views-field-field-texto-contenido-generico {
+    font-family: "Waiting for the Sunrise", cursive;
+    padding: 0 0 0.5em 0;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-decoration: underline; }
+  div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(2) .views-field.views-field-field-texto-visible-largo ul {
+    list-style: none; }
+  div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(2) .views-field.views-field-field-texto-visible-largo li {
+    margin-bottom: 0.6em; }
+    div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(2) .views-field.views-field-field-texto-visible-largo li:before {
+      content: ">";
+      font-family: "Waiting for the Sunrise", cursive;
+      font-size: 1.2em;
+      display: inline-block;
+      padding-right: 0.7em; }
+
+@media (min-width: 768px) {
+  div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(1) .views-field.views-field-field-texto-contenido-generico {
+    font-size: 3em;
+    text-align: left; } }
+
 .ps-path-servicios {
   /*BLOQUE UNO*/ }
   .ps-path-servicios .ps-content-grid {
