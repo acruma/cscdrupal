@@ -135,6 +135,13 @@ Sass Footer
 			grid-template-columns: 1fr 1fr;
 		}
 	}
+
+	div#block-views-block-con-la-financiacion-block-footer-block-1, div#block-views-block-iptv-plataformas-digitales-block-footer-block-1-2{
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
 }
 
 @media (min-width: 768px) {

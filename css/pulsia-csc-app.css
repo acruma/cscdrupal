@@ -398,6 +398,9 @@ Sass Footer
     display: grid;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr; }
+  .ps-footer-grid div#block-views-block-con-la-financiacion-block-footer-block-1 img, .ps-footer-grid div#block-views-block-iptv-plataformas-digitales-block-footer-block-1-2 img {
+    width: 100%;
+    height: auto; }
 
 @media (min-width: 768px) {
   .block-views.ps-telefono {
