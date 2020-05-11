@@ -862,7 +862,10 @@ div#block-views-block-promociones-radio-block-1 {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  padding: 5em; }
+  padding: 5em 0 0 0; }
+  .ps-path-inicio div#block-views-block-home-block-1-texto-e-img-block-1 img {
+    width: 100%;
+    height: auto; }
 
 /*ANIMACIÓN NUBES*/
 @-webkit-keyframes animatedCloudOne {
