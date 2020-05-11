@@ -1358,6 +1358,12 @@ div#block-views-block-listado-de-proyectos-block-1 .views-row {
   -ms-flex-direction: column;
   flex-direction: column; }
 
+div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-field-fecha {
+  padding-left: 3em; }
+
+div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-body {
+  padding-left: 3em; }
+
 div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing {
   margin: 2em 0;
   font-family: Raleway;
@@ -1365,7 +1371,8 @@ div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-noth
   margin-right: 1em;
   color: #4e4e4e;
   font-weight: 800;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  padding-left: 1em; }
   div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing span.field-content {
     display: -webkit-box;
     display: -ms-flexbox;
