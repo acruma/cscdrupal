@@ -18,8 +18,8 @@ jQuery(document).ready(function($){
 			window.open(urlopen, '_self');
 			console.log(codigopostal);
 		}else{
-			var urlopen = 'tarifas-por-poblacion?cp=error';
-			window.open(urlopen, '_self');
+			// var urlopen = 'tarifas-por-poblacion?cp=error';
+			// window.open(urlopen, '_self');
 			console.log(codigopostal);
 		}
 	});
