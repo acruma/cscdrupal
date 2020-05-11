@@ -11,6 +11,14 @@ jQuery(document).ready(function($){
 	/*OBETENEMOS EL VALOR DEL INPUT Y EJECUTAMOS EL BOTON VER MIS TARIFAS*/
 
 	$("div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1").find(".view-content .views-row:nth-child(4)").click(function () {
+		openURLTarifas();
+	});
+
+	$("div#block-views-block-disponibilidad-y-ofertas-formulario-block-3").find(".view-content .views-row:nth-child(2)").click(function () {
+		openURLTarifas();
+	});	
+
+	function openURLTarifas(){
 		var codigopostal = $("input[name='cp']").val();
 
 		if(codigopostal.length > 4){
@@ -18,9 +26,7 @@ jQuery(document).ready(function($){
 			window.open(urlopen, '_self');
 			console.log(codigopostal);
 		}else{
-			// var urlopen = 'tarifas-por-poblacion?cp=error';
-			// window.open(urlopen, '_self');
-			console.log(codigopostal);
+			//Pintar un label para decir que se requiere un cp?
 		}
-	});
+	}
 });
