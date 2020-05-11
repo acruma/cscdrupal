@@ -6,7 +6,9 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-
+        margin: 3em;
+        background: url(/sites/default/files/2020-05/mapa.svg) no-repeat center center;
+        
         h2{
             font-family: "Waiting for the Sunrise", cursive;
             font-weight: 800;
@@ -38,7 +40,7 @@
 
                 ul.menu{
                     li{
-                        padding-top: 0.5em;
+                        padding-top: 1em;
                         &:before{
                             content: ">";
                             font-family: "Waiting for the Sunrise", cursive;
@@ -53,7 +55,7 @@
             }
 
             li{
-                padding-top: 0.5em;
+                padding-top: 1em;
                 &:before{
                     content: ">";
                     font-family: "Waiting for the Sunrise", cursive;
