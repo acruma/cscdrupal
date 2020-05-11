@@ -1,5 +1,5 @@
 .ps-path-mapaweb{ 
-    
+
     nav#block-mapaweb{
         justify-content: center;
         align-items: center;
@@ -27,7 +27,18 @@
                 list-style: none;
 
                 ul.menu{
+                    li{
 
+                        &:before{
+                            content: ">";
+                            font-family: "Waiting for the Sunrise", cursive;
+                            font-size: 1.2em;
+                            margin-right: 0.5em;
+                            margin-left: 2em;
+                            color: #e75d23;
+                            font-weight: 900;
+                        }
+                    }
                 }
             }
 
@@ -37,9 +48,7 @@
                     content: ">";
                     font-family: "Waiting for the Sunrise", cursive;
                     font-size: 1.2em;
-                    position: absolute;
-                    top: 0;
-                    left: -1em;
+                    margin-right: 0.5em;
                     color: #e75d23;
                     font-weight: 900;
                 }
