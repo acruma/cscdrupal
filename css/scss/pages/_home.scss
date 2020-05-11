@@ -13,10 +13,18 @@
             -webkit-animation: animatedCloudOne 10s ease-in infinite alternate;
         }
         .views-row:nth-child(2){
-            
+            width: 60%;
+            position: absolute;
+            top: 25%;
+            right: 30%;
+            -webkit-animation: animatedCloudTwo 10s ease-in infinite alternate;
         }
         .views-row:nth-child(3){
-            
+            position: absolute;
+            width: 40%;
+            top: 25%;
+            right: 0;
+            -webkit-animation: animatedCloudThree 10s ease-in infinite alternate;
         }
     }
 }

@@ -833,6 +833,20 @@ div#block-views-block-promociones-radio-block-1 {
   left: 0;
   -webkit-animation: animatedCloudOne 10s ease-in infinite alternate; }
 
+.ps-path-inicio div#block-views-block-home-block-1-nubes-block-1 .views-row:nth-child(2) {
+  width: 60%;
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  -webkit-animation: animatedCloudTwo 10s ease-in infinite alternate; }
+
+.ps-path-inicio div#block-views-block-home-block-1-nubes-block-1 .views-row:nth-child(3) {
+  position: absolute;
+  width: 40%;
+  top: 25%;
+  right: 0;
+  -webkit-animation: animatedCloudThree 10s ease-in infinite alternate; }
+
 /*ANIMACIÓN NUBES*/
 @-webkit-keyframes animatedCloudOne {
   0% {
