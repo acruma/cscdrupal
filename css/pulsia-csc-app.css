@@ -443,6 +443,20 @@ div#block-views-block-promociones-radio-block-1 {
     margin: 5em 0 5em 7em;
     font-family: Raleway;
     font-weight: 300; }
+    div#block-views-block-promociones-radio-block-1 .view-header a {
+      color: #4e4e4e;
+      font-weight: 600;
+      text-decoration: none; }
+      div#block-views-block-promociones-radio-block-1 .view-header a:hover {
+        color: #e75d23; }
+      div#block-views-block-promociones-radio-block-1 .view-header a:before {
+        content: ">>";
+        font-family: "Waiting for the Sunrise",cursive;
+        color: #e75d23;
+        font-size: 1.7em;
+        font-weight: 900;
+        letter-spacing: -0.15em;
+        padding-right: 0.3em; }
     div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion1 {
       color: #4e4e4e;
       font-size: 2.4em;
