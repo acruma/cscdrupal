@@ -11,9 +11,9 @@ jQuery(document).ready(function($){
 	/*OBETENEMOS EL VALOR DEL INPUT Y EJECUTAMOS EL BOTON VER MIS TARIFAS*/
 
 	$("div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1").find(".view-content .views-row:nth-child(4)").click(function () {
-		var codigopostal = input[name='cp'];
+		var codigopostal = $("input[name='cp']");
 		var urlopen = 'tarifas-por-poblacion?cp=' + codigopostal;
-		window.open(urlopen, '_self');
+		//window.open(urlopen, '_self');
 		console.log(codigopostal);
 	});
 	// 
