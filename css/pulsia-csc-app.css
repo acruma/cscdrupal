@@ -869,6 +869,16 @@ div#block-views-block-ayuda-block-1-block-1 {
       font-family: "Waiting for the Sunrise", cursive;
       font-size: 1.5em;
       padding: 0 0.5em; }
+  div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico {
+    font-family: "Waiting for the Sunrise", cursive;
+    padding: 1em 0;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #e75d23; }
+    div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(3) .views-field.views-field-field-texto-contenido-generico:before {
+      content: ">>";
+      font-family: "Waiting for the Sunrise", cursive;
+      padding-right: 0.5em; }
 
 @media (min-width: 768px) {
   div#block-views-block-ayuda-block-1-block-1 .views-row:nth-child(1) .views-field.views-field-field-texto-contenido-generico {
