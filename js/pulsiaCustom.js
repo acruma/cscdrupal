@@ -8,4 +8,10 @@ jQuery(document).ready(function($){
 		$(".ps-sidebar-grid").toggleClass("ps-showsidebar");
 	});
 	
+	/*OBETENEMOS EL VALOR DEL INPUT Y EJECUTAMOS EL BOTON VER MIS TARIFAS*/
+
+	$("div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1").find(".view-content .views-row:nth-child(4)").click(function () {
+		console.log('si');
+	});
+	// tarifas-por-poblacion?cp=
 });
