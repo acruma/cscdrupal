@@ -22,13 +22,23 @@
             line-height: 1.2em;
             margin: 0.5em auto;
             list-style: none;
+            a{
+                color: #4e4e4e;
+                font-family: "Waiting for the Sunrise", cursive;
+                font-size: 1.4em;
+                text-shadow: 0 -0.03em 0.02em rgba(0, 0, 0, 0.3);
+                text-decoration: none;
 
+                &:hover{
+                    color: #e75d23;
+                }
+            }
             li.menu-item.menu-item--expanded {
                 list-style: none;
 
                 ul.menu{
                     li{
-
+                        padding-top: 0.5em;
                         &:before{
                             content: ">";
                             font-family: "Waiting for the Sunrise", cursive;
@@ -43,7 +53,7 @@
             }
 
             li{
-
+                padding-top: 0.5em;
                 &:before{
                     content: ">";
                     font-family: "Waiting for the Sunrise", cursive;
