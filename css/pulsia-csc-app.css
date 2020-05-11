@@ -1936,7 +1936,7 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     position: relative;
-    padding-left: 7em; }
+    margin-left: 7em; }
     .ps-csc-disponibilidad-promociones-header .view-content .views-row:nth-child(2) {
       position: absolute;
       right: 0;
