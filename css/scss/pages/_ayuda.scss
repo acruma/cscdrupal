@@ -65,10 +65,12 @@ div#block-views-block-ayuda-block-1-block-1 {
             font-weight: 800;
             color: #e75d23;
 
-            &:before{
-                content: ">>";
-                font-family: "Waiting for the Sunrise", cursive;
-                padding-right: 0.5em;
+            .field-content{
+                &:before{
+                    content: ">>";
+                    font-family: "Waiting for the Sunrise", cursive;
+                    padding-right: 0.5em;
+                }
             }
         }
         .views-field.views-field-field-texto-visible-largo{
