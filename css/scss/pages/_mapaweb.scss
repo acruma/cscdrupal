@@ -1,0 +1,48 @@
+.ps-path-mapaweb{
+    nav#block-mapaweb{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            font-family: "Waiting for the Sunrise", cursive;
+            font-weight: 800;
+            text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3);
+            font-size: 1.3em;
+            text-align: center;
+            margin-bottom: 2em;
+            line-height: 1.2em;
+            color: black;
+        }
+
+        ul.menu {
+            line-height: 1.2em;
+            margin: 0.5em auto;
+            list-style: none;
+
+            li.menu-item.menu-item--expanded {
+                list-style: none;
+
+                ul.menu{
+
+                }
+            }
+
+            li{
+
+                &:before{
+                    content: ">";
+                    font-family: "Waiting for the Sunrise", cursive;
+                    font-size: 1.2em;
+                    position: absolute;
+                    top: 0;
+                    left: -1em;
+                    color: #e75d23;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

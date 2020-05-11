@@ -214,7 +214,7 @@ Sass sidebar
   left: 0;
   top: 0;
   background: #4e4e4e;
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
   z-index: 10;
   visibility: hidden;
@@ -822,6 +822,9 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1/4; } }
+
+.ps-path-inicio .ps-grid {
+  overflow: hidden; }
 
 .ps-path-inicio .ps-content-grid {
   position: relative;
