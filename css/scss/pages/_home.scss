@@ -1,0 +1,255 @@
+.ps-path-inicio{
+    .ps-content-grid {
+        position: relative;
+    }
+
+
+    div#block-views-block-home-block-1-nubes-block-1{
+        .views-row:nth-child(1){
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            -webkit-animation: animatedCloudOne 10s ease-in infinite alternate;
+        }
+        .views-row:nth-child(2){
+            
+        }
+        .views-row:nth-child(3){
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ANIMACIÓN NUBES*/
+@-webkit-keyframes animatedCloudOne {
+    0% {
+      left: -50%;
+    }
+    50% {
+      left: 5%;
+      -webkit-transform: scale(0.3);
+      transform: scale(0.3);
+    }
+    80% {
+      left: 3%;
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  @-ms-keyframes animatedCloudOne {
+    0% {
+      left: -50%;
+    }
+    50% {
+      left: 5%;
+      -ms-transform: scale(0.3);
+      transform: scale(0.3);
+    }
+    80% {
+      left: 3%;
+      -ms-transform: scale(0.6);
+      transform: scale(0.6);
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  @-o-keyframes animatedCloudOne {
+    0% {
+      left: -50%;
+    }
+    50% {
+      left: 5%;
+      transform: scale(0.3);
+    }
+    80% {
+      left: 3%;
+      transform: scale(0.6);
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  @-moz-keyframes animatedCloudOne {
+    0% {
+      left: -50%;
+    }
+    50% {
+      left: 5%;
+      transform: scale(0.3);
+    }
+    80% {
+      left: 3%;
+      transform: scale(0.6);
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  @-webkit-keyframes animatedCloudTwo {
+    0% {
+      top: -15%;
+    }
+    50% {
+      top: -25%;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    80% {
+      top: 10%;
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+    }
+    100% {
+      top: 40%;
+    }
+  }
+  
+  @-ms-keyframes animatedCloudTwo {
+    0% {
+      top: -15%;
+    }
+    50% {
+      top: -25%;
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    80% {
+      top: 10%;
+      -ms-transform: scale(0.6);
+      transform: scale(0.6);
+    }
+    100% {
+      top: 40%;
+    }
+  }
+  
+  @-o-keyframes animatedCloudTwo {
+    0% {
+      top: -15%;
+    }
+    50% {
+      top: -25%;
+      transform: scale(0.9);
+    }
+    80% {
+      top: 10%;
+      transform: scale(0.6);
+    }
+    100% {
+      top: 40%;
+    }
+  }
+  
+  @-moz-keyframes animatedCloudTwo {
+    0% {
+      top: -15%;
+    }
+    50% {
+      top: -25%;
+      transform: scale(0.9);
+    }
+    80% {
+      top: 10%;
+      transform: scale(0.6);
+    }
+    100% {
+      top: 40%;
+    }
+  }
+  
+  @-webkit-keyframes animatedCloudThree {
+    0% {
+      right: -50%;
+    }
+    50% {
+      right: 10%;
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+    }
+    80% {
+      right: 5%;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    100% {
+      right: 0;
+    }
+  }
+  
+  @-ms-keyframes animatedCloudThree {
+    0% {
+      right: -50%;
+    }
+    50% {
+      right: 10%;
+      -ms-transform: scale(1.4);
+      transform: scale(1.4);
+    }
+    80% {
+      right: 5%;
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    100% {
+      right: 0;
+    }
+  }
+  
+  @-o-keyframes animatedCloudThree {
+    0% {
+      right: -50%;
+    }
+    50% {
+      right: 10%;
+      transform: scale(1.4);
+    }
+    80% {
+      right: 5%;
+      transform: scale(0.9);
+    }
+    100% {
+      right: 0;
+    }
+  }
+  
+  @-moz-keyframes animatedCloudThree {
+    0% {
+      right: -50%;
+    }
+    50% {
+      right: 10%;
+      transform: scale(1.4);
+    }
+    80% {
+      right: 5%;
+      transform: scale(0.9);
+    }
+    100% {
+      right: 0;
+    }
+  }
