@@ -12,9 +12,16 @@ jQuery(document).ready(function($){
 
 	$("div#block-views-block-tarifas-y-promociones-a-tu-medida-block-2-block-1").find(".view-content .views-row:nth-child(4)").click(function () {
 		var codigopostal = $("input[name='cp']").val();
-		var urlopen = 'tarifas-por-poblacion?cp=' + codigopostal;
-		//window.open(urlopen, '_self');
-		console.log(codigopostal);
+
+		if(codigopostal.lenght > 4){
+			var urlopen = 'tarifas-por-poblacion?cp=' + codigopostal;
+			window.open(urlopen, '_self');
+			console.log(codigopostal);
+		}else{
+			var urlopen = 'tarifas-por-poblacion?cp=error';
+			window.open(urlopen, '_self');
+			console.log(codigopostal);
+		}
 	});
 	// 
 });
