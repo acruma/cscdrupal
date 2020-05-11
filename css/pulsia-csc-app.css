@@ -823,6 +823,46 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-column-span: 3;
     grid-column: 1/4; } }
 
+.ps-path-mapaweb nav#block-mapaweb {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .ps-path-mapaweb nav#block-mapaweb h2 {
+    font-family: "Waiting for the Sunrise", cursive;
+    font-weight: 800;
+    text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3);
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 2em;
+    line-height: 1.2em;
+    color: black; }
+  .ps-path-mapaweb nav#block-mapaweb ul.menu {
+    line-height: 1.2em;
+    margin: 0.5em auto;
+    list-style: none; }
+    .ps-path-mapaweb nav#block-mapaweb ul.menu li.menu-item.menu-item--expanded {
+      list-style: none; }
+    .ps-path-mapaweb nav#block-mapaweb ul.menu li:before {
+      content: ">";
+      font-family: "Waiting for the Sunrise", cursive;
+      font-size: 1.2em;
+      position: absolute;
+      top: 0;
+      left: -1em;
+      color: #e75d23;
+      font-weight: 900; }
+
 .ps-path-inicio .ps-grid {
   overflow: hidden; }
 
