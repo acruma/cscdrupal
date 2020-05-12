@@ -2213,7 +2213,8 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
       height: 5em;
       display: block;
       margin-left: 0.5em;
-      -webkit-animation: ofertasLanzamiento 5s 1 ease-in alternate; }
+      -webkit-animation: ofertasLanzamiento 5s 1 ease-in alternate;
+      z-index: -1; }
     div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) span {
       font-size: 2em; } }
 

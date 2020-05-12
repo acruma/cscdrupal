@@ -209,6 +209,7 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
                     display: block;
                     margin-left: 0.5em;
                     -webkit-animation: ofertasLanzamiento 5s 1 ease-in alternate;
+                    z-index: -1;
                 }
     
                 span{
