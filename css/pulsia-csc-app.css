@@ -2218,9 +2218,78 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
       width: 3.5em;
       height: 5em;
       display: block;
-      margin-left: 0.5em; }
+      margin-left: 0.5em;
+      -webkit-animation: ofertasLanzamiento 5s 1 ease-in alternate; }
     div#block-views-block-ofertas-block-1-block-1 .view-content .views-row:nth-child(1) span {
       font-size: 2em; } }
+
+@-webkit-keyframes ofertasLanzamiento {
+  0% {
+    top: 0em;
+    right: -130px; }
+  20% {
+    top: 0em;
+    right: -140px; }
+  30% {
+    top: 0em;
+    right: -150px; }
+  50% {
+    top: -6em;
+    right: -170px; }
+  100% {
+    top: -8em;
+    right: -120px; } }
+
+@-ms-keyframes ofertasLanzamiento {
+  0% {
+    top: 0em;
+    right: -130px; }
+  20% {
+    top: 0em;
+    right: -140px; }
+  30% {
+    top: 0em;
+    right: -150px; }
+  50% {
+    top: -6em;
+    right: -170px; }
+  100% {
+    top: -8em;
+    right: -120px; } }
+
+@-o-keyframes ofertasLanzamiento {
+  0% {
+    top: 0em;
+    right: -130px; }
+  20% {
+    top: 0em;
+    right: -140px; }
+  30% {
+    top: 0em;
+    right: -150px; }
+  50% {
+    top: -6em;
+    right: -170px; }
+  100% {
+    top: -8em;
+    right: -120px; } }
+
+@-moz-keyframes ofertasLanzamiento {
+  0% {
+    top: 0em;
+    right: -130px; }
+  20% {
+    top: 0em;
+    right: -140px; }
+  30% {
+    top: 0em;
+    right: -150px; }
+  50% {
+    top: -6em;
+    right: -170px; }
+  100% {
+    top: -8em;
+    right: -120px; } }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
   padding: 0em 3em 3em 3em; }
