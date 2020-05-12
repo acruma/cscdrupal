@@ -66,13 +66,18 @@ div#block-views-block-promociones-radio-block-1{
             display: flex;
             margin: 2em 1em;
             position: relative;
-            
+
             div{
                 width: 100%;
             }
 
             input{
-                width: 100%;
+                width: 95%;
+                border-radius: 1px;
+                border: 0.5px solid #dfe1e1;
+                padding: 0.5em;
+                font-size: 1em;
+                color: #4e4e4e;
             }
 
             .view-content{

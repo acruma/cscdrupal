@@ -500,7 +500,12 @@ div#block-views-block-promociones-radio-block-1 {
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion div {
         width: 100%; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion input {
-        width: 100%; }
+        width: 95%;
+        border-radius: 1px;
+        border: 0.5px solid #dfe1e1;
+        padding: 0.5em;
+        font-size: 1em;
+        color: #4e4e4e; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content {
         border: 1px solid;
         border-radius: 4px;
