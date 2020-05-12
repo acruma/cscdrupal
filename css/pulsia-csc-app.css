@@ -485,6 +485,19 @@ div#block-views-block-promociones-radio-block-1 {
           text-transform: uppercase;
           letter-spacing: 0.1em;
           font-family: "Waiting for the Sunrise", cursive; }
+    div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content {
+        display: block; }
   div#block-views-block-promociones-radio-block-1 .view-header {
     display: -ms-grid;
     display: grid;

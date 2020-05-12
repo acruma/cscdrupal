@@ -61,7 +61,14 @@ div#block-views-block-promociones-radio-block-1{
         }
         /*SIN RESULTADOS WEBFORM*/
         .view-webform-tarifas-por-poblacion{
-            
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 0 auto;
+            .view-content{
+                display: block;
+            }
+
         }
     }
 
