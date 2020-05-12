@@ -40,13 +40,9 @@ div#block-views-block-promociones-radio-block-1{
             color: #eceded;
             text-align: initial;
 
-            .field-content {
-                display: flex;
-                flex-direction: column;
-            }
-
             .csc-title-tar{
                 font-size: 2.4em;
+                display: block;
             }
             .csc-cp-tar{
                 color: #eceded;
@@ -342,7 +338,7 @@ div#block-views-block-promociones-radio-block-1{
                 background: none;
                 color: #4e4e4e;
 
-                .csc-cp{
+                .csc-cp-tar{
                     color: #e75d23; 
                 }
             }
