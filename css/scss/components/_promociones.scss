@@ -324,9 +324,19 @@ div#block-views-block-promociones-radio-block-1{
 
         /*EMPTY NO RESULT*/
         .view-empty{
+            margin: 5em 0 0 4em;
+
             .view-content{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+            }
+
+            .views-row:nth-child(1){
+                
+            }
+
+            .views-row:nth-child(2){
+                grid-row: 1/1;
             }
         }
     }

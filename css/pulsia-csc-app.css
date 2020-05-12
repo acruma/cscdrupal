@@ -740,11 +740,16 @@ div#block-views-block-promociones-radio-block-1 {
         color: #4e4e4e; }
         div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 span {
           color: #e75d23; }
-    div#block-views-block-promociones-radio-block-1 .view-empty .view-content {
-      display: -ms-grid;
-      display: grid;
-      -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr; } }
+    div#block-views-block-promociones-radio-block-1 .view-empty {
+      margin: 5em 0 0 4em; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-content {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(2) {
+        -ms-grid-row: 1;
+        grid-row: 1/1; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
