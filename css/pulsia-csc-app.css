@@ -2232,7 +2232,7 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
     top: -2.5em;
     left: 14em; }
   100% {
-    top: -5em;
+    top: -8em;
     right: 14em; } }
 
 @-ms-keyframes ofertasLanzamiento {
@@ -2249,7 +2249,7 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
     top: -2.5em;
     left: 14em; }
   100% {
-    top: -5em;
+    top: -8em;
     right: 14em; } }
 
 @-o-keyframes ofertasLanzamiento {
@@ -2266,7 +2266,7 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
     top: -2.5em;
     left: 14em; }
   100% {
-    top: -5em;
+    top: -8em;
     right: 14em; } }
 
 @-moz-keyframes ofertasLanzamiento {
@@ -2283,7 +2283,7 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
     top: -2.5em;
     left: 14em; }
   100% {
-    top: -5em;
+    top: -8em;
     right: 14em; } }
 
 article.node.node--type-pagina-basica.node--view-mode-full {
