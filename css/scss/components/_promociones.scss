@@ -2,7 +2,37 @@ div#block-views-block-promociones-radio-block-1{
     
     /*SIN RESULTADOS*/
     .view-empty{
-        
+        .view-content{
+            display: grid;
+            grid-template-columns: 1fr;
+            font-family: Raleway;
+            font-weight: 300;
+            text-align: end;
+        }
+
+        a{
+            color: #4e4e4e;
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover{
+                color: #e75d23;
+            }
+            &:before{
+                content: ">>";
+                font-family: "Waiting for the Sunrise",cursive;
+                color: #e75d23;
+                font-size: 1.7em;
+                font-weight: 900;
+                letter-spacing: -0.15em;
+                padding-right: 0.3em;
+            }
+        }
+
+        .views-row:nth-child(1){
+            text-align: initial;
+        }
+
     }
 
     /*HEADER*/ // #TODO ; poner formato movil (2 fr y color)
@@ -251,6 +281,7 @@ div#block-views-block-promociones-radio-block-1{
             grid-gap: 1.5em;
         }
 
+        /*HEADER*/
         .view-header { 
             grid-template-columns: 1fr 1fr;
             margin: 5em 0;
@@ -269,6 +300,14 @@ div#block-views-block-promociones-radio-block-1{
                 span{
                     color: #e75d23; 
                 }
+            }
+        }
+
+        /*EMPTY NO RESULT*/
+        .view-empty{
+            .view-content{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
             }
         }
     }
