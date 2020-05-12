@@ -2,7 +2,7 @@ div#block-views-block-promociones-radio-block-1{
     
     /*SIN RESULTADOS*/
     .view-empty{
-        margin: 5em 0 0 4em;
+        margin: 0;
         .view-content{
             display: grid;
             grid-template-columns: 1fr;
@@ -35,6 +35,9 @@ div#block-views-block-promociones-radio-block-1{
         }
 
         .views-row:nth-child(1){
+            margin: -1em;
+            background: #e75d23;
+            color: #eceded;
             text-align: initial;
 
             .field-content {
@@ -42,11 +45,11 @@ div#block-views-block-promociones-radio-block-1{
                 flex-direction: column;
             }
 
-            .csc-title{
+            .csc-title-tar{
                 font-size: 2.4em;
             }
-            .csc-cp{
-                color: #e75d23;
+            .csc-cp-tar{
+                color: #eceded;
                 font-size: 1.2em;
                 font-weight: 900;
                 text-shadow: 0 -0.04em 0.02em rgba(0, 0, 0, 0.3);
@@ -336,11 +339,16 @@ div#block-views-block-promociones-radio-block-1{
             }
 
             .views-row:nth-child(1){
-                
+                background: none;
+                color: #4e4e4e;
+
+                .csc-cp{
+                    color: #e75d23; 
+                }
             }
 
             .views-row:nth-child(2){
-                grid-row: 1/1;
+                grid-row: auto;
             }
         }
     }

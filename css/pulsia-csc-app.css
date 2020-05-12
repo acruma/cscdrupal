@@ -438,7 +438,7 @@ div#block-views-block-promociones-radio-block-1 {
   /*CONTENIDO*/
   margin: 1em; }
   div#block-views-block-promociones-radio-block-1 .view-empty {
-    margin: 5em 0 0 4em; }
+    margin: 0; }
     div#block-views-block-promociones-radio-block-1 .view-empty .view-content {
       display: -ms-grid;
       display: grid;
@@ -465,6 +465,9 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-grid-row: 1;
       grid-row: 1/1; }
     div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) {
+      margin: -1em;
+      background: #e75d23;
+      color: #eceded;
       text-align: initial; }
       div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .field-content {
         display: -webkit-box;
@@ -474,10 +477,10 @@ div#block-views-block-promociones-radio-block-1 {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .csc-title {
+      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .csc-title-tar {
         font-size: 2.4em; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .csc-cp {
-        color: #e75d23;
+      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .csc-cp-tar {
+        color: #eceded;
         font-size: 1.2em;
         font-weight: 900;
         text-shadow: 0 -0.04em 0.02em rgba(0, 0, 0, 0.3);
@@ -750,9 +753,13 @@ div#block-views-block-promociones-radio-block-1 {
         display: grid;
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) {
+        background: none;
+        color: #4e4e4e; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .csc-cp {
+          color: #e75d23; }
       div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(2) {
-        -ms-grid-row: 1;
-        grid-row: 1/1; } }
+        grid-row: auto; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
