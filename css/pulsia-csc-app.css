@@ -431,18 +431,22 @@ Sass Footer
     padding: 0em 1em;
     border-right: 0.05em solid #3a3a3a; } }
 
-/*HEADER*/
 div#block-views-block-promociones-radio-block-1 {
+  /*SIN RESULTADOS*/
+  /*HEADER*/
+  /*FORM EXPUESTO*/
+  /*CONTENIDO*/
   margin: 1em; }
   div#block-views-block-promociones-radio-block-1 .view-header {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
     position: relative;
     margin: 5em 0 5em 7em;
     font-family: Raleway;
-    font-weight: 300; }
+    font-weight: 300;
+    text-align: end; }
     div#block-views-block-promociones-radio-block-1 .view-header a {
       color: #4e4e4e;
       font-weight: 600;
@@ -458,10 +462,12 @@ div#block-views-block-promociones-radio-block-1 {
         letter-spacing: -0.15em;
         padding-right: 0.3em; }
     div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion1 {
+      text-align: initial;
       color: #4e4e4e;
       font-size: 2.4em;
       letter-spacing: 0.1em; }
     div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 {
+      text-align: initial;
       line-height: 1.2em;
       letter-spacing: 0.1em;
       font-size: 1.4em; }
@@ -666,7 +672,10 @@ div#block-views-block-promociones-radio-block-1 {
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1.5em; } }
+    grid-gap: 1.5em; }
+  div#block-views-block-promociones-radio-block-1 .view-header {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;

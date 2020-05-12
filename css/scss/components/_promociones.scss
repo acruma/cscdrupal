@@ -1,14 +1,19 @@
-/*HEADER*/
-
 div#block-views-block-promociones-radio-block-1{
+    
+    /*SIN RESULTADOS*/
+    .view-empty{
+        
+    }
 
+    /*HEADER*/ // #TODO ; poner formato movil (2 fr y color)
     .view-header {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         position: relative;
         margin: 5em 0 5em 7em;
         font-family: Raleway;
         font-weight: 300;
+        text-align: end;
 
         a{
             color: #4e4e4e;
@@ -30,11 +35,13 @@ div#block-views-block-promociones-radio-block-1{
         }
 
         .csc-poblacion1 {
+            text-align: initial;
             color: #4e4e4e;
             font-size: 2.4em;
             letter-spacing: 0.1em;
         }
         .csc-poblacion2{
+            text-align: initial;
             line-height: 1.2em;
             letter-spacing: 0.1em;
             font-size: 1.4em;
@@ -52,10 +59,14 @@ div#block-views-block-promociones-radio-block-1{
             }
         }
     }
+
+    /*FORM EXPUESTO*/
     
     form#views-exposed-form-promociones-radio-block-1{
         display: none;
     }
+
+    /*CONTENIDO*/
 
     margin: 1em;
 
@@ -228,6 +239,10 @@ div#block-views-block-promociones-radio-block-1{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 1.5em;
+        }
+
+        .view-header { 
+            grid-template-columns: 1fr 1fr;
         }
     }
 }
