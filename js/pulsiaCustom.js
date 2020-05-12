@@ -49,7 +49,7 @@ jQuery(document).ready(function($){
 
 	if (window.location.href.indexOf("tarifas-por-poblacion") > -1) {
 		var cp_tar = getUrlParameter('cp');
-		$("div#block-views-block-promociones-radio-block-1").find(".csc-cp-tar").text(cp_tar)
+		$("div#block-views-block-promociones-radio-block-1").find(".csc-cp-tar").text(cp_tar);
 	}
 
 
