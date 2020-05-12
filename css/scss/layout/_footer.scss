@@ -142,6 +142,17 @@ Sass Footer
 			height: auto;
 		}
 	}
+
+	span.csc-rrss-fb{
+		&:after{
+			background-image: url("/sites/default/files/styles/thumbnail/public/2020-01/facebook.svg?itok=zG75s-fP");
+		}
+	}
+	span.csc-rrss-tw{
+		&:after{
+			background-image: url("/sites/default/files/styles/thumbnail/public/2020-01/twitter.svg?itok=RiYUl93l");
+		}
+	}
 }
 
 @media (min-width: 768px) {
