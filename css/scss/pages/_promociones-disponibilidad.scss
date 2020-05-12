@@ -190,9 +190,6 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
         .view-content{
             .views-row:nth-child(1){
                 grid-row: none;
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 color: #4e4e4e;
                 letter-spacing: 0.1em;
                 background: none;
@@ -204,6 +201,9 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
                 }
 
                 img{
+                    position: absolute;
+                    top: 5px;
+                    left: 11em;
                     width: 3.5em;
                     height: 5em;
                     display: block;
@@ -226,91 +226,91 @@ div#block-views-block-ofertas-block-2-block-1, div#block-views-block-disponibili
 @-webkit-keyframes ofertasLanzamiento {
     0% {
       top: 0em;
-      right: -130px;
+      left: 11em;
     }
     20% {
       top: 0em;
-      right: -140px;
+      left: 12em;
     }
     30% {
       top: 0em;
-      right: -150px;
+      left: 13em;
     }
     50% {
-      top: -6em;
-      right: -170px;
+      top: -2.5em;
+      left: 14em;
     }
     100% {
-      top: -8em;
-      right: -120px;
+      top: -5em;
+      right: 14em;
     }
   }
   
   @-ms-keyframes ofertasLanzamiento {
     0% {
-      top: 0em;
-      right: -130px;
-    }
-    20% {
-      top: 0em;
-      right: -140px;
-    }
-    30% {
-      top: 0em;
-      right: -150px;
-    }
-    50% {
-      top: -6em;
-      right: -170px;
-    }
-    100% {
-      top: -8em;
-      right: -120px;
-    }
+        top: 0em;
+        left: 11em;
+      }
+      20% {
+        top: 0em;
+        left: 12em;
+      }
+      30% {
+        top: 0em;
+        left: 13em;
+      }
+      50% {
+        top: -2.5em;
+        left: 14em;
+      }
+      100% {
+        top: -5em;
+        right: 14em;
+      }
   }
   
   @-o-keyframes ofertasLanzamiento {
     0% {
-      top: 0em;
-      right: -130px;
-    }
-    20% {
-      top: 0em;
-      right: -140px;
-    }
-    30% {
-      top: 0em;
-      right: -150px;
-    }
-    50% {
-      top: -6em;
-      right: -170px;
-    }
-    100% {
-      top: -8em;
-      right: -120px;
-    }
+        top: 0em;
+        left: 11em;
+      }
+      20% {
+        top: 0em;
+        left: 12em;
+      }
+      30% {
+        top: 0em;
+        left: 13em;
+      }
+      50% {
+        top: -2.5em;
+        left: 14em;
+      }
+      100% {
+        top: -5em;
+        right: 14em;
+      }
   }
   
   @-moz-keyframes ofertasLanzamiento {
     0% {
-      top: 0em;
-      right: -130px;
-    }
-    20% {
-      top: 0em;
-      right: -140px;
-    }
-    30% {
-      top: 0em;
-      right: -150px;
-    }
-    50% {
-      top: -6em;
-      right: -170px;
-    }
-    100% {
-      top: -8em;
-      right: -120px;
-    }
+        top: 0em;
+        left: 11em;
+      }
+      20% {
+        top: 0em;
+        left: 12em;
+      }
+      30% {
+        top: 0em;
+        left: 13em;
+      }
+      50% {
+        top: -2.5em;
+        left: 14em;
+      }
+      100% {
+        top: -5em;
+        right: 14em;
+      }
   }
