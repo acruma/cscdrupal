@@ -516,7 +516,8 @@ div#block-views-block-promociones-radio-block-1 {
         display: flex;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center; }
+        justify-content: center;
+        /*Formulario en sí*/ }
         div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .views-field.views-field-title .field-content {
           position: absolute;
           top: -32px;
@@ -526,6 +527,12 @@ div#block-views-block-promociones-radio-block-1 {
           font-family: "Waiting for the Sunrise", cursive;
           font-size: 1.6em;
           font-weight: 900; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .form-required:after {
+          content: "*";
+          font-family: "Waiting for the Sunrise", cursive;
+          font-size: 1.3em;
+          color: #e75d23;
+          padding-left: 0.3em; }
   div#block-views-block-promociones-radio-block-1 .view-header {
     display: -ms-grid;
     display: grid;
