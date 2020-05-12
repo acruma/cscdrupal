@@ -467,7 +467,7 @@ div#block-views-block-promociones-radio-block-1 {
         -ms-grid-row: 1;
         grid-row: 1/1; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) {
-        margin: -1em;
+        margin: 1em -1em;
         background: #e75d23;
         color: #eceded;
         text-align: initial;
@@ -495,7 +495,8 @@ div#block-views-block-promociones-radio-block-1 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-top: 2em; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content {
         display: block; }
   div#block-views-block-promociones-radio-block-1 .view-header {
