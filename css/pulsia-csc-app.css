@@ -682,6 +682,9 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     margin: 5em 0; }
+    div#block-views-block-promociones-radio-block-1 .view-header .csc-head2 {
+      background: none;
+      color: #4e4e4e; }
     div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion1 {
       color: #4e4e4e; }
     div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 span {
