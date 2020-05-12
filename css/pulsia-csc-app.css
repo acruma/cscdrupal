@@ -495,8 +495,11 @@ div#block-views-block-promociones-radio-block-1 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin: 0 auto;
-      margin-top: 2em; }
+      margin: 2em 1em; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion div {
+        width: 100%; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion input {
+        width: 100%; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content {
         border: 1px solid;
         border-radius: 4px;

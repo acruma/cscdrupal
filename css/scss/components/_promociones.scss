@@ -64,8 +64,16 @@ div#block-views-block-promociones-radio-block-1{
             justify-content: center;
             align-items: center;
             display: flex;
-            margin: 0 auto;
-            margin-top: 2em;
+            margin: 2em 1em;
+
+            div{
+                width: 100%;
+            }
+
+            input{
+                width: 100%;
+            }
+
             .view-content{
                 border: 1px solid;
                 border-radius: 4px;
@@ -74,8 +82,6 @@ div#block-views-block-promociones-radio-block-1{
                 display: flex;
                 justify-content: center;
             }
-
-
 
         }
     }
