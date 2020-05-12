@@ -534,7 +534,8 @@ div#block-views-block-promociones-radio-block-1 {
           color: #e75d23;
           padding-left: 0.3em;
           background: none;
-          height: 32px; }
+          height: 40px;
+          vertical-align: baseline; }
   div#block-views-block-promociones-radio-block-1 .view-header {
     display: -ms-grid;
     display: grid;
