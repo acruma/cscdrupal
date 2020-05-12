@@ -815,7 +815,8 @@ div#block-views-block-promociones-radio-block-1 {
           grid-row: auto; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion {
         width: 50%;
-        margin: 0 auto; } }
+        margin: 0 auto;
+        margin-top: 2em; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
