@@ -536,6 +536,20 @@ div#block-views-block-promociones-radio-block-1 {
           background: none;
           height: 40px;
           vertical-align: baseline; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input#edit-submit {
+          background-color: #e75d23;
+          font-family: "Waiting for the Sunrise", cursive;
+          color: white;
+          width: 100%;
+          font-size: 1.5em;
+          letter-spacing: 0.1em;
+          font-weight: 900;
+          cursor: pointer;
+          height: 70px;
+          -webkit-box-shadow: 0px -5px 3px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px -5px 3px -3px rgba(0, 0, 0, 0.2);
+          border: none;
+          border-radius: 3px; }
   div#block-views-block-promociones-radio-block-1 .view-header {
     display: -ms-grid;
     display: grid;

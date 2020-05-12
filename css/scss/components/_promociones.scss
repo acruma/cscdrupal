@@ -115,6 +115,21 @@ div#block-views-block-promociones-radio-block-1{
                         vertical-align: baseline;
                     }
                 }
+
+                input#edit-submit{
+                    background-color: #e75d23;
+                    font-family: "Waiting for the Sunrise", cursive;
+                    color: white;
+                    width: 100%;
+                    font-size: 1.5em;
+                    letter-spacing: 0.1em;
+                    font-weight: 900;
+                    cursor: pointer;
+                    height: 70px;
+                    box-shadow: 0px -5px 3px -3px rgba(0, 0, 0, 0.2);
+                    border: none;
+                    border-radius: 3px;
+                }
             }
 
         }
