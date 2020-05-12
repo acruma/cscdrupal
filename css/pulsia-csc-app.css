@@ -1924,57 +1924,54 @@ div#block-views-block-empresa-block-block-1 img, div#block-views-block-empresa-b
   width: 100%;
   height: auto; }
 
-div#block-views-block-listado-de-proyectos-block-1 h2 {
-  font-family: "Waiting for the Sunrise", cursive;
-  color: #4e4e4e;
-  text-align: left;
-  font-size: 1.7em;
-  letter-spacing: 0.5em;
-  font-weight: 800;
-  display: inline;
-  padding-bottom: 0.5em; }
-
-div#block-views-block-listado-de-proyectos-block-1 .view-header {
-  margin: 3em 0; }
-
-div#block-views-block-listado-de-proyectos-block-1 .views-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-
-div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-field-fecha {
-  padding-left: 3em; }
-
-div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-body {
-  padding-left: 3em; }
-
-div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing {
-  margin: 2em 0;
-  font-family: Raleway;
-  font-size: 1.2em;
-  margin-right: 1em;
-  color: #4e4e4e;
-  font-weight: 800;
-  line-height: 1.4em;
-  padding-left: 1em; }
-  div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing span.field-content {
+div#block-views-block-listado-de-proyectos-block-1 {
+  padding: 1em; }
+  div#block-views-block-listado-de-proyectos-block-1 h2 {
+    font-family: "Waiting for the Sunrise", cursive;
+    color: #4e4e4e;
+    text-align: left;
+    font-size: 1.7em;
+    letter-spacing: 0.5em;
+    font-weight: 800;
+    display: inline;
+    padding-bottom: 0.5em; }
+  div#block-views-block-listado-de-proyectos-block-1 .view-header {
+    margin: 3em 0; }
+  div#block-views-block-listado-de-proyectos-block-1 .views-row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing .csc-deco-before {
-    font-family: "Waiting for the Sunrise", cursive;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-field-fecha {
+    padding-left: 3em; }
+  div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-body {
+    padding-left: 3em; }
+  div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing {
+    margin: 2em 0;
+    font-family: Raleway;
     font-size: 1.2em;
     margin-right: 1em;
     color: #4e4e4e;
     font-weight: 800;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    padding-left: 1em; }
+    div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing span.field-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    div#block-views-block-listado-de-proyectos-block-1 .views-field.views-field-nothing .csc-deco-before {
+      font-family: "Waiting for the Sunrise", cursive;
+      font-size: 1.2em;
+      margin-right: 1em;
+      color: #4e4e4e;
+      font-weight: 800;
+      line-height: 1.4em; }
 
 div#block-views-block-empresa-block-5-block-1 div {
   width: 100%; }
