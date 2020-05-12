@@ -495,7 +495,8 @@ div#block-views-block-promociones-radio-block-1 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin: 2em 1em; }
+      margin: 2em 1em;
+      position: relative; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion div {
         width: 100%; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion input {
@@ -511,6 +512,15 @@ div#block-views-block-promociones-radio-block-1 {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .views-field.views-field-title .field-content {
+          position: absolute;
+          top: -32px;
+          background: white;
+          padding: 10px;
+          color: #e75d23;
+          font-family: "Waiting for the Sunrise", cursive;
+          font-size: 1.6em;
+          font-weight: 900; }
   div#block-views-block-promociones-radio-block-1 .view-header {
     display: -ms-grid;
     display: grid;
@@ -790,16 +800,7 @@ div#block-views-block-promociones-radio-block-1 {
           grid-row: auto; }
       div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion {
         width: 50%;
-        margin: 0 auto; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .views-field.views-field-title .field-content {
-          position: absolute;
-          top: -32px;
-          background: white;
-          padding: 10px;
-          color: #e75d23;
-          font-family: "Waiting for the Sunrise", cursive;
-          font-size: 1.6em;
-          font-weight: 900; } }
+        margin: 0 auto; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
