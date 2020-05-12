@@ -356,6 +356,7 @@ div#block-views-block-promociones-radio-block-1{
 
         /*EMPTY NO RESULT*/
         .view-empty{
+            /*HEADER*/
             .view-tarifas-block-1{
                 margin: 5em 0 0 4em;
 
@@ -376,6 +377,11 @@ div#block-views-block-promociones-radio-block-1{
                 .views-row:nth-child(2){
                     grid-row: auto;
                 }
+            }
+            /*WEBFORM*/
+            .view-webform-tarifas-por-poblacion{
+                width: 50%;
+                margin: 0 auto;
             }
         }
     }

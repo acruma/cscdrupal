@@ -771,20 +771,26 @@ div#block-views-block-promociones-radio-block-1 {
         color: #4e4e4e; }
         div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 span {
           color: #e75d23; }
-    div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 {
-      margin: 5em 0 0 4em; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .view-content {
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) {
-        background: none;
-        color: #4e4e4e; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar {
-          color: #e75d23; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2) {
-        grid-row: auto; } }
+    div#block-views-block-promociones-radio-block-1 .view-empty {
+      /*HEADER*/
+      /*WEBFORM*/ }
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 {
+        margin: 5em 0 0 4em; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .view-content {
+          display: -ms-grid;
+          display: grid;
+          -ms-grid-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) {
+          background: none;
+          color: #4e4e4e; }
+          div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar {
+            color: #e75d23; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2) {
+          grid-row: auto; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion {
+        width: 50%;
+        margin: 0 auto; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
