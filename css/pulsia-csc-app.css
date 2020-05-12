@@ -536,6 +536,8 @@ div#block-views-block-promociones-radio-block-1 {
           background: none;
           height: 40px;
           vertical-align: baseline; }
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input#edit-codigo-postal {
+          background: none; }
         div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input.csc-submit {
           background-color: #e75d23;
           font-family: "Waiting for the Sunrise", cursive;
