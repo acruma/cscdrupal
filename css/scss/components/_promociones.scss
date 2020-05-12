@@ -67,8 +67,15 @@ div#block-views-block-promociones-radio-block-1{
             margin: 0 auto;
             margin-top: 2em;
             .view-content{
-                display: block;
+                border: 1px solid;
+                border-radius: 4px;
+                padding: 1em;
+                color: gray;
+                display: flex;
+                justify-content: center;
             }
+
+
 
         }
     }
