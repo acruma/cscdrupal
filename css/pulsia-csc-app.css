@@ -461,6 +461,9 @@ div#block-views-block-promociones-radio-block-1 {
         font-weight: 900;
         letter-spacing: -0.15em;
         padding-right: 0.3em; }
+    div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(2) {
+      -ms-grid-row: 1;
+      grid-row: 1/1; }
     div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) {
       text-align: initial; }
       div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .field-content {
