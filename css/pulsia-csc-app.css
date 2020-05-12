@@ -443,7 +443,7 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     position: relative;
-    margin: 5em 0 5em 7em;
+    margin: 5em 0;
     font-family: Raleway;
     font-weight: 300;
     text-align: end; }
