@@ -1902,6 +1902,10 @@ div#block-views-block-empresa-block-2-block-1 .views-field-field-texto-contenido
   display: inline;
   padding-bottom: 0.5em; }
 
+div#block-views-block-empresa-block-2-block-1 img, div#block-views-block-empresa-block-4-block-1 img, div#block-views-block-empresa-block-6-block-1 img {
+  width: 100%;
+  height: auto; }
+
 div#block-views-block-empresa-block-block-1 .views-field-field-texto-contenido-generico, div#block-views-block-empresa-block-5-block-1 .views-field-field-texto-contenido-generico {
   font-family: "Waiting for the Sunrise", cursive;
   color: #4e4e4e;
@@ -1911,6 +1915,10 @@ div#block-views-block-empresa-block-block-1 .views-field-field-texto-contenido-g
   font-weight: 800;
   display: inline;
   padding-bottom: 0.5em; }
+
+div#block-views-block-empresa-block-block-1 img, div#block-views-block-empresa-block-5-block-1 img {
+  width: 100%;
+  height: auto; }
 
 div#block-views-block-listado-de-proyectos-block-1 h2 {
   font-family: "Waiting for the Sunrise", cursive;
