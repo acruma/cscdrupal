@@ -437,30 +437,50 @@ div#block-views-block-promociones-radio-block-1 {
   /*FORM EXPUESTO*/
   /*CONTENIDO*/
   margin: 1em; }
-  div#block-views-block-promociones-radio-block-1 .view-empty .view-content {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    font-family: Raleway;
-    font-weight: 300;
-    text-align: end; }
-  div#block-views-block-promociones-radio-block-1 .view-empty a {
-    color: #4e4e4e;
-    font-weight: 600;
-    text-decoration: none; }
-    div#block-views-block-promociones-radio-block-1 .view-empty a:hover {
-      color: #e75d23; }
-    div#block-views-block-promociones-radio-block-1 .view-empty a:before {
-      content: ">>";
-      font-family: "Waiting for the Sunrise",cursive;
-      color: #e75d23;
-      font-size: 1.7em;
-      font-weight: 900;
-      letter-spacing: -0.15em;
-      padding-right: 0.3em; }
-  div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) {
-    text-align: initial; }
+  div#block-views-block-promociones-radio-block-1 .view-empty {
+    margin: 5em 0 0 4em; }
+    div#block-views-block-promociones-radio-block-1 .view-empty .view-content {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      font-family: Raleway;
+      font-weight: 300;
+      text-align: end; }
+    div#block-views-block-promociones-radio-block-1 .view-empty a {
+      color: #4e4e4e;
+      font-weight: 600;
+      text-decoration: none; }
+      div#block-views-block-promociones-radio-block-1 .view-empty a:hover {
+        color: #e75d23; }
+      div#block-views-block-promociones-radio-block-1 .view-empty a:before {
+        content: ">>";
+        font-family: "Waiting for the Sunrise",cursive;
+        color: #e75d23;
+        font-size: 1.7em;
+        font-weight: 900;
+        letter-spacing: -0.15em;
+        padding-right: 0.3em; }
+    div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) {
+      text-align: initial; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .field-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .csc-title {
+        font-size: 2.4em; }
+      div#block-views-block-promociones-radio-block-1 .view-empty .views-row:nth-child(1) .csc-cp {
+        color: #e75d23;
+        font-size: 1.2em;
+        font-weight: 900;
+        text-shadow: 0 -0.04em 0.02em rgba(0, 0, 0, 0.3);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-family: "Waiting for the Sunrise", cursive; }
   div#block-views-block-promociones-radio-block-1 .view-header {
     display: -ms-grid;
     display: grid;

@@ -2,6 +2,7 @@ div#block-views-block-promociones-radio-block-1{
     
     /*SIN RESULTADOS*/
     .view-empty{
+        margin: 5em 0 0 4em;
         .view-content{
             display: grid;
             grid-template-columns: 1fr;
@@ -31,6 +32,24 @@ div#block-views-block-promociones-radio-block-1{
 
         .views-row:nth-child(1){
             text-align: initial;
+
+            .field-content {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .csc-title{
+                font-size: 2.4em;
+            }
+            .csc-cp{
+                color: #e75d23;
+                font-size: 1.2em;
+                font-weight: 900;
+                text-shadow: 0 -0.04em 0.02em rgba(0, 0, 0, 0.3);
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                font-family: "Waiting for the Sunrise", cursive;
+            }
         }
 
     }
