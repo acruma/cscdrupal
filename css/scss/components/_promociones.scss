@@ -10,10 +10,18 @@ div#block-views-block-promociones-radio-block-1{
         display: grid;
         grid-template-columns: 1fr;
         position: relative;
-        margin: 5em 0;
+        margin: 1em 0;
         font-family: Raleway;
         font-weight: 300;
         text-align: end;
+
+        .csc-head2{
+            margin: 0 -1em;
+            background: #e75d23;
+        }
+        .csc-head1{
+
+        }
 
         a{
             color: #4e4e4e;
@@ -35,12 +43,13 @@ div#block-views-block-promociones-radio-block-1{
         }
 
         .csc-poblacion1 {
+            color: #eceded;
             text-align: initial;
-            color: #4e4e4e;
             font-size: 2.4em;
             letter-spacing: 0.1em;
         }
         .csc-poblacion2{
+            color: #eceded;
             text-align: initial;
             line-height: 1.2em;
             letter-spacing: 0.1em;
@@ -243,6 +252,22 @@ div#block-views-block-promociones-radio-block-1{
 
         .view-header { 
             grid-template-columns: 1fr 1fr;
+            margin: 5em 0;
+
+            .csc-head2{
+
+            }
+            .csc-head1{
+    
+            }
+            .csc-poblacion1{
+                color: #4e4e4e;
+            }
+            .csc-poblacion2{
+                span{
+                    color: #e75d23; 
+                }
+            }
         }
     }
 }
