@@ -69,19 +69,24 @@
         <span class="csc-text2">{{ text2 }}</span>
       </div>
     </div>
+
     <div>
+
       <div class="csc-extras">
         {% for extras2 in extras_noarray %}
           {% set precio_extras = getPrecio_Extras(extras2|trim) %}
           {% set text_extras = getTXT_Extras(extras2|trim) %}
-          <div class="csc-itemsExtras">
-            <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes" dataTid="{{ extras2|trim }}"> <span>{{ text_extras }} <b>+</b> {{ precio_extras }} €/MES</span>
-          </div>
+          <label class="csc-itemsExtras">
+            <input class="csc-input-tid" type="checkbox" name="telefoniaFija" value="yes" dataTid="{{ extras2|trim }}"> <span>{{ text_extras }} <b>+</b> {{ precio_extras }} €/MES</span>
+          </label>
         {% endfor %}
       </div>
+
       <div class="csc-contratar">
         Contratar Online
       </div>
+
     </div>
+
   </div>
 {% endfor %}
