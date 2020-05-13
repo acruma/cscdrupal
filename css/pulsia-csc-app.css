@@ -788,7 +788,11 @@ div#block-views-block-promociones-radio-block-1 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    cursor: pointer; }
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
     div#block-views-block-promociones-radio-block-1 .csc-contratar:hover {
       -webkit-box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3);
       box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3); }

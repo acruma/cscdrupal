@@ -379,7 +379,10 @@ div#block-views-block-promociones-radio-block-1{
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+
         &:hover{
             box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3);
         }
