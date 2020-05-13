@@ -59,15 +59,20 @@ jQuery(document).ready(function($){
 
 	$(".csc-contratar").click(function () {
 		var contador = 0;
-		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
 
+		$(this).parent().find(".csc-itemsExtras.csc-hidden").each(function( index ) {
+			var nodeid = $(this).find('.csc-node-id ').attr("datanodeid");
+			urlopen = urlopen + 'nodeid=' + nodeid + '&';
+		});
+
+		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
 			if( $(this).find('.csc-input-tid:checked').length ){
 				var termid = $(this).find('.csc-input-tid').attr("dataTid");
 				urlopen = urlopen + 'tid' + contador + '=' + termid + '&';
 			}
 			contador++;
 		});;
-
+		
 		window.open(urlopen, '_self');
 	});
 
