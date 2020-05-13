@@ -38,8 +38,6 @@
   {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
   {% set extras_noarray = extras|split(',') %}
 
-          
-
   {# {% set precio2 = getPrecio() %} #}
     
   <div{{ row.attributes.addClass(row_classes) }}>
