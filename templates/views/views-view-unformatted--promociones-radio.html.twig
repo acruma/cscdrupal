@@ -34,7 +34,6 @@
   {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
 
   {# PROCESAMOS PARA OBTENER LOS TERMINOS USANDO EL CUSTOM MODULE PULSIA #}
-
   {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
   {% set extras_noarray = extras|split(',') %}
 
@@ -72,13 +71,13 @@
     </div>
     <form>
       <div class="csc-extras">
-        <div>
-         {# <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ extras }} <b>+</b> {{ precio_extras }}</span> #}
-         {% for extras2 in extras_noarray %}
-            {% set precio2 = getPrecio(extras2) %}
-            {{ precio2 }}
-          {% endfor %}
-        </div>
+        {% for extras2 in extras_noarray %}
+          {% set precio2 = getPrecio(extras2) %}
+          <div>
+          {# <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ extras }} <b>+</b> {{ precio_extras }}</span> #}
+              {{ precio2 }}
+          </div>
+        {% endfor %}
       </div>
       <div class="csc-contratar">
         Contratar Online
