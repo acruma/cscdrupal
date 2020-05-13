@@ -787,7 +787,11 @@ div#block-views-block-promociones-radio-block-1 {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    cursor: pointer; }
+    div#block-views-block-promociones-radio-block-1 .csc-contratar:hover {
+      -webkit-box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3); }
 
 @media (min-width: 768px) {
   div#block-views-block-promociones-radio-block-1 {

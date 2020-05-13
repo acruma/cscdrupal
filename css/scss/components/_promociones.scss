@@ -378,6 +378,11 @@ div#block-views-block-promociones-radio-block-1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
+        
+        &:hover{
+            box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3);
+        }
     }
 
 }
