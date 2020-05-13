@@ -42,13 +42,8 @@
             {% set precio2 = getPrecio(extras2) %}
           {% endfor %} #}
 
-  {# {% set precio2 = getPrecio() %} #}
-   {% set pruebaa = getPrueba() %}
-  
-
-
-  {# {% set precio2 = getPrecio %} #}
-  
+  {% set precio2 = getPrecio() %}
+    
   <div{{ row.attributes.addClass(row_classes) }}>
     <div class="csc-velocidad">
         {{ velocidad }} MB
@@ -84,7 +79,6 @@
         <div>
          {# <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ extras }} <b>+</b> {{ precio_extras }}</span> #}
          {{ precio2 }}
-         {{ pruebaa }}
         </div>
       </div>
       <div class="csc-contratar">
