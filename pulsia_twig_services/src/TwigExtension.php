@@ -44,7 +44,6 @@ class TwigExtension extends \Twig_Extension {
     return $text;
   }
 
-  
   public function getAliasUrl($nid) {
     $alias = \Drupal::service('path.alias_manager')->getAliasByPath('/node/'.$nid);
     return $alias;
