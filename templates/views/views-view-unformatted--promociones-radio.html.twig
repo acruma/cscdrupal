@@ -32,6 +32,8 @@
   {% set text2 = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_texto_descriptivo_2 }}'] %}
   {% set validez = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_validez }}'] %}
   {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
+  {% set nodeID = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ nid }}'] %}
+
 
   {# PROCESAMOS PARA OBTENER LOS TERMINOS USANDO EL CUSTOM MODULE PULSIA #}
   {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
@@ -73,6 +75,9 @@
     <div>
 
       <div class="csc-extras">
+          <label class="csc-itemsExtras">
+            <input class="csc-node-id" type="hidden" name="nodeID" value="yes" dataNodeId="{{ nodeID|trim }}">
+          </label>
         {% for extras2 in extras_noarray %}
           {% set precio_extras = getPrecio_Extras(extras2|trim) %}
           {% set text_extras = getTXT_Extras(extras2|trim) %}
