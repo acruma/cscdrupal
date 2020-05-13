@@ -58,11 +58,14 @@ jQuery(document).ready(function($){
 	var urlopen = "contratar?";
 
 	$(".csc-contratar").click(function () {
+		var contador = 0;
 		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
+
 			if( $(this).find('.csc-input-tid:checked').length ){
 				var termid = $(this).find('.csc-input-tid').attr("dataTid");
-				urlopen = urlopen + 'tid=' + termid + '&';
+				urlopen = urlopen + 'tid' + contador + '=' + termid + '&';
 			}
+			contador++;
 		});;
 
 		window.open(urlopen, '_self');
