@@ -765,9 +765,10 @@ div#block-views-block-promociones-radio-block-1 {
       margin: 0.5em 0;
       width: 100%; }
     div#block-views-block-promociones-radio-block-1 .csc-extras input.fifth-col {
-      margin: 0 1.5em 0 1.5em; }
+      margin: 0 0.5em 0 1em; }
     div#block-views-block-promociones-radio-block-1 .csc-extras span {
-      color: #eceded; }
+      color: #eceded;
+      padding: 0 1em; }
   div#block-views-block-promociones-radio-block-1 .csc-contratar {
     background: #e75d23;
     color: #eceded;
