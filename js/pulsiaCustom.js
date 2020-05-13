@@ -60,7 +60,7 @@ jQuery(document).ready(function($){
 	$(".csc-contratar").click(function () {
 		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
 			if( $(this).find('.csc-input-tid:checked').length ){
-				var termid = $(this).find('.fifth-col').attr("dataTid");
+				var termid = $(this).find('.csc-input-tid').attr("dataTid");
 				urlopen = urlopen + 'tid=' + termid + '&';
 			}
 		});;
