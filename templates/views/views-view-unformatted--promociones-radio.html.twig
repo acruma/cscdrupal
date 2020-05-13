@@ -38,11 +38,11 @@
   {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
   {% set extras_noarray = extras|split(',') %}
 
-          {# {% for extras2 in extras_noarray %}
+          {% for extras2 in extras_noarray %}
             {% set precio2 = getPrecio(extras2) %}
-          {% endfor %} #}
+          {% endfor %}
 
-  {% set precio2 = getPrecio() %}
+  {# {% set precio2 = getPrecio() %} #}
     
   <div{{ row.attributes.addClass(row_classes) }}>
     <div class="csc-velocidad">
