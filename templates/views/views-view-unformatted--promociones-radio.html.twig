@@ -22,14 +22,7 @@
       default_row_class ? 'views-row',
     ]
   %}
-  
-  {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
-  {% set extras_noarray = extras|split(',') %}
-
-          {% for extras2 in extras_noarray %}
-            {{ extras2 }}
-          {% endfor %}
-
+  {# DATOS SIN PROCESAR #}
   {# {% set precio_extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio }}'] %} #}
   {% set instalacion = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_instalacion_gratis }}'] %}
   {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_nuts }}'] %}
@@ -39,6 +32,16 @@
   {% set text2 = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_texto_descriptivo_2 }}'] %}
   {% set validez = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_validez }}'] %}
   {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
+
+  {# PROCESAMOS PARA OBTENER LOS TERMINOS USANDO EL CUSTOM MODULE PULSIA #}
+
+  {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
+  {% set extras_noarray = extras|split(',') %}
+
+          {% for extras2 in extras_noarray %}
+            {% set precio2 = getPrecio(extras2) %}
+          {% endfor %}
+
 
 
   {# {% set precio2 = getPrecio %} #}
@@ -77,7 +80,7 @@
       <div class="csc-extras">
         <div>
          {# <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ extras }} <b>+</b> {{ precio_extras }}</span> #}
-         
+         {{ precio2 }}
         </div>
       </div>
       <div class="csc-contratar">
