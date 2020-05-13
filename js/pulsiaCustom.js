@@ -58,7 +58,8 @@ jQuery(document).ready(function($){
 	$(".csc-contratar").click(function () {
 		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
 			if( $(this).find('.fifth-col:checked').length ){
-			var termid = $(this).find('.fifth-col').attr("dataTid");
+				var termid = $(this).find('.fifth-col').attr("dataTid");
+				console.log(termid);
 			}
 
 			//console.log( index + ": " + $( this ).text() );
