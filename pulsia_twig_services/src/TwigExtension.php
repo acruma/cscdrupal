@@ -3,7 +3,8 @@ namespace Drupal\pulsia_twig_services;
 use Drupal\block\Entity\Block;
 use Drupal\user\Entity\User;
 use Drupal\node\Entity\Node;
- 
+use Drupal\taxonomy\Entity\Term;
+
 /**
  * Class DefaultService.
  *
@@ -28,6 +29,12 @@ class TwigExtension extends \Twig_Extension {
       new \Twig_SimpleFunction('getPrueba', array($this, 'getPrueba'), array('is_safe' => array('html'))),
     );
   }
+
+  public function getPrecio($precio){
+    $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($precio);
+    return $term;
+  }
+
   
   public function getAliasUrl($nid) {
     $alias = \Drupal::service('path.alias_manager')->getAliasByPath('/node/'.$nid);

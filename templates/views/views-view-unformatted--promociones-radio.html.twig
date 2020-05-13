@@ -23,8 +23,9 @@
     ]
   %}
   
-  {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ name }}'] %}
-  {% set precio_extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio }}'] %}
+  {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
+  {% set extras2 = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras__target_id }}'] %}
+  {# {% set precio_extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio }}'] %} #}
   {% set instalacion = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_instalacion_gratis }}'] %}
   {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_nuts }}'] %}
   {% set precio = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio_euros_mes }}'] %}
@@ -33,6 +34,9 @@
   {% set text2 = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_texto_descriptivo_2 }}'] %}
   {% set validez = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_validez }}'] %}
   {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
+
+
+  {# {% set precio2 = getPrecio %} #}
   
   <div{{ row.attributes.addClass(row_classes) }}>
     <div class="csc-velocidad">
@@ -67,7 +71,8 @@
     <form>
       <div class="csc-extras">
         <div>
-         <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ extras }} <b>+</b> {{ precio_extras }}</span>
+         {# <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ extras }} <b>+</b> {{ precio_extras }}</span> #}
+         {{ extras }} --- {{ extras2 }}
         </div>
       </div>
       <div class="csc-contratar">
