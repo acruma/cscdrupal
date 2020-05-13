@@ -31,12 +31,12 @@ class TwigExtension extends \Twig_Extension {
     );
   }
 
-  // public function getPrecio(){
+  public function getPrecio(){
     // $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($precio);
     // $precioValue = $term->field_precio->value;
     // return $precioValue;
-  //   return "holaa";
-  // }
+    return "holaa";
+  }
 
   
   public function getAliasUrl($nid) {
