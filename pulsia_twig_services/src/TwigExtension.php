@@ -25,16 +25,23 @@ class TwigExtension extends \Twig_Extension {
    */
   public function getFunctions() {
     return array(
-      new \Twig_SimpleFunction('getPrecio', array($this, 'getPrecio'), array('is_safe' => array('html'))),
+      new \Twig_SimpleFunction('getPrecio_Extras', array($this, 'getPrecio_Extras'), array('is_safe' => array('html'))),
+      new \Twig_SimpleFunction('getTXT_Extras', array($this, 'getTXT_Extras'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getAliasUrl', array($this, 'getAliasUrl'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getPrueba', array($this, 'getPrueba'), array('is_safe' => array('html'))),
     );
   }
 
-  public function getPrecio($term_id) {
+  public function getPrecio_Extras($term_id) {
     $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($term_id);
     $precioValue = $term->field_precio->value;
     return $precioValue;
+  }
+
+  public function getTXT_Extras($term_id) {
+    $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($term_id);
+    $text = $term->field_texto_visible->value;
+    return $text;
   }
 
   
