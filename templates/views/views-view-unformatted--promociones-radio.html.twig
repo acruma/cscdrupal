@@ -75,7 +75,7 @@
           {% set precio_extras = getPrecio_Extras(extras2|trim) %}
           {% set text_extras = getTXT_Extras(extras2|trim) %}
           <div class="csc-itemsExtras">
-            <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ text_extras }} <b>+</b> {{ precio_extras }} €/MES</span>
+            <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes" dataTid="{{ extras2 }}"> <span>{{ text_extras }} <b>+</b> {{ precio_extras }} €/MES</span>
           </div>
         {% endfor %}
       </div>
