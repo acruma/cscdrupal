@@ -1,0 +1,5 @@
+services:
+  demo_module.twig.TwigExtension:
+    class: Drupal\pulsia_twig_services\TwigExtension
+    tags:
+      - {name: twig.extension}

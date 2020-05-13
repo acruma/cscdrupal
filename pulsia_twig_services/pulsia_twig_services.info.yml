@@ -1,0 +1,6 @@
+name: pulsia_twig_services
+type: module
+description: ‘Funciones Twig personalidas del tema.’
+package: Pulsia
+core: 8.x
+version: 0.1.1
