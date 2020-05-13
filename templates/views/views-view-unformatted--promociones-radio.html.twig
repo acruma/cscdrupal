@@ -35,7 +35,7 @@
 
   {# PROCESAMOS PARA OBTENER LOS TERMINOS USANDO EL CUSTOM MODULE PULSIA #}
   {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
-  {% set extras_noarray = extras|split(',')|trim %}
+  {% set extras_noarray = extras|split(',') %}
 
   {# {% set precio2 = getPrecio() %} #}
     
@@ -72,7 +72,7 @@
     <form>
       <div class="csc-extras">
         {% for extras2 in extras_noarray %}
-          {% set precio2 = getPrecio(extras2) %}
+          {% set precio2 = getPrecio(extras2|trim) %}
           <div>
           {# <input class="fifth-col" type="checkbox" name="telefoniaFija" value="yes"> <span>{{ extras }} <b>+</b> {{ precio_extras }}</span> #}
               {{ precio2 }}
