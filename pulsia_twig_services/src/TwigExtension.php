@@ -32,10 +32,10 @@ class TwigExtension extends \Twig_Extension {
   }
 
   public function getPrecio() {
-    // $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($precio);
-    // $precioValue = $term->field_precio->value;
-    // return $precioValue;
-    return "holaa";
+    $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load(10);
+    $precioValue = $term->field_precio->value;
+    return $precioValue;
+    // return "holaa";
   }
 
   
