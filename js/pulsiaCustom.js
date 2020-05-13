@@ -57,7 +57,7 @@ jQuery(document).ready(function($){
 	/*Mandar por URL el valor dataTid obtenido del form */
 	$(".csc-contratar").click(function () {
 		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
-			console.log( $( this ).attr( "dataTid" ) );
+			console.log( $("input").attr( "dataTid" ) );
 			//console.log( index + ": " + $( this ).text() );
 		});;
 	});
