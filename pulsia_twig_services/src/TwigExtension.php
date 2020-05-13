@@ -25,6 +25,7 @@ class TwigExtension extends \Twig_Extension {
    */
   public function getFunctions() {
     return array(
+      new \Twig_SimpleFunction('getPrecio', array($this, 'getAliasUrl'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getAliasUrl', array($this, 'getAliasUrl'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getPrueba', array($this, 'getPrueba'), array('is_safe' => array('html'))),
     );
