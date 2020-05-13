@@ -56,14 +56,16 @@ jQuery(document).ready(function($){
 
 	/*Mandar por URL el valor dataTid obtenido del form */
 	$(".csc-contratar").click(function () {
+		var urlopen = "contratar?";
+
 		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
 			if( $(this).find('.fifth-col:checked').length ){
 				var termid = $(this).find('.fifth-col').attr("dataTid");
-				console.log(termid);
+				urlopen = urlopen + 'tid=' + termid;
 			}
-
-			//console.log( index + ": " + $( this ).text() );
 		});;
+
+		window.open(urlopen, '_self');
 	});
 
 	// $("div#block-views-block-promociones-radio-block-1").find(".csc-itemsExtras").each(function( index ) {
