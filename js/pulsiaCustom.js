@@ -53,11 +53,11 @@ jQuery(document).ready(function($){
 		$("input#edit-codigo-postal").val(cp_tar);
 	}
 
-
+	
 	/*Mandar por URL el valor dataTid obtenido del form */
-	$(".csc-contratar").click(function () {
-		var urlopen = "contratar?";
+	var urlopen = "contratar?";
 
+	$(".csc-contratar").click(function () {
 		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
 			if( $(this).find('.fifth-col:checked').length ){
 				var termid = $(this).find('.fifth-col').attr("dataTid");
