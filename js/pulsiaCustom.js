@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
 		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
 			if( $(this).find('.fifth-col:checked').length ){
 				var termid = $(this).find('.fifth-col').attr("dataTid");
-				urlopen = urlopen + 'tid=' + termid;
+				urlopen = urlopen + 'tid=' + termid + '&';
 			}
 		});;
 
