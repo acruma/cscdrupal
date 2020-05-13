@@ -769,6 +769,8 @@ div#block-views-block-promociones-radio-block-1 {
     div#block-views-block-promociones-radio-block-1 .csc-extras span {
       color: #eceded;
       padding: 0 1em; }
+    div#block-views-block-promociones-radio-block-1 .csc-extras b {
+      color: #e75d23; }
   div#block-views-block-promociones-radio-block-1 .csc-contratar {
     background: #e75d23;
     color: #eceded;
