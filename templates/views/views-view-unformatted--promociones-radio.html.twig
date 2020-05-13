@@ -35,7 +35,7 @@
 
   {# PROCESAMOS PARA OBTENER LOS TERMINOS USANDO EL CUSTOM MODULE PULSIA #}
   {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
-  {% set extras_noarray = extras|split(',') %}
+  {% set extras_noarray = extras|split(',')|trim %}
 
   {# {% set precio2 = getPrecio() %} #}
     
