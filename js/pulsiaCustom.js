@@ -54,4 +54,12 @@ jQuery(document).ready(function($){
 	}
 
 
+	/*Mandar por URL el valor dataTid obtenido del form */
+
+	$("div#block-views-block-promociones-radio-block-1").find(".csc-itemsExtras").each(function( index ) {
+		//$("input[dataTid]").val();
+		console.log( index + ": " + $( this ).text() );
+	});;
+
+
 });
