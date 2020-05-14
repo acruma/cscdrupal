@@ -1264,6 +1264,14 @@ div#block-views-block-promociones-radio-block-1 {
       border: none;
       border-radius: 3px; }
 
+@media (min-width: 768px) {
+  .ps-path-contratar div#block-views-block-webform-contratar-block-1 form#webform-submission-contratacion-online-node-122-add-form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em; } }
+
 @media (min-width: 900px) {
   .ps-path-contratar .region.region-content {
     -ms-grid-columns: 1fr 3fr;

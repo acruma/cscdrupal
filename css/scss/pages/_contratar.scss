@@ -192,6 +192,17 @@
 
 }
 
+@media (min-width: 768px) {
+    .ps-path-contratar{
+        div#block-views-block-webform-contratar-block-1{
+             form#webform-submission-contratacion-online-node-122-add-form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 2em;
+            }
+        }
+    }
+}
 
 @media (min-width: 900px) {
     .ps-path-contratar{    
@@ -211,6 +222,5 @@
         div#block-views-block-webform-contratar-block-1{
             margin-top: 0;
         }
-        
     }
 }
