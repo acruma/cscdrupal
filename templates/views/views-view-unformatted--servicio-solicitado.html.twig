@@ -16,6 +16,7 @@
  */
 #}
 
+<div class="csc-serviciosGrid">
 {% for row in rows %}
   {%
     set row_classes = [
@@ -24,11 +25,18 @@
   %}
   {# DATOS SIN PROCESAR #}
   {# {% set precio_extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio }}'] %} #}
-  {% set instalacion = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_instalacion_gratis }}'] %}
+  {% set tecnologia = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_tecnologia }}'] %}
+  {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
+  {% set precioeur = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio_euros_mes }}'] %}
 
 
-    
-  <div{{ row.attributes.addClass(row_classes) }}>
-    
+
+  <div class="csc-tipoServicio">
+    {{ tecnologia }} {{ velocidad }}
   </div>
+  <div class="csc-precioServicio">
+    {{ precioeur }}
+  </div>
+  
 {% endfor %}
+</div>
