@@ -44,16 +44,16 @@
 
   {% for row in url %}
     <div class="TESTING">
-      {{ row }}
+      {{ url[loop.index] }}
     </div>
   {% endfor %}
   {# FAlta FOR con los param #}
 
   {# Crear aqui funcion de obtener terminos de URL #}
   {# {% set precioExtras = getPrecio_Extras() %}
-  {% set txtExtras = getTXT_Extras() %} #}
+  {% set txtExtras = getTXT_Extras() %}
 
-  {# <div class="csc-tipoServicio">
+  <div class="csc-tipoServicio">
     {{ txtExtras }}
   </div>
   <div class="csc-precioServicio">
