@@ -866,6 +866,28 @@ div#block-views-block-promociones-radio-block-1 {
       .csc-menuNavigate ul a:hover {
         border-bottom: 6px solid #e75d23; }
 
+@media (min-width: 768px) {
+  div#block-pagetitle-2 {
+    margin-top: 3em; }
+  div#block-pagetitle-1 {
+    margin-top: 3em; }
+  .csc-menuNavigate ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    width: 70%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0; }
+    .csc-menuNavigate ul li.menu-item {
+      width: 100%; }
+    .csc-menuNavigate ul a {
+      font-size: 0.9em;
+      font-weight: 800; } }
+
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
   display: grid;
