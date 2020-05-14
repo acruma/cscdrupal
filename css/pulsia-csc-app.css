@@ -872,11 +872,12 @@ div#block-views-block-promociones-radio-block-1 {
   div#block-pagetitle-1 {
     margin-top: 3em; }
   .csc-menuNavigate ul {
+    max-width: 1080px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     text-align: center;
-    width: 70%;
+    width: 100%;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -886,9 +887,7 @@ div#block-views-block-promociones-radio-block-1 {
       width: 100%; }
     .csc-menuNavigate ul a {
       font-size: 0.9em;
-      font-weight: 800; }
-  nav#block-empresamenu ul {
-    width: 100% !important; } }
+      font-weight: 800; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;

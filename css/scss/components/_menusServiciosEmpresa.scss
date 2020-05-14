@@ -34,9 +34,10 @@
     .csc-menuNavigate {
 
         ul{
+            max-width: 1080px;
             display: flex;
             text-align: center;
-            width: 70%;
+            width: 100%;
             justify-content: center;
             margin: 0;
             padding: 0;
@@ -49,12 +50,6 @@
                 font-size: 0.9em;
                 font-weight: 800;
             }
-        }
-    }
-
-    nav#block-empresamenu{
-        ul{
-            width: 100% !important;
         }
     }
 }
