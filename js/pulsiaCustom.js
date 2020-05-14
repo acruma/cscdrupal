@@ -92,7 +92,14 @@ jQuery(document).ready(function($){
 		$("div#block-views-block-servicio-solicitado-block-1").css( {height: heightServicios + 'px'})
 
 		// PASAR A UN INPUT HIDDEN EL VALOR DEL CP Y DE LOS DISTINTOS .csc-tipoServicio USADOS (PARA COMERCIALES) #todo
+		infoComercial = '';
 
+		$(".csc-tipoServicio").each(function( index ) {
+			console.log($(this).text());
+		});
+		
+
+		$(".js-form-item-informacion-comercial.form-item-informacion-comercial").val(infoComercial);
 	}
 
 	
