@@ -104,7 +104,7 @@ jQuery(document).ready(function($){
 			infoComercial = infoComercial + ' + ' + servicio + ' ' + precioServ;
 		});
 
-		infoComercial = infoComercial + 'Verificación NodeID = ' + nodeIDParam;
+		infoComercial = infoComercial + ' // Verificación NodeID = ' + nodeIDParam;
 		console.log(infoComercial);
 
 		$(".js-form-item-informacion-comercial.form-item-informacion-comercial").val(infoComercial);
