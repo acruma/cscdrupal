@@ -83,8 +83,8 @@ jQuery(document).ready(function($){
 		var precio = $(this).text();
 		sum += parseFloat(precio);
 	});
-
-	console.log(sum);
+	$(".csc-precioFinalServicio").text(sum + ' €/mes');
+	//console.log(sum);
 
 
 	// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO #todo
