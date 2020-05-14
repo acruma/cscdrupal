@@ -39,13 +39,30 @@
 {% endfor %}
 </div>
 
-  {# Crear aqui funcion de obtener terminos de URL #}
-  {% set urlparams = getURLParams() %}
-  {% set prueba = getPrueba() %}
+  {% set url = url('<current>')|render|render %}
+  {% set url = url|split('&') %}
 
-  <div class="testing">{{ prueba }}</div>
-  <div class="testing">{{ urlparams }}</div>
+  {% for row in url %}
+    <div class="TESTING">
+      {{ row }}
+    </div>
+  {% endfor %}
+  {# FAlta FOR con los param #}
+
+  {# Crear aqui funcion de obtener terminos de URL #}
+  {% set precioExtras = getPrecio_Extras() %}
+  {% set txtExtras = getTXT_Extras() %}
+
+  <div class="csc-tipoServicio">
+    {{ txtExtras }}
+  </div>
+  <div class="csc-precioServicio">
+    {{ precioExtras }} €/mes
+  </div>
   
+  {# close for #}
+
+
 
 
 <div class="priceTotal-row">
