@@ -40,7 +40,9 @@
 
   {# Crear aqui funcion de obtener terminos de URL #}
   {% set urlparams = getURLParams() %}
-  <div class="testing">{{ urlparams }}</div>
+  {% for param in urlparams %}
+    <div class="testing">{{ param }}</div>
+  {% endfor %}
 </div>
 
 <div class="priceTotal-row">
