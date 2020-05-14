@@ -39,15 +39,17 @@
 {% endfor %}
 </div>
 
-  {% set queryParams = getPath() %}
+  {% set url = getPath() %}
+  {% set queryParams = url|split('&') %}
 
-  {{ queryParams }}
   
-  {# {% for row in url %}
+
+  {% for row in queryParams %}
     <div class="TESTING">
-      {{ url[loop.index] }}
+      {{ queryParams[loop.index] }}
+      {{ row }}
     </div>
-  {% endfor %} #}
+  {% endfor %}
 
   {# FAlta FOR con los param #}
 
