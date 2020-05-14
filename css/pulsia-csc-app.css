@@ -886,7 +886,9 @@ div#block-views-block-promociones-radio-block-1 {
       width: 100%; }
     .csc-menuNavigate ul a {
       font-size: 0.9em;
-      font-weight: 800; } }
+      font-weight: 800; }
+  nav#block-empresamenu ul {
+    width: 100% !important; } }
 
 .ps-path-tarifas .region.region-content {
   display: -ms-grid;
