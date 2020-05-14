@@ -26,6 +26,7 @@ class TwigExtension extends \Twig_Extension {
   public function getFunctions() {
     return array(
       new \Twig_SimpleFunction('getPrecio_Extras', array($this, 'getPrecio_Extras'), array('is_safe' => array('html'))),
+      new \Twig_SimpleFunction('getURLParams', array($this, 'getURLParams'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getTXT_Extras', array($this, 'getTXT_Extras'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getAliasUrl', array($this, 'getAliasUrl'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getPrueba', array($this, 'getPrueba'), array('is_safe' => array('html'))),
@@ -37,6 +38,13 @@ class TwigExtension extends \Twig_Extension {
     $precioValue = $term->field_precio->value;
     return $precioValue;
   }
+
+  public function getURLParams() {
+    $parameters = \Drupal::routeMatch()->getParameters();
+    return $parameters;
+  }
+
+  
 
   public function getTXT_Extras($term_id) {
     $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($term_id);

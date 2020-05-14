@@ -29,16 +29,18 @@
   {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
   {% set precioeur = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio_euros_mes }}'] %}
 
-
-
   <div class="csc-tipoServicio">
     {{ tecnologia }} {{ velocidad }}MB
   </div>
   <div class="csc-precioServicio">
     {{ precioeur }} €/mes
   </div>
-  
+
 {% endfor %}
+
+  {# Crear aqui funcion de obtener terminos de URL #}
+  {% set urlparams = getURLParams() %}
+
 </div>
 
 <div class="priceTotal-row">

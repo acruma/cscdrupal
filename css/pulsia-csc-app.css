@@ -1090,10 +1090,12 @@ div#block-views-block-promociones-radio-block-1 {
       padding-right: 0.3em; }
 
 .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 {
+  font-family: Raleway;
   border: 0.5px solid #5b5b5b;
   border-radius: 3px;
   padding: 1em;
-  position: relative; }
+  position: relative;
+  margin-bottom: 3em; }
   .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 h2 {
     position: absolute;
     top: -43px;
@@ -1132,6 +1134,12 @@ div#block-views-block-promociones-radio-block-1 {
       text-align: initial; }
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .priceTotal-row .csc-precioFinalServicio {
       text-align: end; }
+
+.ps-path-contratar div#block-views-block-webform-contratar-block-1 {
+  border: 0.5px solid #5b5b5b;
+  border-radius: 3px;
+  padding: 1em;
+  position: relative; }
 
 @media (min-width: 900px) {
   .ps-path-contratar .region.region-content {
