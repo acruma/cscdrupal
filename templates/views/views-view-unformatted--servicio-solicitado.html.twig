@@ -47,14 +47,14 @@
       {% set tid = row|split('=') %}
       {% set precioExtras = getPrecio_Extras(tid[1]) %}
       {% set txtExtras = getTXT_Extras(tid[1]) %}
-      
-      <div class="csc-tipoServicio">
-        {{ txtExtras }}
+      <div class="csc-serviciosGrid">
+        <div class="csc-tipoServicio">
+          {{ txtExtras }}
+        </div>
+        <div class="csc-precioServicio">
+          {{ precioExtras }} €/mes
+        </div>
       </div>
-      <div class="csc-precioServicio">
-        {{ precioExtras }} €/mes
-      </div>
-
     {% endif %}
   {% endfor %}
   {# FIN #}
