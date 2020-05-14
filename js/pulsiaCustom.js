@@ -55,7 +55,7 @@ jQuery(document).ready(function($){
 	// FIN
 	
 	/*Mandar por URL el valor dataTid obtenido del form */
-	var urlopen = "contratar?cp=" + cp_tar;
+	var urlopen = "contratar?cp=" + cp_tar + '&';
 
 	$(".csc-contratar").click(function () {
 		var contador = 0;
