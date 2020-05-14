@@ -854,7 +854,8 @@ div#block-views-block-promociones-radio-block-1 {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: 2em 0; }
   .csc-menuNavigate ul {
     text-align: center; }
     .csc-menuNavigate ul li.menu-item {
