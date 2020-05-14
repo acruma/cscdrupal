@@ -78,7 +78,9 @@ jQuery(document).ready(function($){
 	
 	// CARGAR SOLO SI ESTAMOS EN LA URL CONTRATAR
 	if (window.location.href.indexOf("contratar") > -1) {
+		infoComercial = '';
 		var cp_tar = getUrlParameter('cp');
+		infoComercial = infoComercial + 'CP: ' + cp_tar;
 		//Sumando los precios y luego aplicando a la suma total en cuota mensual
 		var sum = 0;
 		$(".csc-precioSUM").each(function( index ) {
@@ -92,12 +94,13 @@ jQuery(document).ready(function($){
 		$("div#block-views-block-servicio-solicitado-block-1").css( {height: heightServicios + 'px'})
 
 		// PASAR A UN INPUT HIDDEN EL VALOR DEL CP Y DE LOS DISTINTOS .csc-tipoServicio USADOS (PARA COMERCIALES) #todo
-		infoComercial = '';
+		
 
 		$(".csc-tipoServicio").each(function( index ) {
-			console.log($(this).text());
+			infoComercial = infoComercial + ' ' + $(this).text().trim();
 		});
-		
+
+		console.log(infoComercial);
 
 		$(".js-form-item-informacion-comercial.form-item-informacion-comercial").val(infoComercial);
 	}
