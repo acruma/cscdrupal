@@ -33,7 +33,7 @@
     {{ tecnologia }} {{ velocidad }}MB
   </div>
   <div class="csc-precioServicio">
-    {{ precioeur }} €/mes
+    <span class="csc-precioSUM">{{ precioeur }}</span> €/mes
   </div>
 
 {% endfor %}
@@ -52,7 +52,7 @@
           {{ txtExtras }}
         </div>
         <div class="csc-precioServicio">
-          {{ precioExtras }} €/mes
+          <span class="csc-precioSUM">{{ precioExtras }}</span> €/mes
         </div>
       </div>
     {% endif %}
