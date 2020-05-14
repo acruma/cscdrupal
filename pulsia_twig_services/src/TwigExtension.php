@@ -40,7 +40,7 @@ class TwigExtension extends \Twig_Extension {
   }
 
   public function getURLParams() {
-    $parameters = \Drupal::request()->request->get('tid1');
+    $parameters = \Drupal::routeMatch()->getParameter('tid1');
     return $parameters;
   }
 
