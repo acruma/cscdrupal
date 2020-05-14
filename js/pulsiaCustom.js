@@ -47,47 +47,52 @@ jQuery(document).ready(function($){
 		}
 	};
 
+	// CARGAR SOLO SI ESTAMOS EN LA URL tarifas-por-poblacion
 	if (window.location.href.indexOf("tarifas-por-poblacion") > -1) {
 		var cp_tar = getUrlParameter('cp');
 		$("div#block-views-block-promociones-radio-block-1").find(".csc-cp-tar").text(cp_tar);
 		$("input#edit-codigo-postal").val(cp_tar);
-	}
-	// FIN
-	
-	/*Mandar por URL el valor dataTid obtenido del form */
-	var urlopen = "contratar?cp=" + cp_tar + '&';
+			
+		/*Mandar por URL el valor dataTid obtenido del form */
+		var urlopen = "contratar?cp=" + cp_tar + '&';
 
-	$(".csc-contratar").click(function () {
-		var contador = 0;
+		$(".csc-contratar").click(function () {
+			var contador = 0;
 
-		$(this).parent().find(".csc-itemsExtras.csc-hidden").each(function( index ) {
-			var nodeid = $(this).find('.csc-node-id ').attr("datanodeid");
-			urlopen = urlopen + 'nodeid=' + nodeid + '&';
+			$(this).parent().find(".csc-itemsExtras.csc-hidden").each(function( index ) {
+				var nodeid = $(this).find('.csc-node-id ').attr("datanodeid");
+				urlopen = urlopen + 'nodeid=' + nodeid + '&';
+			});
+
+			$(this).parent().find(".csc-itemsExtras").each(function( index ) {
+				if( $(this).find('.csc-input-tid:checked').length ){
+					var termid = $(this).find('.csc-input-tid').attr("dataTid");
+					urlopen = urlopen + 'tid' + contador + '=' + termid + '&';
+				}
+				contador++;
+			});;
+			
+			window.open(urlopen, '_self');
 		});
-
-		$(this).parent().find(".csc-itemsExtras").each(function( index ) {
-			if( $(this).find('.csc-input-tid:checked').length ){
-				var termid = $(this).find('.csc-input-tid').attr("dataTid");
-				urlopen = urlopen + 'tid' + contador + '=' + termid + '&';
-			}
-			contador++;
-		});;
-		
-		window.open(urlopen, '_self');
-	});
+	}
 	
-	//Sumando los precios y luego aplicando a la suma total en cuota mensual
-	var sum = 0;
-	$(".csc-precioSUM").each(function( index ) {
-		var precio = $(this).text();
-		sum += parseFloat(precio);
-	});
-	$(".csc-precioFinalServicio").text(sum + ' €/mes');
+	// CARGAR SOLO SI ESTAMOS EN LA URL CONTRATAR
+	if (window.location.href.indexOf("contratar") > -1) {
+		var cp_tar = getUrlParameter('cp');
+		//Sumando los precios y luego aplicando a la suma total en cuota mensual
+		var sum = 0;
+		$(".csc-precioSUM").each(function( index ) {
+			var precio = $(this).text();
+			sum += parseFloat(precio);
+		});
+		$(".csc-precioFinalServicio").text(sum + ' €/mes');
 
-	// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO
-	var heightServicios = $("div#block-views-block-servicio-solicitado-block-1 div:nth-child(1)").height() + 20;
-	$("div#block-views-block-servicio-solicitado-block-1").css( {height: heightServicios + 'px'})
+		// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO
+		var heightServicios = $("div#block-views-block-servicio-solicitado-block-1 div:nth-child(1)").height() + 20;
+		$("div#block-views-block-servicio-solicitado-block-1").css( {height: heightServicios + 'px'})
 
-	// PASAR A UN INPUT HIDDEN EL VALOR DEL CP Y DE LOS DISTINTOS TID USADOS EN LA URL (PARA COMERCIALES) #todo
+		// PASAR A UN INPUT HIDDEN EL VALOR DEL CP Y DE LOS DISTINTOS .csc-tipoServicio USADOS (PARA COMERCIALES) #todo
 
+
+	}
 });
