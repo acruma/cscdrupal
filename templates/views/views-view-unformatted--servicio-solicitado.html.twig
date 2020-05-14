@@ -43,6 +43,10 @@
   {# {% set url = url|split('&') %} #}
 
   {{ url }}
+
+  {% set queryParams = app.request.query.all %}
+
+  {{ queryParams }}
   {# {% for row in url %}
     <div class="TESTING">
       {{ url[loop.index] }}
