@@ -76,6 +76,11 @@ jQuery(document).ready(function($){
 		window.open(urlopen, '_self');
 	});
 	
+	//Sumando los precios y luego aplicando a la suma total en cuota mensual
+	$(".csc-precioServicio").each(function( index ) {
+		var precio = $(".csc-precioSUM").text();
+		console.log(precio);
+	});
 
 	// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO #todo
 
