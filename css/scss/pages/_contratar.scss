@@ -115,6 +115,83 @@
         position: relative;
     }
 
+    .view-webform-contratar{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 2em 1em;
+        position: relative;
+
+        div{
+            width: 100%;
+        }
+
+        input{
+            width: 95%;
+            border-radius: 1px;
+            border: 0.5px solid #dfe1e1;
+            padding: 0.5em;
+            font-size: 1em;
+            color: #4e4e4e;
+        }
+
+        .view-content{
+            border: 1px solid;
+            border-radius: 4px;
+            padding: 1em;
+            color: gray;
+            display: flex;
+            justify-content: center;
+
+            .views-field.views-field-title{
+                .field-content{
+                    position: absolute;
+                    top: -32px;
+                    background: white;
+                    padding: 10px;
+                    color: #e75d23;
+                    font-family: "Waiting for the Sunrise", cursive;
+                    font-size: 1.6em;
+                    font-weight: 900;
+                }
+            }
+
+            /*Formulario en sí*/
+
+            .form-required{
+                &:after{
+                    content: "*";
+                    font-family: "Waiting for the Sunrise", cursive;
+                    font-size: 1.3em;
+                    color: #e75d23;
+                    padding-left: 0.3em;
+                    background: none;
+                    height: 40px;
+                    vertical-align: baseline;
+                }
+            }
+
+            .webform-readonly.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-codigo-postal.form-item-codigo-postal {
+                display: none;
+            }
+            
+            input.csc-submit{
+                background-color: #e75d23;
+                font-family: "Waiting for the Sunrise", cursive;
+                color: white;
+                width: 100%;
+                font-size: 1.5em;
+                letter-spacing: 0.1em;
+                font-weight: 900;
+                cursor: pointer;
+                height: 70px;
+                box-shadow: 0px -5px 3px -3px rgba(0, 0, 0, 0.2);
+                border: none;
+                border-radius: 3px;
+            }
+        }
+    }
+
 }
 
 
