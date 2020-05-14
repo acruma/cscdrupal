@@ -1193,9 +1193,7 @@ div#block-views-block-promociones-radio-block-1 {
       text-align: end; }
 
 .ps-path-contratar div#block-views-block-webform-contratar-block-1 {
-  border: 0.5px solid #5b5b5b;
   border-radius: 3px;
-  padding: 1em;
   position: relative; }
 
 .ps-path-contratar .view-webform-contratar {
@@ -1208,7 +1206,6 @@ div#block-views-block-promociones-radio-block-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 2em 1em;
   position: relative; }
   .ps-path-contratar .view-webform-contratar div {
     width: 100%; }
