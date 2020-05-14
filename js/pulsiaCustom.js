@@ -78,7 +78,6 @@ jQuery(document).ready(function($){
 	
 	//Sumando los precios y luego aplicando a la suma total en cuota mensual
 	var sum = 0;
-
 	$(".csc-precioSUM").each(function( index ) {
 		var precio = $(this).text();
 		sum += parseFloat(precio);
