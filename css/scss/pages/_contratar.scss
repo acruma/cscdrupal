@@ -69,6 +69,7 @@
         .csc-serviciosGrid {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            margin: 1em 0;
 
             .csc-tipoServicio {
                 text-align: initial;
@@ -86,7 +87,8 @@
             font-weight: 600;
             display: grid;
             grid-template-columns: 1fr 1fr;
-
+            margin-top: 2em;
+            
             .csc-mensualServicio{
                 text-align: initial;
             }

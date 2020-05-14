@@ -1111,7 +1111,8 @@ div#block-views-block-promociones-radio-block-1 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    margin: 1em 0; }
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid .csc-tipoServicio {
       text-align: initial; }
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid .csc-precioServicio {
@@ -1125,7 +1126,8 @@ div#block-views-block-promociones-radio-block-1 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2em; }
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .priceTotal-row .csc-mensualServicio {
       text-align: initial; }
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .priceTotal-row .csc-precioFinalServicio {
