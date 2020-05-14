@@ -45,13 +45,33 @@
     }
 
     div#block-views-block-servicio-solicitado-block-1{
+        border: 0.5px solid #5b5b5b;
+        border-radius: 3px;
+        padding: 1em;
+        position: relative;
+        
+        h2{
+            position: absolute;
+            top: -43px;
+            left: 10px;
+            padding: 0 0.5em;
+            display: inline;
+            color: #e75d23;
+            font-family: "Waiting for the Sunrise", cursive;
+            font-size: 1.6em;
+            font-weight: 900;
+            background: white;
+        }
+        .view-filters {
+            display: none;
+        }
 
     }
 
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .ps-path-contratar{    
         .region.region-content{
             grid-template-columns: 1fr 3fr;
