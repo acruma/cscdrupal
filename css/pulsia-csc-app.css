@@ -1263,14 +1263,10 @@ div#block-views-block-promociones-radio-block-1 {
       box-shadow: 0px -5px 3px -3px rgba(0, 0, 0, 0.2);
       border: none;
       border-radius: 3px; }
-    .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-acepto-las-condiciones-del-servicio-.form-item-acepto-las-condiciones-del-servicio- {
+    .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-acepto-las-condiciones-del-servicio-.form-item-acepto-las-condiciones-del-servicio-, .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item--acepto-la-politica-de-privacidad-.form-item--acepto-la-politica-de-privacidad- {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
@@ -1280,21 +1276,6 @@ div#block-views-block-promociones-radio-block-1 {
       text-align: center; }
     .ps-path-contratar .view-webform-contratar .view-content input#edit-acepto-las-condiciones-del-servicio-, .ps-path-contratar .view-webform-contratar .view-content input#edit-acepto-la-politica-de-privacidad- {
       width: 1em; }
-    .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item--acepto-la-politica-de-privacidad-.form-item--acepto-la-politica-de-privacidad- {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      text-align: center; }
 
 @media (min-width: 768px) {
   .ps-path-contratar div#block-views-block-webform-contratar-block-1 form#webform-submission-contratacion-online-node-122-add-form {

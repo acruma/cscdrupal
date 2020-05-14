@@ -188,9 +188,8 @@
                 border-radius: 3px;
             }
 
-            .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-acepto-las-condiciones-del-servicio-.form-item-acepto-las-condiciones-del-servicio- {
+            .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-acepto-las-condiciones-del-servicio-.form-item-acepto-las-condiciones-del-servicio- ,  .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item--acepto-la-politica-de-privacidad-.form-item--acepto-la-politica-de-privacidad-{
                 display: flex;
-                flex-direction: row-reverse;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
@@ -198,14 +197,6 @@
 
             input#edit-acepto-las-condiciones-del-servicio- , input#edit-acepto-la-politica-de-privacidad-{
                 width: 1em;
-            }
-
-            .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item--acepto-la-politica-de-privacidad-.form-item--acepto-la-politica-de-privacidad-{
-                display: flex;
-                flex-direction: row-reverse;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
             }
 
         }
