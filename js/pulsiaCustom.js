@@ -97,7 +97,10 @@ jQuery(document).ready(function($){
 		
 		//.csc-serviciosGrid //.csc-tipoServicio
 		$(".csc-serviciosGrid").each(function( index ) {
-			infoComercial = infoComercial + ' + ' + $(this).text().trim();
+			var servicio = $(this).find('.csc-tipoServicio').text().trim();
+			var precioServ = $(this).find('.csc-precioServicio').text().trim();
+			//infoComercial = infoComercial + ' + ' + $(this).text().trim();
+			infoComercial = infoComercial + ' + ' + servicio + ' ' + precioServ;
 		});
 
 		console.log(infoComercial);
