@@ -46,7 +46,9 @@
 
   {% for row in queryParams %}
     <div class="TESTING">
-      {{ row }}
+      {% if 'tid' in row %}
+        {{ row }}
+      {% endif %}
     </div>
   {% endfor %}
 
