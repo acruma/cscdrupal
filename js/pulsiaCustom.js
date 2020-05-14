@@ -80,6 +80,7 @@ jQuery(document).ready(function($){
 	if (window.location.href.indexOf("contratar") > -1) {
 		infoComercial = '';
 		var cp_tar = getUrlParameter('cp');
+		var nodeIDParam = getUrlParameter('nodeid');
 		infoComercial = infoComercial + 'CP: ' + cp_tar + ' // Servicio solicitado -> // ';
 		//Sumando los precios y luego aplicando a la suma total en cuota mensual
 		var sum = 0;
@@ -103,6 +104,7 @@ jQuery(document).ready(function($){
 			infoComercial = infoComercial + ' + ' + servicio + ' ' + precioServ;
 		});
 
+		infoComercial = infoComercial + 'Verificación NodeID = ' + nodeIDParam;
 		console.log(infoComercial);
 
 		$(".js-form-item-informacion-comercial.form-item-informacion-comercial").val(infoComercial);
