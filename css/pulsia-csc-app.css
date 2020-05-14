@@ -1278,6 +1278,8 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-flex-align: center;
       align-items: center;
       text-align: center; }
+    .ps-path-contratar .view-webform-contratar .view-content input#edit-acepto-las-condiciones-del-servicio-, .ps-path-contratar .view-webform-contratar .view-content input#edit-acepto-la-politica-de-privacidad- {
+      width: 1em; }
     .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item--acepto-la-politica-de-privacidad-.form-item--acepto-la-politica-de-privacidad- {
       display: -webkit-box;
       display: -ms-flexbox;
