@@ -34,7 +34,7 @@ class TwigExtension extends \Twig_Extension {
   }
 
   public function getPath() {
-    $current_path = \Drupal::service('path.current')->getPath();
+    $current_path = $_SERVER['REQUEST_URI'];
     return $current_path;
   }
 
