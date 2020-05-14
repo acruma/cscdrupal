@@ -1057,6 +1057,12 @@ div#block-views-block-promociones-radio-block-1 {
 .ps-path-contratar .ps-content-grid {
   padding: 1.5em; }
 
+.ps-path-contratar .region.region-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr; }
+
 .ps-path-contratar div#block-views-block-contratar-block-1-block-1 {
   font-family: Raleway; }
   .ps-path-contratar div#block-views-block-contratar-block-1-block-1 .views-row {
