@@ -49,7 +49,7 @@
         border-radius: 3px;
         padding: 1em;
         position: relative;
-        
+
         h2{
             position: absolute;
             top: -43px;
@@ -64,6 +64,18 @@
         }
         .view-filters {
             display: none;
+        }
+
+        .csc-serviciosGrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .csc-tipoServicio {
+                text-align: initial;
+            }
+            .csc-precioServicio {
+                text-align: end;
+            }
         }
 
     }

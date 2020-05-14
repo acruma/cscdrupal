@@ -1107,6 +1107,15 @@ div#block-views-block-promociones-radio-block-1 {
     background: white; }
   .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .view-filters {
     display: none; }
+  .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; }
+    .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid .csc-tipoServicio {
+      text-align: initial; }
+    .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid .csc-precioServicio {
+      text-align: end; }
 
 @media (min-width: 900px) {
   .ps-path-contratar .region.region-content {
