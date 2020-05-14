@@ -30,7 +30,7 @@ jQuery(document).ready(function($){
 		}
 	}
 
-	/* OBTENGO EL DATO CP DE URL Y LO SE PASO A LA CLASE .csc-cp-tar */
+	/* OBTENGO EL DATO CP DE URL Y LO SE PASO A LA CLASE .csc-cp-tar PARA FORMULARIO DE CONTACTO ESTUDIO DE VIABILIDAD. */
 	/*FUNCION GET PARAMETROS URL*/
 	var getUrlParameter = function getUrlParameter(sParam) {
 		var sPageURL = window.location.search.substring(1),
@@ -52,10 +52,10 @@ jQuery(document).ready(function($){
 		$("div#block-views-block-promociones-radio-block-1").find(".csc-cp-tar").text(cp_tar);
 		$("input#edit-codigo-postal").val(cp_tar);
 	}
-
+	// FIN
 	
 	/*Mandar por URL el valor dataTid obtenido del form */
-	var urlopen = "contratar?";
+	var urlopen = "contratar?cp=" + cp_tar;
 
 	$(".csc-contratar").click(function () {
 		var contador = 0;
@@ -75,11 +75,9 @@ jQuery(document).ready(function($){
 		
 		window.open(urlopen, '_self');
 	});
+	
 
-	// $("div#block-views-block-promociones-radio-block-1").find(".csc-itemsExtras").each(function( index ) {
-	// 	$("input[dataTid]").val();
-	// 	console.log( index + ": " + $( this ).text() );
-	// });;
+	// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO #todo
 
 
 });
