@@ -1292,6 +1292,10 @@ div#block-views-block-promociones-radio-block-1 {
       grid-column: 1/3; }
     .ps-path-contratar .view-webform-contratar .view-content input#edit-acepto-las-condiciones-del-servicio-, .ps-path-contratar .view-webform-contratar .view-content input#edit-acepto-la-politica-de-privacidad- {
       width: 1em; }
+  .ps-path-contratar .view-webform-contratar .webform-confirmation__message {
+    margin: 3em; }
+  .ps-path-contratar .view-webform-contratar .webform-confirmation__back {
+    display: none; }
 
 @media (min-width: 768px) {
   .ps-path-contratar div#block-views-block-webform-contratar-block-1 form#webform-submission-contratacion-online-node-122-add-form {
