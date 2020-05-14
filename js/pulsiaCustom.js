@@ -94,21 +94,17 @@ jQuery(document).ready(function($){
 		var heightServicios = $("div#block-views-block-servicio-solicitado-block-1 div:nth-child(1)").height() + 20;
 		$("div#block-views-block-servicio-solicitado-block-1").css( {height: heightServicios + 'px'})
 
-		// PASAR A UN INPUT HIDDEN EL VALOR DEL CP Y DE LOS DISTINTOS .csc-tipoServicio USADOS (PARA COMERCIALES) #todo
-		
-		//.csc-serviciosGrid //.csc-tipoServicio
+		// PASAR A UN INPUT HIDDEN EL VALOR DEL CP Y DE LOS DISTINTOS .csc-tipoServicio USADOS (PARA COMERCIALES)
 		$(".csc-serviciosGrid").each(function( index ) {
 			var servicio = $(this).find('.csc-tipoServicio').text().trim();
 			var precioServ = $(this).find('.csc-precioServicio').text().trim();
-			//infoComercial = infoComercial + ' + ' + $(this).text().trim();
 			infoComercial = infoComercial + ' + ' + servicio + ' ' + precioServ;
 		});
-
 		infoComercial = infoComercial + ' // Verificación NodeID = ' + nodeIDParam;
-		console.log(infoComercial);
-
 		$(".js-form-item-informacion-comercial.form-item-informacion-comercial").val(infoComercial);
+
 	}
 
+	// #todo MENUS DESPLAZAR HACIA ABAJO
 	
 });
