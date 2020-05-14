@@ -42,14 +42,15 @@
   {% set url = getPath() %}
   {% set queryParams = url|split('&') %}
 
-  
-
   {% for row in queryParams %}
-    <div class="TESTING">
-      {% if 'tid' in row %}
-        {{ row }}
-      {% endif %}
-    </div>
+    {% if 'tid' in row %}
+      {% set itd = row|split('=') %}
+      <div class="TESTING">
+        
+          {{ row[1] }}
+        
+      </div>
+    {% endif %}
   {% endfor %}
 
   {# FAlta FOR con los param #}
