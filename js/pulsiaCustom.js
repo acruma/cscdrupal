@@ -83,11 +83,11 @@ jQuery(document).ready(function($){
 		sum += parseFloat(precio);
 	});
 	$(".csc-precioFinalServicio").text(sum + ' €/mes');
-	//console.log(sum);
 
-
-	// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO #todo
+	// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO
 	var heightServicios = $("div#block-views-block-servicio-solicitado-block-1 div:nth-child(1)").height() + 20;
 	$("div#block-views-block-servicio-solicitado-block-1").css( {height: heightServicios + 'px'})
+
+	// PASAR A UN INPUT HIDDEN EL VALOR DEL CP Y DE LOS DISTINTOS TID USADOS EN LA URL (PARA COMERCIALES) #todo
 
 });
