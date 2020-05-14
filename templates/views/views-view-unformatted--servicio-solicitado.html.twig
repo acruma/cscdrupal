@@ -40,13 +40,15 @@
 </div>
 
   {% set url = url('<current>')|render|render %}
-  {% set url = url|split('&') %}
+  {# {% set url = url|split('&') %} #}
 
-  {% for row in url %}
+  {{ url }}
+  {# {% for row in url %}
     <div class="TESTING">
       {{ url[loop.index] }}
     </div>
-  {% endfor %}
+  {% endfor %} #}
+
   {# FAlta FOR con los param #}
 
   {# Crear aqui funcion de obtener terminos de URL #}
