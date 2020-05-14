@@ -26,10 +26,16 @@ class TwigExtension extends \Twig_Extension {
   public function getFunctions() {
     return array(
       new \Twig_SimpleFunction('getPrecio_Extras', array($this, 'getPrecio_Extras'), array('is_safe' => array('html'))),
+      new \Twig_SimpleFunction('getPath', array($this, 'getPath'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getTXT_Extras', array($this, 'getTXT_Extras'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getAliasUrl', array($this, 'getAliasUrl'), array('is_safe' => array('html'))),
       new \Twig_SimpleFunction('getPrueba', array($this, 'getPrueba'), array('is_safe' => array('html'))),
     );
+  }
+
+  public function getPath() {
+    $current_path = \Drupal::service('path.current')->getPath();
+    return $current_path;
   }
 
   public function getPrecio_Extras($term_id) {

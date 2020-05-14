@@ -39,14 +39,10 @@
 {% endfor %}
 </div>
 
-  {% set url = url('<current>')|render|render %}
-  {# {% set url = url|split('&') %} #}
-
-  {{ url }}
-
-  {% set queryParams = app.request.query.all %}
+  {% set queryParams = getPath() %}
 
   {{ queryParams }}
+  
   {# {% for row in url %}
     <div class="TESTING">
       {{ url[loop.index] }}
