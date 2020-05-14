@@ -1249,6 +1249,8 @@ div#block-views-block-promociones-radio-block-1 {
       vertical-align: baseline; }
     .ps-path-contratar .view-webform-contratar .view-content .webform-readonly.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-codigo-postal.form-item-codigo-postal {
       display: none; }
+    .ps-path-contratar .view-webform-contratar .view-content .webform-readonly.js-form-item.form-item.js-form-type-textarea.form-type-textarea.js-form-item-informacion-comercial.form-item-informacion-comercial {
+      display: none; }
     .ps-path-contratar .view-webform-contratar .view-content input.csc-submit {
       background-color: #e75d23;
       font-family: "Waiting for the Sunrise", cursive;
