@@ -1055,7 +1055,8 @@ div#block-views-block-promociones-radio-block-1 {
     grid-column: 1/4; } }
 
 .ps-path-contratar .ps-content-grid {
-  padding: 1.5em; }
+  padding: 1.5em 4em;
+  max-width: 100%; }
 
 .ps-path-contratar .region.region-content {
   display: -ms-grid;
@@ -1118,7 +1119,16 @@ div#block-views-block-promociones-radio-block-1 {
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid .csc-tipoServicio {
       text-align: initial; }
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid .csc-precioServicio {
-      text-align: end; }
+      text-align: end;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
   .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .priceTotal-row {
     font-size: 1rem;
     padding: 20px 15px;

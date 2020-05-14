@@ -1,7 +1,8 @@
 
 .ps-path-contratar{
     .ps-content-grid {
-        padding: 1.5em;
+        padding: 1.5em 4em;
+        max-width: 100%;
     }
 
     .region.region-content{
@@ -78,6 +79,9 @@
             }
             .csc-precioServicio {
                 text-align: end;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
             }
         }
 
