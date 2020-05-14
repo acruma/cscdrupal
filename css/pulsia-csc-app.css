@@ -1274,6 +1274,16 @@ div#block-views-block-promociones-radio-block-1 {
       -ms-flex-align: center;
       align-items: center;
       text-align: center; }
+      .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-acepto-las-condiciones-del-servicio-.form-item-acepto-las-condiciones-del-servicio- label.option.js-form-required.form-required, .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item--acepto-la-politica-de-privacidad-.form-item--acepto-la-politica-de-privacidad- label.option.js-form-required.form-required {
+        font-family: "Waiting for the Sunrise", cursive;
+        font-size: 1em;
+        font-weight: 900;
+        color: black; }
+      .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-acepto-las-condiciones-del-servicio-.form-item-acepto-las-condiciones-del-servicio- a, .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item--acepto-la-politica-de-privacidad-.form-item--acepto-la-politica-de-privacidad- a {
+        color: #e75d23;
+        font-size: 1.4em;
+        font-weight: 700;
+        text-decoration: none; }
     .ps-path-contratar .view-webform-contratar .view-content .js-form-item.form-item.js-form-type-textarea.form-type-textarea.js-form-item-observaciones.form-item-observaciones, .ps-path-contratar .view-webform-contratar .view-content .form-actions.webform-actions.js-form-wrapper.form-wrapper {
       -ms-grid-column: 1;
       -ms-grid-column-span: 2;
