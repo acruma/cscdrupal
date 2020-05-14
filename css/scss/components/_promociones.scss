@@ -67,6 +67,13 @@ div#block-views-block-promociones-radio-block-1{
             margin: 2em 1em;
             position: relative;
 
+            .webform-confirmation__message {
+                margin: 3em;
+            }
+            .webform-confirmation__back {
+                display: none;
+            }
+
             div{
                 width: 100%;
             }
