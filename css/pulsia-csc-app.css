@@ -1108,6 +1108,9 @@ div#block-views-block-promociones-radio-block-1 {
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr; }
 
+.ps-path-contratar .node--type-pagina-basica {
+  display: none; }
+
 .ps-path-contratar div#block-views-block-contratar-block-1-block-1 {
   font-family: Raleway; }
   .ps-path-contratar div#block-views-block-contratar-block-1-block-1 .views-row {
