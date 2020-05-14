@@ -77,8 +77,8 @@ jQuery(document).ready(function($){
 	});
 	
 	//Sumando los precios y luego aplicando a la suma total en cuota mensual
-	$(".csc-precioServicio").each(function( index ) {
-		var precio = $(".csc-precioSUM").text();
+	$(".csc-precioSUM").each(function( index ) {
+		var precio = $(this).text();
 		console.log(precio);
 	});
 
