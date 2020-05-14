@@ -80,7 +80,7 @@ jQuery(document).ready(function($){
 	if (window.location.href.indexOf("contratar") > -1) {
 		infoComercial = '';
 		var cp_tar = getUrlParameter('cp');
-		infoComercial = infoComercial + 'CP: ' + cp_tar;
+		infoComercial = infoComercial + 'CP: ' + cp_tar + ' // EXTRAS -> // ';
 		//Sumando los precios y luego aplicando a la suma total en cuota mensual
 		var sum = 0;
 		$(".csc-precioSUM").each(function( index ) {
@@ -97,7 +97,7 @@ jQuery(document).ready(function($){
 		
 
 		$(".csc-tipoServicio").each(function( index ) {
-			infoComercial = infoComercial + ' ' + $(this).text().trim();
+			infoComercial = infoComercial + ' + ' + $(this).text().trim();
 		});
 
 		console.log(infoComercial);
