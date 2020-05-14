@@ -1116,6 +1116,20 @@ div#block-views-block-promociones-radio-block-1 {
       text-align: initial; }
     .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .csc-serviciosGrid .csc-precioServicio {
       text-align: end; }
+  .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .priceTotal-row {
+    font-size: 1rem;
+    padding: 20px 15px;
+    background-color: #eee;
+    border-radius: 4px;
+    font-weight: 600;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; }
+    .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .priceTotal-row .csc-mensualServicio {
+      text-align: initial; }
+    .ps-path-contratar div#block-views-block-servicio-solicitado-block-1 .priceTotal-row .csc-precioFinalServicio {
+      text-align: end; }
 
 @media (min-width: 900px) {
   .ps-path-contratar .region.region-content {

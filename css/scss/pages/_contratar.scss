@@ -78,6 +78,23 @@
             }
         }
 
+        .priceTotal-row {
+            font-size: 1rem;
+            padding: 20px 15px;
+            background-color: #eee;
+            border-radius: 4px;
+            font-weight: 600;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .csc-mensualServicio{
+                text-align: initial;
+            }
+            .csc-precioFinalServicio{
+                text-align: end;
+            }
+        }
+
     }
 
 }
