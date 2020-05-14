@@ -87,6 +87,7 @@ jQuery(document).ready(function($){
 
 
 	// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO #todo
-
+	var heightServicios = $("div#block-views-block-servicio-solicitado-block-1 div:nth-child(1)").height() + 20;
+	$("div#block-views-block-servicio-solicitado-block-1").css( {height: heightServicios + 'px'})
 
 });
