@@ -44,10 +44,10 @@
 
   {% for row in queryParams %}
     {% if 'tid' in row %}
-      {% set itd = row|split('=') %}
+      {% set tid = row|split('=') %}
       <div class="TESTING">
         
-          {{ row[1] }}
+          {{ tid[1] }}
         
       </div>
     {% endif %}
