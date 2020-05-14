@@ -1089,6 +1089,11 @@ div#block-views-block-promociones-radio-block-1 {
       letter-spacing: -0.15em;
       padding-right: 0.3em; }
 
+@media (min-width: 768px) {
+  .ps-path-contratar .region.region-content {
+    -ms-grid-columns: 1fr 3fr;
+    grid-template-columns: 1fr 3fr; } }
+
 .ps-path-mapaweb nav#block-mapaweb {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
