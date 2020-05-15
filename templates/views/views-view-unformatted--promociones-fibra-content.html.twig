@@ -1,0 +1,97 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+
+{% for row in rows %}
+  {%
+    set row_classes = [
+      default_row_class ? 'views-row',
+    ]
+  %}
+  {# DATOS SIN PROCESAR #}
+  {# {% set precio_extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio }}'] %} #}
+  {% set instalacion = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_instalacion_gratis }}'] %}
+  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_nuts }}'] %}
+  {% set precio = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_precio_euros_mes }}'] %}
+  {% set tecnologia = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_tecnologia }}'] %}
+  {% set text1 = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_texto_descriptivo_1 }}'] %}
+  {% set text2 = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_texto_descriptivo_2 }}'] %}
+  {% set validez = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_validez }}'] %}
+  {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
+  {% set nodeID = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ nid }}'] %}
+
+
+  {# PROCESAMOS PARA OBTENER LOS TERMINOS USANDO EL CUSTOM MODULE PULSIA #}
+  {% set extras = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_extras }}'] %}
+  {% set extras_noarray = extras|split(',') %}
+
+  {# {% set precio2 = getPrecio() %} #}
+    
+  <div{{ row.attributes.addClass(row_classes) }}>
+    <div class="csc-velocidad">
+        {{ velocidad }} MB
+    </div>
+    <div class="csc-precio">
+       <span class="csc-precio-text">{{ precio }}</span>  <span class="csc-precio-text2">EUROS/MES</span>
+    </div>
+    <div class="csc-tecnologia">
+      <div>
+        TECNOLOGÍA <span class="csc-tecnologia-text">{{ tecnologia }}</span>
+      </div>
+      <div>
+        {% if instalacion %}
+          INSTALACIÓN <span class="csc-instalacion-text">GRATIS</span>
+        {% else %}
+
+        {% endif %}
+      </div>
+      <div>
+        <span class="csc-validez-text">{{validez}}<span>
+      </div>
+    </div>
+    <div class="csc-info">
+      <div>
+        <span class="csc-text1">{{ text1 }}</span>
+      </div>
+      <div>
+        <span class="csc-text2">{{ text2 }}</span>
+      </div>
+    </div>
+
+    <div>
+
+      <div class="csc-extras">
+          <label class="csc-itemsExtras csc-hidden">
+            <input class="csc-node-id" type="hidden" name="nodeID" value="yes" dataNodeId="{{ nodeID|trim }}">
+          </label>
+        {% for extras2 in extras_noarray %}
+          {% set precio_extras = getPrecio_Extras(extras2|trim) %}
+          {% set text_extras = getTXT_Extras(extras2|trim) %}
+          <label class="csc-itemsExtras">
+            <input class="csc-input-tid" type="checkbox" name="telefoniaFija" value="yes" dataTid="{{ extras2|trim }}"> <span>{{ text_extras }} <b>+</b> {{ precio_extras }} €/MES</span>
+          </label>
+        {% endfor %}
+      </div>
+
+      <div class="csc-contratar">
+        Contratar Online
+      </div>
+
+    </div>
+
+  </div>
+{% endfor %}
