@@ -1,4 +1,4 @@
-div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 {
+div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1, div#block-views-block-promociones-fibra-content-block-1 {
     
     /*SIN RESULTADOS CABECERA*/
     .view-empty{
@@ -213,7 +213,7 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
 
     /*FORM EXPUESTO*/
     
-    form#views-exposed-form-promociones-radio-block-1, form#views-exposed-form-promociones-radio-content-block-1{
+    form#views-exposed-form-promociones-radio-block-1, form#views-exposed-form-promociones-radio-content-block-1, form#views-exposed-form-promociones-fibra-content-block-1{
         display: none;
     }
 
@@ -403,7 +403,7 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
 
 
 @media (min-width: 768px) {
-    div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1{
+    div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 , div#block-views-block-promociones-fibra-content-block-1{
         .view-content{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
