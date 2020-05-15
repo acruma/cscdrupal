@@ -106,5 +106,11 @@ jQuery(document).ready(function($){
 	}
 
 	// #todo MENUS DESPLAZAR HACIA ABAJO
+
+	$("nav#block-serviciosmenu").find('a').on('click', function (e) {
+		// e.preventDefault(); //evita que se ejecute el tag ancla (<a href="#">valor</a>).
+		// $('html, body').animate({ scrollTop: $("#div1").offset().top }, 2000);
+		console.log('aaaa');
+	});
 	
 });
