@@ -23,9 +23,9 @@
     ]
   %}
   <div{{ row.attributes.addClass(row_classes) }}>
-  {% set enlace = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_url_sinformato }}'] %}
-  {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_media_image }}'] %}
+    {% set enlace = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_url_sinformato }}'] %}
+    {% set svg = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_media_image }}'] %}
 
-  <a href="{{ enlace }}" target="_blank">{{ svg }}</a>
+    <a href="{{ enlace }}" target="_blank">{{ svg }} aaa</a>
   </div>
 {% endfor %}
