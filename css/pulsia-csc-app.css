@@ -605,7 +605,7 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
         text-transform: uppercase;
         letter-spacing: 0.1em;
         font-family: "Waiting for the Sunrise", cursive; }
-  div#block-views-block-promociones-radio-block-1 form#views-exposed-form-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 form#views-exposed-form-promociones-radio-block-1 {
+  div#block-views-block-promociones-radio-block-1 form#views-exposed-form-promociones-radio-block-1, div#block-views-block-promociones-radio-block-1 form#views-exposed-form-promociones-radio-content-block-1, div#block-views-block-promociones-radio-content-block-1 form#views-exposed-form-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 form#views-exposed-form-promociones-radio-content-block-1 {
     display: none; }
   div#block-views-block-promociones-radio-block-1 .view-content, div#block-views-block-promociones-radio-content-block-1 .view-content {
     display: -ms-grid;
