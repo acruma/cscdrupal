@@ -105,12 +105,17 @@ jQuery(document).ready(function($){
 
 	}
 
-	// #todo MENUS DESPLAZAR HACIA ABAJO
-
+	// MENUS DESPLAZAR HACIA ABAJO 
 	$("nav#block-serviciosmenu").find('a').on('click', function (e) {
 		e.preventDefault(); //evita que se ejecute el tag ancla (<a href="#">valor</a>).
 		var enlace = $(this).attr("href");
 		$('html, body').animate({ scrollTop: $(enlace).offset().top }, 2000);
 	});
+	$("nav#block-empresamenu").find('a').on('click', function (e) {
+		e.preventDefault(); //evita que se ejecute el tag ancla (<a href="#">valor</a>).
+		var enlace = $(this).attr("href");
+		$('html, body').animate({ scrollTop: $(enlace).offset().top }, 2000);
+	});
 	
+	//
 });
