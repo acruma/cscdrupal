@@ -429,17 +429,17 @@ Sass Footer
     padding: 0em 1em;
     border-right: 0.05em solid #3a3a3a; } }
 
-div#block-views-block-promociones-radio-block-1 {
+div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 {
   /*SIN RESULTADOS CABECERA*/
   /*HEADER*/
   /*FORM EXPUESTO*/
   /*CONTENIDO*/
   margin: 1em; }
-  div#block-views-block-promociones-radio-block-1 .view-empty {
+  div#block-views-block-promociones-radio-block-1 .view-empty, div#block-views-block-promociones-radio-content-block-1 .view-empty {
     /*SIN RESULTADOS WEBFORM*/ }
-    div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 {
+    div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 {
       margin: 0; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .view-content {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .view-content, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .view-content {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr;
@@ -447,13 +447,13 @@ div#block-views-block-promociones-radio-block-1 {
         font-family: Raleway;
         font-weight: 300;
         text-align: end; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 a {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 a, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 a {
         color: #4e4e4e;
         font-weight: 600;
         text-decoration: none; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 a:hover {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 a:hover, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 a:hover {
           color: #e75d23; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 a:before {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 a:before, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 a:before {
           content: ">>";
           font-family: "Waiting for the Sunrise",cursive;
           color: #e75d23;
@@ -461,10 +461,10 @@ div#block-views-block-promociones-radio-block-1 {
           font-weight: 900;
           letter-spacing: -0.15em;
           padding-right: 0.3em; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2) {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2), div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2) {
         -ms-grid-row: 1;
         grid-row: 1/1; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1), div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) {
         margin: 1em -1em;
         background: #e75d23;
         color: #eceded;
@@ -472,10 +472,10 @@ div#block-views-block-promociones-radio-block-1 {
         font-size: 1.2em;
         letter-spacing: 0.1em;
         padding: 1em; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-title-tar {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-title-tar, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-title-tar {
           font-size: 2.4em;
           display: block; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar {
           color: #eceded;
           font-size: 1.4em;
           font-weight: 900;
@@ -483,7 +483,7 @@ div#block-views-block-promociones-radio-block-1 {
           text-transform: uppercase;
           letter-spacing: 0.1em;
           font-family: "Waiting for the Sunrise", cursive; }
-    div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion {
+    div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
@@ -495,20 +495,20 @@ div#block-views-block-promociones-radio-block-1 {
       display: flex;
       margin: 2em 1em;
       position: relative; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .webform-confirmation__message {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .webform-confirmation__message, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion .webform-confirmation__message {
         margin: 3em; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .webform-confirmation__back {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .webform-confirmation__back, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion .webform-confirmation__back {
         display: none; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion div {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion div, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion div {
         width: 100%; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion input {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion input, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion input {
         width: 95%;
         border-radius: 1px;
         border: 0.5px solid #dfe1e1;
         padding: 0.5em;
         font-size: 1em;
         color: #4e4e4e; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content {
         border: 1px solid;
         border-radius: 4px;
         padding: 1em;
@@ -520,7 +520,7 @@ div#block-views-block-promociones-radio-block-1 {
         -ms-flex-pack: center;
         justify-content: center;
         /*Formulario en sí*/ }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .views-field.views-field-title .field-content {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .views-field.views-field-title .field-content, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .views-field.views-field-title .field-content {
           position: absolute;
           top: -32px;
           background: white;
@@ -529,7 +529,7 @@ div#block-views-block-promociones-radio-block-1 {
           font-family: "Waiting for the Sunrise", cursive;
           font-size: 1.6em;
           font-weight: 900; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .form-required:after {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .form-required:after, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content .form-required:after {
           content: "*";
           font-family: "Waiting for the Sunrise", cursive;
           font-size: 1.3em;
@@ -538,9 +538,9 @@ div#block-views-block-promociones-radio-block-1 {
           background: none;
           height: 40px;
           vertical-align: baseline; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input#edit-codigo-postal {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input#edit-codigo-postal, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input#edit-codigo-postal {
           background: none; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input.csc-submit {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input.csc-submit, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion .view-content input.csc-submit {
           background-color: #e75d23;
           font-family: "Waiting for the Sunrise", cursive;
           color: white;
@@ -554,7 +554,7 @@ div#block-views-block-promociones-radio-block-1 {
           box-shadow: 0px -5px 3px -3px rgba(0, 0, 0, 0.2);
           border: none;
           border-radius: 3px; }
-  div#block-views-block-promociones-radio-block-1 .view-header {
+  div#block-views-block-promociones-radio-block-1 .view-header, div#block-views-block-promociones-radio-content-block-1 .view-header {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -564,17 +564,17 @@ div#block-views-block-promociones-radio-block-1 {
     font-family: Raleway;
     font-weight: 300;
     text-align: end; }
-    div#block-views-block-promociones-radio-block-1 .view-header .csc-head2 {
+    div#block-views-block-promociones-radio-block-1 .view-header .csc-head2, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-head2 {
       margin: 0 -1em;
       background: #e75d23;
       padding: 1em; }
-    div#block-views-block-promociones-radio-block-1 .view-header a {
+    div#block-views-block-promociones-radio-block-1 .view-header a, div#block-views-block-promociones-radio-content-block-1 .view-header a {
       color: #4e4e4e;
       font-weight: 600;
       text-decoration: none; }
-      div#block-views-block-promociones-radio-block-1 .view-header a:hover {
+      div#block-views-block-promociones-radio-block-1 .view-header a:hover, div#block-views-block-promociones-radio-content-block-1 .view-header a:hover {
         color: #e75d23; }
-      div#block-views-block-promociones-radio-block-1 .view-header a:before {
+      div#block-views-block-promociones-radio-block-1 .view-header a:before, div#block-views-block-promociones-radio-content-block-1 .view-header a:before {
         content: ">>";
         font-family: "Waiting for the Sunrise",cursive;
         color: #e75d23;
@@ -582,20 +582,20 @@ div#block-views-block-promociones-radio-block-1 {
         font-weight: 900;
         letter-spacing: -0.15em;
         padding-right: 0.3em; }
-    div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion1 {
+    div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion1, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-poblacion1 {
       padding: 0 0.4em;
       color: #eceded;
       text-align: initial;
       font-size: 2.4em;
       letter-spacing: 0.1em; }
-    div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 {
+    div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-poblacion2 {
       padding: 0 0.9em;
       color: #eceded;
       text-align: initial;
       line-height: 1.2em;
       letter-spacing: 0.1em;
       font-size: 1.4em; }
-      div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 span {
+      div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 span, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-poblacion2 span {
         font-size: 1.2em;
         font-weight: 900;
         padding: 0em;
@@ -605,15 +605,15 @@ div#block-views-block-promociones-radio-block-1 {
         text-transform: uppercase;
         letter-spacing: 0.1em;
         font-family: "Waiting for the Sunrise", cursive; }
-  div#block-views-block-promociones-radio-block-1 form#views-exposed-form-promociones-radio-block-1 {
+  div#block-views-block-promociones-radio-block-1 form#views-exposed-form-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 form#views-exposed-form-promociones-radio-block-1 {
     display: none; }
-  div#block-views-block-promociones-radio-block-1 .view-content {
+  div#block-views-block-promociones-radio-block-1 .view-content, div#block-views-block-promociones-radio-content-block-1 .view-content {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 1.5em; }
-  div#block-views-block-promociones-radio-block-1 .csc-velocidad {
+  div#block-views-block-promociones-radio-block-1 .csc-velocidad, div#block-views-block-promociones-radio-content-block-1 .csc-velocidad {
     /*CONTENEDOR*/
     display: -webkit-box;
     display: -ms-flexbox;
@@ -636,7 +636,7 @@ div#block-views-block-promociones-radio-block-1 {
     font-size: 3em;
     font-family: "Waiting for the Sunrise", cursive;
     text-shadow: 0 -0.07em 0.02em rgba(0, 0, 0, 0.3); }
-    div#block-views-block-promociones-radio-block-1 .csc-velocidad::before {
+    div#block-views-block-promociones-radio-block-1 .csc-velocidad::before, div#block-views-block-promociones-radio-content-block-1 .csc-velocidad::before {
       content: "";
       display: block;
       width: 60px;
@@ -655,7 +655,7 @@ div#block-views-block-promociones-radio-block-1 {
       border-radius: 5px;
       -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
       box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
-  div#block-views-block-promociones-radio-block-1 .csc-precio {
+  div#block-views-block-promociones-radio-block-1 .csc-precio, div#block-views-block-promociones-radio-content-block-1 .csc-precio {
     /*CONTENEDOR*/
     display: -webkit-box;
     display: -ms-flexbox;
@@ -674,15 +674,15 @@ div#block-views-block-promociones-radio-block-1 {
     background: #eceded;
     padding: 1.5em;
     z-index: -2; }
-    div#block-views-block-promociones-radio-block-1 .csc-precio .csc-precio-text {
+    div#block-views-block-promociones-radio-block-1 .csc-precio .csc-precio-text, div#block-views-block-promociones-radio-content-block-1 .csc-precio .csc-precio-text {
       color: #e75d23;
       font-size: 2.5em;
       text-shadow: 0 -0.02em 0.02em rgba(0, 0, 0, 0.5); }
-    div#block-views-block-promociones-radio-block-1 .csc-precio .csc-precio-text2 {
+    div#block-views-block-promociones-radio-block-1 .csc-precio .csc-precio-text2, div#block-views-block-promociones-radio-content-block-1 .csc-precio .csc-precio-text2 {
       text-transform: uppercase;
       color: #4e4e4e;
       font-size: 0.9em; }
-  div#block-views-block-promociones-radio-block-1 .csc-tecnologia {
+  div#block-views-block-promociones-radio-block-1 .csc-tecnologia, div#block-views-block-promociones-radio-content-block-1 .csc-tecnologia {
     background: #dfe1e1;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -698,23 +698,23 @@ div#block-views-block-promociones-radio-block-1 {
     -ms-flex-align: center;
     align-items: center;
     padding: 1em 0 1em 0; }
-    div#block-views-block-promociones-radio-block-1 .csc-tecnologia div {
+    div#block-views-block-promociones-radio-block-1 .csc-tecnologia div, div#block-views-block-promociones-radio-content-block-1 .csc-tecnologia div {
       margin: 0.5em 0 0.5em 0; }
-    div#block-views-block-promociones-radio-block-1 .csc-tecnologia .csc-tecnologia-text {
+    div#block-views-block-promociones-radio-block-1 .csc-tecnologia .csc-tecnologia-text, div#block-views-block-promociones-radio-content-block-1 .csc-tecnologia .csc-tecnologia-text {
       color: #e75d23;
       font-weight: 400;
       font-size: 1.1em; }
-    div#block-views-block-promociones-radio-block-1 .csc-tecnologia .csc-instalacion-text {
+    div#block-views-block-promociones-radio-block-1 .csc-tecnologia .csc-instalacion-text, div#block-views-block-promociones-radio-content-block-1 .csc-tecnologia .csc-instalacion-text {
       font-size: 1.2em;
       font-weight: 400; }
-    div#block-views-block-promociones-radio-block-1 .csc-tecnologia .csc-validez-text {
+    div#block-views-block-promociones-radio-block-1 .csc-tecnologia .csc-validez-text, div#block-views-block-promociones-radio-content-block-1 .csc-tecnologia .csc-validez-text {
       font-family: "Waiting for the Sunrise", cursive;
       color: #4e4e4e;
       font-size: 0.8em;
       letter-spacing: 0.05em;
       font-weight: 600;
       text-transform: capitalize; }
-  div#block-views-block-promociones-radio-block-1 .csc-info {
+  div#block-views-block-promociones-radio-block-1 .csc-info, div#block-views-block-promociones-radio-content-block-1 .csc-info {
     background: #4e4e4e;
     padding: 1em 0 1em 0;
     display: -webkit-box;
@@ -730,17 +730,17 @@ div#block-views-block-promociones-radio-block-1 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    div#block-views-block-promociones-radio-block-1 .csc-info div {
+    div#block-views-block-promociones-radio-block-1 .csc-info div, div#block-views-block-promociones-radio-content-block-1 .csc-info div {
       padding-bottom: 1em; }
-    div#block-views-block-promociones-radio-block-1 .csc-info .csc-text1 {
+    div#block-views-block-promociones-radio-block-1 .csc-info .csc-text1, div#block-views-block-promociones-radio-content-block-1 .csc-info .csc-text1 {
       color: #e75d23;
       font-size: 1.2em;
       letter-spacing: 0.1em; }
-    div#block-views-block-promociones-radio-block-1 .csc-info .csc-text2 {
+    div#block-views-block-promociones-radio-block-1 .csc-info .csc-text2, div#block-views-block-promociones-radio-content-block-1 .csc-info .csc-text2 {
       color: #c5c8c8;
       font-size: 0.9em;
       letter-spacing: 0.05em; }
-  div#block-views-block-promociones-radio-block-1 .csc-extras {
+  div#block-views-block-promociones-radio-block-1 .csc-extras, div#block-views-block-promociones-radio-content-block-1 .csc-extras {
     margin-top: 1px;
     background: #4e4e4e;
     padding: 1em 0 1em 0;
@@ -757,9 +757,9 @@ div#block-views-block-promociones-radio-block-1 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    div#block-views-block-promociones-radio-block-1 .csc-extras .csc-itemsExtras.csc-hidden {
+    div#block-views-block-promociones-radio-block-1 .csc-extras .csc-itemsExtras.csc-hidden, div#block-views-block-promociones-radio-content-block-1 .csc-extras .csc-itemsExtras.csc-hidden {
       display: none !important; }
-    div#block-views-block-promociones-radio-block-1 .csc-extras .csc-itemsExtras {
+    div#block-views-block-promociones-radio-block-1 .csc-extras .csc-itemsExtras, div#block-views-block-promociones-radio-content-block-1 .csc-extras .csc-itemsExtras {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -768,14 +768,14 @@ div#block-views-block-promociones-radio-block-1 {
       align-items: center;
       margin: 0.5em 0;
       width: 100%; }
-    div#block-views-block-promociones-radio-block-1 .csc-extras input.csc-input-tid {
+    div#block-views-block-promociones-radio-block-1 .csc-extras input.csc-input-tid, div#block-views-block-promociones-radio-content-block-1 .csc-extras input.csc-input-tid {
       margin: 0 0.5em 0 1em; }
-    div#block-views-block-promociones-radio-block-1 .csc-extras span {
+    div#block-views-block-promociones-radio-block-1 .csc-extras span, div#block-views-block-promociones-radio-content-block-1 .csc-extras span {
       color: #eceded;
       padding: 0 1em; }
-    div#block-views-block-promociones-radio-block-1 .csc-extras b {
+    div#block-views-block-promociones-radio-block-1 .csc-extras b, div#block-views-block-promociones-radio-content-block-1 .csc-extras b {
       color: #e75d23; }
-  div#block-views-block-promociones-radio-block-1 .csc-contratar {
+  div#block-views-block-promociones-radio-block-1 .csc-contratar, div#block-views-block-promociones-radio-content-block-1 .csc-contratar {
     background: #e75d23;
     color: #eceded;
     padding: 1em 0 1em 0;
@@ -797,53 +797,53 @@ div#block-views-block-promociones-radio-block-1 {
     border-bottom-right-radius: 5px;
     -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
-    div#block-views-block-promociones-radio-block-1 .csc-contratar:hover {
+    div#block-views-block-promociones-radio-block-1 .csc-contratar:hover, div#block-views-block-promociones-radio-content-block-1 .csc-contratar:hover {
       -webkit-box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3);
       box-shadow: inset 0px 8px 9px -5px rgba(0, 0, 0, 0.3); }
 
 @media (min-width: 768px) {
-  div#block-views-block-promociones-radio-block-1 {
+  div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 {
     /*HEADER*/
     /*EMPTY NO RESULT*/ }
-    div#block-views-block-promociones-radio-block-1 .view-content {
+    div#block-views-block-promociones-radio-block-1 .view-content, div#block-views-block-promociones-radio-content-block-1 .view-content {
       display: -ms-grid;
       display: grid;
       -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1.5em; }
-    div#block-views-block-promociones-radio-block-1 .view-header {
+    div#block-views-block-promociones-radio-block-1 .view-header, div#block-views-block-promociones-radio-content-block-1 .view-header {
       -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
       margin: 5em 0; }
-      div#block-views-block-promociones-radio-block-1 .view-header .csc-head2 {
+      div#block-views-block-promociones-radio-block-1 .view-header .csc-head2, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-head2 {
         background: none; }
-      div#block-views-block-promociones-radio-block-1 .view-header .csc-head1 {
+      div#block-views-block-promociones-radio-block-1 .view-header .csc-head1, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-head1 {
         -ms-grid-column: 2;
         grid-column: 2/2; }
-      div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion1 {
+      div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion1, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-poblacion1 {
         color: #4e4e4e; }
-      div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 {
+      div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-poblacion2 {
         color: #4e4e4e; }
-        div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 span {
+        div#block-views-block-promociones-radio-block-1 .view-header .csc-poblacion2 span, div#block-views-block-promociones-radio-content-block-1 .view-header .csc-poblacion2 span {
           color: #e75d23; }
-    div#block-views-block-promociones-radio-block-1 .view-empty {
+    div#block-views-block-promociones-radio-block-1 .view-empty, div#block-views-block-promociones-radio-content-block-1 .view-empty {
       /*HEADER*/
       /*WEBFORM*/ }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 {
         margin: 5em 0 0 4em; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .view-content {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .view-content, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .view-content {
           display: -ms-grid;
           display: grid;
           -ms-grid-columns: 1fr 1fr;
           grid-template-columns: 1fr 1fr; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1), div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) {
           background: none;
           color: #4e4e4e; }
-          div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar {
+          div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(1) .csc-cp-tar {
             color: #e75d23; }
-        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2) {
+        div#block-views-block-promociones-radio-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2), div#block-views-block-promociones-radio-content-block-1 .view-empty .view-tarifas-block-1 .views-row:nth-child(2) {
           grid-row: auto; }
-      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion {
+      div#block-views-block-promociones-radio-block-1 .view-empty .view-webform-tarifas-por-poblacion, div#block-views-block-promociones-radio-content-block-1 .view-empty .view-webform-tarifas-por-poblacion {
         width: 50%;
         margin: 0 auto;
         margin-top: 2em; } }

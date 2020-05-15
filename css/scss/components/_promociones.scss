@@ -1,4 +1,4 @@
-div#block-views-block-promociones-radio-block-1{
+div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1 {
     
     /*SIN RESULTADOS CABECERA*/
     .view-empty{
@@ -403,7 +403,7 @@ div#block-views-block-promociones-radio-block-1{
 
 
 @media (min-width: 768px) {
-    div#block-views-block-promociones-radio-block-1{
+    div#block-views-block-promociones-radio-block-1, div#block-views-block-promociones-radio-content-block-1{
         .view-content{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
