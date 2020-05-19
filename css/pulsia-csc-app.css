@@ -663,8 +663,8 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
     z-index: 99;
     background: url(/sites/default/files/2020-05/ver-ofertas.png) no-repeat center center;
     position: absolute;
-    right: -50px;
-    top: -2em;
+    right: -25px;
+    top: -0.9em;
     -webkit-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
     transform: rotate(30deg); }
