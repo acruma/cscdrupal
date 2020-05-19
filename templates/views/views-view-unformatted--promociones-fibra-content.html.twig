@@ -33,6 +33,7 @@
   {% set validez = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_validez }}'] %}
   {% set velocidad = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_velocidad_en_mb }}'] %}
   {% set nodeID = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ nid }}'] %}
+  {% set especial = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_icono_promo_especial }}'] %}
 
 
   {# PROCESAMOS PARA OBTENER LOS TERMINOS USANDO EL CUSTOM MODULE PULSIA #}
@@ -42,9 +43,15 @@
   {# {% set precio2 = getPrecio() %} #}
     
   <div{{ row.attributes.addClass(row_classes) }}>
-    <div class="csc-velocidad">
-        {{ velocidad }} MB
-    </div>
+    {% if especial %}
+      <div class="csc-velocidad csc-especial">
+          {{ velocidad }} MB
+      </div>
+    {% else %}
+      <div class="csc-velocidad">
+          {{ velocidad }} MB
+      </div>
+    {% endif %}
     <div class="csc-precio">
        <span class="csc-precio-text">{{ precio }}</span>  <span class="csc-precio-text2">EUROS/MES</span>
     </div>
