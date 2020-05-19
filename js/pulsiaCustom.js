@@ -88,7 +88,7 @@ jQuery(document).ready(function($){
 			var precio = $(this).text();
 			sum += parseFloat(precio);
 		});
-		$(".csc-precioFinalServicio").text(sum + ' €/mes');
+		$(".csc-precioFinalServicio").text(sum.toFixed(2) + ' €/mes');
 
 		// BUSCAR HEIGHT DEL PRIMER DIV DE div#block-views-block-servicio-solicitado-block-1 Y AÑADIRLE ESTE HEIGHT A ESTE ELEMENTO
 		var heightServicios = $("div#block-views-block-servicio-solicitado-block-1 div:nth-child(1)").height() + 20;
