@@ -123,7 +123,7 @@ jQuery(document).ready(function($){
 
 
 	//Intercambio de . "PUNTOS" por , "COMAS" SIEMPRE AL FINAL DEL DOCUMENTO JQUERY
-	​$('csc-precio-text').text(function () {
+	​$('.csc-precio-text').text(function () {
 		return $(this).text().replace(".", ",");
 	});​​​​​
 });
