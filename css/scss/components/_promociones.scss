@@ -265,6 +265,13 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
         }
     }
 
+    .csc-velocidad.csc-especial{
+
+        &::after{
+            background-image: url('/sites/default/files/2020-05/ver-ofertas.png'); 
+        }
+    }
+
     .csc-precio {
         /*CONTENEDOR*/
         display: flex;
