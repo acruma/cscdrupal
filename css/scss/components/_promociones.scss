@@ -270,7 +270,14 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
         &::after{
             content: "";
             display: block;
-            background-image: url('/sites/default/files/2020-05/ver-ofertas.png'); 
+            width: 100px;
+            height: 140px;
+            z-index: 99;
+            background: url(/sites/default/files/2020-05/ver-ofertas.png) no-repeat center center;
+            position: absolute;
+            right: -50px;
+            top: -2em;
+            transform: rotate(30deg);
         }
     }
 

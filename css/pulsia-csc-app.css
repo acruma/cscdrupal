@@ -658,7 +658,16 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
   div#block-views-block-promociones-radio-block-1 .csc-velocidad.csc-especial::after, div#block-views-block-promociones-radio-content-block-1 .csc-velocidad.csc-especial::after, div#block-views-block-promociones-fibra-content-block-1 .csc-velocidad.csc-especial::after {
     content: "";
     display: block;
-    background-image: url("/sites/default/files/2020-05/ver-ofertas.png"); }
+    width: 100px;
+    height: 140px;
+    z-index: 99;
+    background: url(/sites/default/files/2020-05/ver-ofertas.png) no-repeat center center;
+    position: absolute;
+    right: -50px;
+    top: -2em;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg); }
   div#block-views-block-promociones-radio-block-1 .csc-precio, div#block-views-block-promociones-radio-content-block-1 .csc-precio, div#block-views-block-promociones-fibra-content-block-1 .csc-precio {
     /*CONTENEDOR*/
     display: -webkit-box;
