@@ -123,6 +123,8 @@ jQuery(document).ready(function($){
 	// 	$(this).text().replace(".", ",");
 	// });​​​​​
 
-	 $(".csc-precio-text").text(function(){});
+	 $(".csc-precio-text").text(function(){
+		 console.log("hola");
+	 });
 
 });
