@@ -116,13 +116,18 @@ jQuery(document).ready(function($){
 		var enlace = $(this).attr("href");
 		$('html, body').animate({ scrollTop: $(enlace).offset().top }, 2000);
 	});
+
+	//Aplicar altura para ecualizar promociones
+	var heights = $(".csc-extras").map(function() {
+		return $(this).height();
+	}).get(),
+ 
+	maxHeight = Math.max.apply(null, heights);
+ 
+	$(".csc-extras").height(maxHeight);
 	
-
+	
 	//Intercambio de . "PUNTOS" por , "COMAS" SIEMPRE AL FINAL DEL DOCUMENTO JQUERY
-	// ​$(".csc-precio-text").text(function() {
-	// 	$(this).text().replace(".", ",");
-	// });​​​​​
-
 	 $(".csc-precio-text").text(function(){
 		 return $(this).text().replace(".",",");
 	 });
