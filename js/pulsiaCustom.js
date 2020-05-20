@@ -124,7 +124,7 @@ jQuery(document).ready(function($){
 	// });​​​​​
 
 	 $(".csc-precio-text").text(function(){
-		 console.log("hola");
+		 return $(this).text().replace(".",",");
 	 });
 
 });
