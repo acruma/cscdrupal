@@ -613,6 +613,8 @@ div#block-views-block-promociones-radio-block-1, div#block-views-block-promocion
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 1.5em; }
+  div#block-views-block-promociones-radio-block-1 .views-row, div#block-views-block-promociones-radio-content-block-1 .views-row, div#block-views-block-promociones-fibra-content-block-1 .views-row {
+    margin-bottom: 3em; }
   div#block-views-block-promociones-radio-block-1 .csc-velocidad, div#block-views-block-promociones-radio-content-block-1 .csc-velocidad, div#block-views-block-promociones-fibra-content-block-1 .csc-velocidad {
     /*CONTENEDOR*/
     display: -webkit-box;
