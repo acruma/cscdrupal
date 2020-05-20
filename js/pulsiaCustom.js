@@ -119,8 +119,8 @@ jQuery(document).ready(function($){
 	
 
 	//Intercambio de . "PUNTOS" por , "COMAS" SIEMPRE AL FINAL DEL DOCUMENTO JQUERY
-	// ​$(".csc-precio-text").text(function(index) {
-	// 	return $(this).text().replace(".", ",");
-	// });​​​​​
+	​$(".csc-precio-text").text(function() {
+		return $(this).text().replace(".", ",");
+	});​​​​​
 
 });
