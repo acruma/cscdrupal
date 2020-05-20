@@ -119,8 +119,10 @@ jQuery(document).ready(function($){
 	
 
 	//Intercambio de . "PUNTOS" por , "COMAS" SIEMPRE AL FINAL DEL DOCUMENTO JQUERY
-	​$(".csc-precio-text").text(function() {
-		return $(this).text().replace(".", ",");
-	});​​​​​
+	if (window.location.href.indexOf("tarifas-por-poblacion") > -1) {
+		​$(".csc-precio-text").text(function() {
+			return $(this).text().replace(".", ",");
+		});​​​​​
+	}
 
 });
